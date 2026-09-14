@@ -1,0 +1,724 @@
+{
+  "locale": "en",
+  "status": "published",
+  "title": "Git",
+  "slug": "git",
+  "description": "A prerequisite-ordered Git roadmap that builds the repository mental model before staging, commits, branches, remotes, rewriting, recovery, collaboration, and maintenance workflows.",
+  "metadata": {
+    "tags": [
+      "git",
+      "version-control",
+      "developer-tools"
+    ]
+  },
+  "sections": [
+    {
+      "id": "mental-model",
+      "title": "Git Mental Model",
+      "order": 1,
+      "topics": [
+        {
+          "id": "what-git-is",
+          "title": "What Git Tracks",
+          "order": 1,
+          "references": [
+            {
+              "label": "Pro Git: What is Git?",
+              "url": "https://git-scm.com/book/en/v2/Getting-Started-What-is-Git"
+            },
+            {
+              "label": "Git Glossary",
+              "url": "https://git-scm.com/docs/gitglossary"
+            }
+          ]
+        },
+        {
+          "id": "snapshots-and-objects",
+          "title": "Snapshots and Git Objects",
+          "order": 2,
+          "references": [
+            {
+              "label": "Pro Git: What is Git?",
+              "url": "https://git-scm.com/book/en/v2/Getting-Started-What-is-Git"
+            },
+            {
+              "label": "Git Glossary",
+              "url": "https://git-scm.com/docs/gitglossary"
+            }
+          ]
+        },
+        {
+          "id": "working-tree-index-and-head",
+          "title": "Working Tree, Index, and `HEAD`",
+          "order": 3,
+          "references": [
+            {
+              "label": "Pro Git: Reset Demystified",
+              "url": "https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified"
+            },
+            {
+              "label": "Git Glossary",
+              "url": "https://git-scm.com/docs/gitglossary"
+            }
+          ]
+        },
+        {
+          "id": "commits-and-history",
+          "title": "Commits and Parent History",
+          "order": 4,
+          "references": [
+            {
+              "label": "Git Glossary",
+              "url": "https://git-scm.com/docs/gitglossary"
+            },
+            {
+              "label": "Pro Git: Viewing the Commit History",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History"
+            }
+          ]
+        },
+        {
+          "id": "refs-branches-and-tags",
+          "title": "Refs, Branches, and Tags",
+          "order": 5,
+          "references": [
+            {
+              "label": "Git Glossary",
+              "url": "https://git-scm.com/docs/gitglossary"
+            },
+            {
+              "label": "Pro Git: Git Branching",
+              "url": "https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starting-and-recording",
+      "title": "Starting & Recording Work",
+      "order": 2,
+      "topics": [
+        {
+          "id": "configuration-and-help",
+          "title": "Configuration and Help",
+          "order": 1,
+          "references": [
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            },
+            {
+              "label": "Pro Git: Getting a Git Repository",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository"
+            }
+          ]
+        },
+        {
+          "id": "init-and-clone",
+          "title": "Initialize and Clone Repositories",
+          "order": 2,
+          "references": [
+            {
+              "label": "Pro Git: Getting a Git Repository",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository"
+            },
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            }
+          ]
+        },
+        {
+          "id": "status-tracked-and-untracked",
+          "title": "Status, Tracked, and Untracked Files",
+          "order": 3,
+          "references": [
+            {
+              "label": "Pro Git: Recording Changes",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository"
+            },
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            }
+          ]
+        },
+        {
+          "id": "ignore-rules",
+          "title": "Ignore Rules and Excludes",
+          "order": 4,
+          "references": [
+            {
+              "label": "gitignore Documentation",
+              "url": "https://git-scm.com/docs/gitignore"
+            },
+            {
+              "label": "Pro Git: Recording Changes",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository"
+            }
+          ]
+        },
+        {
+          "id": "add-and-staging",
+          "title": "Stage Changes with `git add`",
+          "order": 5,
+          "references": [
+            {
+              "label": "Pro Git: Recording Changes",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository"
+            },
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            }
+          ]
+        },
+        {
+          "id": "commit-and-amend",
+          "title": "Create and Amend Commits",
+          "order": 6,
+          "references": [
+            {
+              "label": "Pro Git: Recording Changes",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository"
+            },
+            {
+              "label": "Pro Git: Undoing Things",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inspecting-history",
+      "title": "Inspecting History & Revisions",
+      "order": 3,
+      "topics": [
+        {
+          "id": "diffing-states",
+          "title": "Compare Working Tree, Index, and Commits",
+          "order": 1,
+          "references": [
+            {
+              "label": "Pro Git: Recording Changes",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository"
+            },
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            }
+          ]
+        },
+        {
+          "id": "log-and-show",
+          "title": "Read History with `log` and `show`",
+          "order": 2,
+          "references": [
+            {
+              "label": "Pro Git: Viewing the Commit History",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History"
+            },
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            }
+          ]
+        },
+        {
+          "id": "revision-syntax",
+          "title": "Revision Names and Ancestry Syntax",
+          "order": 3,
+          "references": [
+            {
+              "label": "gitrevisions Documentation",
+              "url": "https://git-scm.com/docs/gitrevisions"
+            },
+            {
+              "label": "Git Glossary",
+              "url": "https://git-scm.com/docs/gitglossary"
+            }
+          ]
+        },
+        {
+          "id": "blame-grep-and-history-search",
+          "title": "Blame, Grep, and History Search",
+          "order": 4,
+          "references": [
+            {
+              "label": "Pro Git: Viewing the Commit History",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History"
+            },
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "branches-and-merging",
+      "title": "Branches & Merging",
+      "order": 4,
+      "topics": [
+        {
+          "id": "create-and-switch-branches",
+          "title": "Create and Switch Branches",
+          "order": 1,
+          "references": [
+            {
+              "label": "Pro Git: Git Branching",
+              "url": "https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell"
+            },
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            }
+          ]
+        },
+        {
+          "id": "merge-basics",
+          "title": "Merge Branches",
+          "order": 2,
+          "references": [
+            {
+              "label": "Pro Git: Basic Branching and Merging",
+              "url": "https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging"
+            },
+            {
+              "label": "Pro Git: Git Branching",
+              "url": "https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell"
+            }
+          ]
+        },
+        {
+          "id": "fast-forward-and-merge-commits",
+          "title": "Fast-forward vs Merge Commits",
+          "order": 3,
+          "references": [
+            {
+              "label": "Pro Git: Basic Branching and Merging",
+              "url": "https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging"
+            },
+            {
+              "label": "Git Glossary",
+              "url": "https://git-scm.com/docs/gitglossary"
+            }
+          ]
+        },
+        {
+          "id": "merge-conflicts",
+          "title": "Resolve Merge Conflicts",
+          "order": 4,
+          "references": [
+            {
+              "label": "Pro Git: Basic Branching and Merging",
+              "url": "https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging"
+            },
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            }
+          ]
+        },
+        {
+          "id": "tracking-branches",
+          "title": "Tracking and Upstream Branches",
+          "order": 5,
+          "references": [
+            {
+              "label": "Git Glossary",
+              "url": "https://git-scm.com/docs/gitglossary"
+            },
+            {
+              "label": "Pro Git: Working with Remotes",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "remotes-and-distribution",
+      "title": "Remotes & Distributed Workflow",
+      "order": 5,
+      "topics": [
+        {
+          "id": "remote-configuration",
+          "title": "Remote Configuration",
+          "order": 1,
+          "references": [
+            {
+              "label": "Pro Git: Working with Remotes",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes"
+            },
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            }
+          ]
+        },
+        {
+          "id": "fetch",
+          "title": "Fetch Remote History",
+          "order": 2,
+          "references": [
+            {
+              "label": "Pro Git: Working with Remotes",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes"
+            },
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            }
+          ]
+        },
+        {
+          "id": "pull",
+          "title": "Pull and Integration Strategy",
+          "order": 3,
+          "references": [
+            {
+              "label": "Pro Git: Working with Remotes",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes"
+            },
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            }
+          ]
+        },
+        {
+          "id": "push",
+          "title": "Push Refs Safely",
+          "order": 4,
+          "references": [
+            {
+              "label": "Pro Git: Working with Remotes",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes"
+            },
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            }
+          ]
+        },
+        {
+          "id": "distributed-workflows",
+          "title": "Forks, Upstreams, and Distributed Workflows",
+          "order": 5,
+          "references": [
+            {
+              "label": "gitworkflows Documentation",
+              "url": "https://git-scm.com/docs/gitworkflows"
+            },
+            {
+              "label": "Pro Git: Working with Remotes",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rewriting-and-selective-work",
+      "title": "Rewriting & Selective Work",
+      "order": 6,
+      "topics": [
+        {
+          "id": "rebase",
+          "title": "Rebase a Branch",
+          "order": 1,
+          "references": [
+            {
+              "label": "Pro Git: Rebasing",
+              "url": "https://git-scm.com/book/en/v2/Git-Branching-Rebasing"
+            },
+            {
+              "label": "Pro Git: Git Branching",
+              "url": "https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell"
+            }
+          ]
+        },
+        {
+          "id": "interactive-rebase",
+          "title": "Interactive Rebase",
+          "order": 2,
+          "references": [
+            {
+              "label": "Pro Git: Rebasing",
+              "url": "https://git-scm.com/book/en/v2/Git-Branching-Rebasing"
+            },
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            }
+          ]
+        },
+        {
+          "id": "cherry-pick",
+          "title": "Cherry-pick Selected Commits",
+          "order": 3,
+          "references": [
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            },
+            {
+              "label": "Git Glossary",
+              "url": "https://git-scm.com/docs/gitglossary"
+            }
+          ]
+        },
+        {
+          "id": "partial-staging",
+          "title": "Partial Staging and Focused Commits",
+          "order": 4,
+          "references": [
+            {
+              "label": "Pro Git: Recording Changes",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository"
+            },
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            }
+          ]
+        },
+        {
+          "id": "stash",
+          "title": "Stash Temporary Work",
+          "order": 5,
+          "references": [
+            {
+              "label": "Pro Git: Stashing and Cleaning",
+              "url": "https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning"
+            },
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "undo-and-recovery",
+      "title": "Undo & Recovery",
+      "order": 7,
+      "topics": [
+        {
+          "id": "restore",
+          "title": "Restore Working Tree or Index Content",
+          "order": 1,
+          "references": [
+            {
+              "label": "git Documentation",
+              "url": "https://git-scm.com/docs/git"
+            },
+            {
+              "label": "Pro Git: Undoing Things",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things"
+            }
+          ]
+        },
+        {
+          "id": "reset",
+          "title": "Reset `HEAD`, Index, and Working Tree",
+          "order": 2,
+          "references": [
+            {
+              "label": "Pro Git: Reset Demystified",
+              "url": "https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified"
+            },
+            {
+              "label": "git Documentation",
+              "url": "https://git-scm.com/docs/git"
+            }
+          ]
+        },
+        {
+          "id": "revert",
+          "title": "Revert Published Changes",
+          "order": 3,
+          "references": [
+            {
+              "label": "git Documentation",
+              "url": "https://git-scm.com/docs/git"
+            },
+            {
+              "label": "Pro Git: Undoing Things",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things"
+            }
+          ]
+        },
+        {
+          "id": "reflog",
+          "title": "Recover with Reflog",
+          "order": 4,
+          "references": [
+            {
+              "label": "git-reflog Documentation",
+              "url": "https://git-scm.com/docs/git-reflog"
+            },
+            {
+              "label": "Git Glossary",
+              "url": "https://git-scm.com/docs/gitglossary"
+            }
+          ]
+        },
+        {
+          "id": "detached-head",
+          "title": "Detached `HEAD` and Safe Recovery",
+          "order": 5,
+          "references": [
+            {
+              "label": "Git Glossary",
+              "url": "https://git-scm.com/docs/gitglossary"
+            },
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "project-structure-and-automation",
+      "title": "Project Structure & Automation",
+      "order": 8,
+      "topics": [
+        {
+          "id": "tags-and-releases",
+          "title": "Tags, Releases, and Signing",
+          "order": 1,
+          "references": [
+            {
+              "label": "Pro Git: Tagging",
+              "url": "https://git-scm.com/book/en/v2/Git-Basics-Tagging"
+            },
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            }
+          ]
+        },
+        {
+          "id": "worktrees",
+          "title": "Multiple Working Trees",
+          "order": 2,
+          "references": [
+            {
+              "label": "git-worktree Documentation",
+              "url": "https://git-scm.com/docs/git-worktree"
+            },
+            {
+              "label": "Git Glossary",
+              "url": "https://git-scm.com/docs/gitglossary"
+            }
+          ]
+        },
+        {
+          "id": "submodules",
+          "title": "Submodules and Nested Repositories",
+          "order": 3,
+          "references": [
+            {
+              "label": "git-submodule Documentation",
+              "url": "https://git-scm.com/docs/git-submodule"
+            },
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "diagnosis-and-maintenance",
+      "title": "Diagnosis & Maintenance",
+      "order": 9,
+      "topics": [
+        {
+          "id": "bisect",
+          "title": "Find a Regression with Bisect",
+          "order": 1,
+          "references": [
+            {
+              "label": "git-bisect Documentation",
+              "url": "https://git-scm.com/docs/git-bisect"
+            },
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            }
+          ]
+        },
+        {
+          "id": "clean-untracked-files",
+          "title": "Clean Untracked Files Safely",
+          "order": 2,
+          "references": [
+            {
+              "label": "git-clean Documentation",
+              "url": "https://git-scm.com/docs/git-clean"
+            },
+            {
+              "label": "Pro Git: Stashing and Cleaning",
+              "url": "https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning"
+            }
+          ]
+        },
+        {
+          "id": "hooks-and-attributes",
+          "title": "Hooks and Path Attributes",
+          "order": 3,
+          "references": [
+            {
+              "label": "githooks Documentation",
+              "url": "https://git-scm.com/docs/githooks"
+            },
+            {
+              "label": "gitattributes Documentation",
+              "url": "https://git-scm.com/docs/gitattributes"
+            }
+          ]
+        },
+        {
+          "id": "gc-and-object-maintenance",
+          "title": "Garbage Collection and Repository Maintenance",
+          "order": 4,
+          "references": [
+            {
+              "label": "git-gc Documentation",
+              "url": "https://git-scm.com/docs/git-gc"
+            },
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            }
+          ]
+        },
+        {
+          "id": "fsck-rerere-and-recovery-tools",
+          "title": "Integrity Checks and Repeated Conflict Resolution",
+          "order": 5,
+          "references": [
+            {
+              "label": "git-fsck Documentation",
+              "url": "https://git-scm.com/docs/git-fsck"
+            },
+            {
+              "label": "Git Reference",
+              "url": "https://git-scm.com/docs"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

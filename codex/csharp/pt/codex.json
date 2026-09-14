@@ -1,0 +1,40 @@
+{
+  "locale": "pt",
+  "title": "C#",
+  "slug": "csharp",
+  "description": "Uma linguagem moderna e fortemente tipada para construir aplicações na plataforma .NET.",
+  "status": "published",
+  "tags": [
+    "csharp",
+    "dotnet",
+    "programming",
+    "async",
+    "linq"
+  ],
+  "branding": {
+    "color": "#512BD4",
+    "logo": "/logos/csharp.svg"
+  },
+  "links": {
+    "official": "https://learn.microsoft.com/dotnet/csharp/",
+    "repository": "https://github.com/dotnet/roslyn"
+  },
+  "metadata": [
+    {
+      "label": "Tipo",
+      "value": "Programming language"
+    },
+    {
+      "label": "Runtime",
+      "value": ".NET"
+    },
+    {
+      "label": "Foco",
+      "value": "Application development"
+    },
+    {
+      "label": "Licença",
+      "value": "MIT / .NET libraries"
+    }
+  ]
+}

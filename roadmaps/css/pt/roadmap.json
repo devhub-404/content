@@ -1,0 +1,1031 @@
+{
+  "locale": "pt",
+  "status": "published",
+  "title": "CSS",
+  "slug": "css",
+  "description": "Um roadmap de aprendizado de CSS ordenado por pré-requisitos, com aulas compactas e autossuficientes cobrindo o essencial de cada conceito, da cascata e layout a recursos modernos de responsividade, movimento e performance.",
+  "metadata": {
+    "tags": [
+      "css",
+      "frontend",
+      "web-development",
+      "responsive-design"
+    ]
+  },
+  "sections": [
+    {
+      "id": "language-and-cascade",
+      "title": "Linguagem CSS e Cascata",
+      "order": 1,
+      "topics": [
+        {
+          "id": "css-rules-and-stylesheets",
+          "title": "Regras CSS e Folhas de Estilo",
+          "order": 1,
+          "references": [
+            {
+              "label": "CSS Syntax Module Level 3",
+              "url": "https://drafts.csswg.org/css-syntax-3/"
+            },
+            {
+              "label": "Programiz: Learn CSS",
+              "url": "https://www.programiz.com/css"
+            }
+          ]
+        },
+        {
+          "id": "syntax-values-and-functions",
+          "title": "Declarações, Valores, Funções e At-rules",
+          "order": 2,
+          "references": [
+            {
+              "label": "CSS Syntax Module Level 3",
+              "url": "https://drafts.csswg.org/css-syntax-3/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "shorthands-and-resets",
+          "title": "Shorthands e Resets",
+          "order": 3,
+          "references": [
+            {
+              "label": "CSS Cascading and Inheritance Level 5",
+              "url": "https://drafts.csswg.org/css-cascade-5/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "cascade-algorithm",
+          "title": "Como a Cascata Escolhe um Valor",
+          "order": 4,
+          "references": [
+            {
+              "label": "CSS Cascading and Inheritance Level 5",
+              "url": "https://drafts.csswg.org/css-cascade-5/"
+            },
+            {
+              "label": "MDN: CSS cascade",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade"
+            }
+          ]
+        },
+        {
+          "id": "specificity-and-inheritance",
+          "title": "Especificidade e Herança",
+          "order": 5,
+          "references": [
+            {
+              "label": "CSS Cascading and Inheritance Level 5",
+              "url": "https://drafts.csswg.org/css-cascade-5/"
+            },
+            {
+              "label": "MDN: CSS cascade",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade"
+            }
+          ]
+        },
+        {
+          "id": "layers-scope-and-important",
+          "title": "Layers, Scope e `!important`",
+          "order": 6,
+          "references": [
+            {
+              "label": "CSS Cascading and Inheritance Level 6",
+              "url": "https://drafts.csswg.org/css-cascade-6/"
+            },
+            {
+              "label": "MDN: CSS cascade",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade"
+            }
+          ]
+        },
+        {
+          "id": "native-nesting",
+          "title": "Nesting Nativo do CSS",
+          "order": 7,
+          "references": [
+            {
+              "label": "CSS Snapshot 2026",
+              "url": "https://drafts.csswg.org/css-2026/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "selectors",
+      "title": "Seletores",
+      "order": 2,
+      "topics": [
+        {
+          "id": "basic-selectors",
+          "title": "Seletores de Tipo, Classe, ID e Universal",
+          "order": 1,
+          "references": [
+            {
+              "label": "Selectors Level 4",
+              "url": "https://drafts.csswg.org/selectors/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "combinators",
+          "title": "Combinadores",
+          "order": 2,
+          "references": [
+            {
+              "label": "Selectors Level 4",
+              "url": "https://drafts.csswg.org/selectors/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "attribute-and-state-selectors",
+          "title": "Seletores de Atributo e Estado",
+          "order": 3,
+          "references": [
+            {
+              "label": "Selectors Level 4",
+              "url": "https://drafts.csswg.org/selectors/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "structural-selectors",
+          "title": "Pseudo-classes Estruturais",
+          "order": 4,
+          "references": [
+            {
+              "label": "Selectors Level 4",
+              "url": "https://drafts.csswg.org/selectors/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "functional-and-relational-selectors",
+          "title": "`:is()`, `:where()`, `:not()` e `:has()`",
+          "order": 5,
+          "references": [
+            {
+              "label": "Selectors Level 4",
+              "url": "https://drafts.csswg.org/selectors/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "pseudo-elements",
+          "title": "Pseudo-elementos e Conteúdo Gerado",
+          "order": 6,
+          "references": [
+            {
+              "label": "Selectors Level 4",
+              "url": "https://drafts.csswg.org/selectors/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "values-and-variables",
+      "title": "Valores, Unidades e Variáveis",
+      "order": 3,
+      "topics": [
+        {
+          "id": "numeric-values-and-percentages",
+          "title": "Números, Dimensões e Porcentagens",
+          "order": 1,
+          "references": [
+            {
+              "label": "CSS Values and Units Level 4",
+              "url": "https://drafts.csswg.org/css-values-4/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "relative-length-units",
+          "title": "Unidades Relativas a Fonte, Viewport e Container",
+          "order": 2,
+          "references": [
+            {
+              "label": "CSS Values and Units Level 4",
+              "url": "https://drafts.csswg.org/css-values-4/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "math-functions",
+          "title": "Funções Matemáticas do CSS",
+          "order": 3,
+          "references": [
+            {
+              "label": "CSS Values and Units Level 4",
+              "url": "https://drafts.csswg.org/css-values-4/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "custom-properties",
+          "title": "Custom Properties e `var()`",
+          "order": 4,
+          "references": [
+            {
+              "label": "CSS Custom Properties Level 2",
+              "url": "https://drafts.csswg.org/css-variables-2/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "registered-custom-properties",
+          "title": "Custom Properties Registradas com `@property`",
+          "order": 5,
+          "references": [
+            {
+              "label": "CSS Properties and Values API Level 1",
+              "url": "https://drafts.css-houdini.org/css-properties-values-api-1/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "box-flow-and-logical-layout",
+      "title": "Box Model, Fluxo e Layout Lógico",
+      "order": 4,
+      "topics": [
+        {
+          "id": "box-model-and-box-sizing",
+          "title": "Box Model e `box-sizing`",
+          "order": 1,
+          "references": [
+            {
+              "label": "CSS Box Model Level 4",
+              "url": "https://drafts.csswg.org/css-box-4/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "sizing-constraints-and-intrinsic-sizes",
+          "title": "Restrições de Tamanho e Tamanhos Intrínsecos",
+          "order": 2,
+          "references": [
+            {
+              "label": "CSS Box Sizing Level 3",
+              "url": "https://drafts.csswg.org/css-sizing-3/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "display-and-normal-flow",
+          "title": "`display` e Fluxo Normal",
+          "order": 3,
+          "references": [
+            {
+              "label": "CSS Display Level 4",
+              "url": "https://drafts.csswg.org/css-display-4/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "margin-collapsing-and-bfc",
+          "title": "Colapso de Margens e Block Formatting Contexts",
+          "order": 4,
+          "references": [
+            {
+              "label": "CSS Box Model Level 4",
+              "url": "https://drafts.csswg.org/css-box-4/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "overflow",
+          "title": "Overflow e Scroll Containers",
+          "order": 5,
+          "references": [
+            {
+              "label": "CSS Overflow Level 4",
+              "url": "https://drafts.csswg.org/css-overflow-4/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "logical-properties-and-writing-modes",
+          "title": "Writing Modes e Propriedades Lógicas",
+          "order": 6,
+          "references": [
+            {
+              "label": "CSS Logical Properties and Values Level 1",
+              "url": "https://drafts.csswg.org/css-logical-1/"
+            },
+            {
+              "label": "CSS Writing Modes Level 4",
+              "url": "https://drafts.csswg.org/css-writing-modes-4/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "positioning-and-stacking",
+      "title": "Posicionamento e Empilhamento",
+      "order": 5,
+      "topics": [
+        {
+          "id": "position-schemes-and-containing-blocks",
+          "title": "Esquemas de Posição e Containing Blocks",
+          "order": 1,
+          "references": [
+            {
+              "label": "CSS Positioned Layout Level 3",
+              "url": "https://drafts.csswg.org/css-position-3/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "sticky-positioning",
+          "title": "Posicionamento Sticky",
+          "order": 2,
+          "references": [
+            {
+              "label": "CSS Positioned Layout Level 3",
+              "url": "https://drafts.csswg.org/css-position-3/"
+            },
+            {
+              "label": "CSS Overflow Level 4",
+              "url": "https://drafts.csswg.org/css-overflow-4/"
+            }
+          ]
+        },
+        {
+          "id": "stacking-contexts",
+          "title": "Stacking Contexts e `z-index`",
+          "order": 3,
+          "references": [
+            {
+              "label": "CSS Positioned Layout Level 3",
+              "url": "https://drafts.csswg.org/css-position-3/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "anchor-positioning",
+          "title": "Anchor Positioning",
+          "order": 4,
+          "references": [
+            {
+              "label": "CSS Anchor Positioning Level 1",
+              "url": "https://drafts.csswg.org/css-anchor-position-1/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flexbox",
+      "title": "Flexible Box Layout",
+      "order": 6,
+      "topics": [
+        {
+          "id": "flex-model-and-axes",
+          "title": "Flex Containers, Itens e Eixos",
+          "order": 1,
+          "references": [
+            {
+              "label": "CSS Flexible Box Layout Level 1",
+              "url": "https://drafts.csswg.org/css-flexbox-1/"
+            },
+            {
+              "label": "MDN: Flexible box layout",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout"
+            }
+          ]
+        },
+        {
+          "id": "flex-sizing",
+          "title": "Flex Basis, Grow, Shrink e Tamanho Mínimo",
+          "order": 2,
+          "references": [
+            {
+              "label": "CSS Flexible Box Layout Level 1",
+              "url": "https://drafts.csswg.org/css-flexbox-1/"
+            },
+            {
+              "label": "CSS Box Sizing Level 3",
+              "url": "https://drafts.csswg.org/css-sizing-3/"
+            }
+          ]
+        },
+        {
+          "id": "flex-alignment-and-spacing",
+          "title": "Alinhamento Flex, Gaps e Margens Auto",
+          "order": 3,
+          "references": [
+            {
+              "label": "CSS Box Alignment Level 3",
+              "url": "https://drafts.csswg.org/css-align-3/"
+            },
+            {
+              "label": "MDN: Flexible box layout",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout"
+            }
+          ]
+        },
+        {
+          "id": "flex-wrapping-and-order",
+          "title": "Quebra de Linha e Ordem Visual",
+          "order": 4,
+          "references": [
+            {
+              "label": "CSS Flexible Box Layout Level 1",
+              "url": "https://drafts.csswg.org/css-flexbox-1/"
+            },
+            {
+              "label": "MDN: Flexible box layout",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grid",
+      "title": "Grid Layout",
+      "order": 7,
+      "topics": [
+        {
+          "id": "grid-model-and-track-sizing",
+          "title": "Tracks, Linhas e `fr` no Grid",
+          "order": 1,
+          "references": [
+            {
+              "label": "CSS Grid Layout Level 2",
+              "url": "https://drafts.csswg.org/css-grid-2/"
+            },
+            {
+              "label": "MDN: Grid layout",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout"
+            }
+          ]
+        },
+        {
+          "id": "repeat-minmax-and-auto-fit",
+          "title": "`repeat()`, `minmax()` e Grids com Auto-fit",
+          "order": 2,
+          "references": [
+            {
+              "label": "CSS Grid Layout Level 2",
+              "url": "https://drafts.csswg.org/css-grid-2/"
+            },
+            {
+              "label": "MDN: Grid layout",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout"
+            }
+          ]
+        },
+        {
+          "id": "grid-placement-and-areas",
+          "title": "Placement, Spans e Áreas no Grid",
+          "order": 3,
+          "references": [
+            {
+              "label": "CSS Grid Layout Level 2",
+              "url": "https://drafts.csswg.org/css-grid-2/"
+            },
+            {
+              "label": "MDN: Grid layout",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout"
+            }
+          ]
+        },
+        {
+          "id": "auto-placement-subgrid-and-alignment",
+          "title": "Auto-placement, Alinhamento e Subgrid",
+          "order": 4,
+          "references": [
+            {
+              "label": "CSS Grid Layout Level 2",
+              "url": "https://drafts.csswg.org/css-grid-2/"
+            },
+            {
+              "label": "CSS Box Alignment Level 3",
+              "url": "https://drafts.csswg.org/css-align-3/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "typography",
+      "title": "Tipografia e Texto",
+      "order": 8,
+      "topics": [
+        {
+          "id": "font-families-and-web-fonts",
+          "title": "Famílias de Fonte e Web Fonts",
+          "order": 1,
+          "references": [
+            {
+              "label": "CSS Fonts Level 4",
+              "url": "https://drafts.csswg.org/css-fonts-4/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "font-size-line-height-and-variable-fonts",
+          "title": "Tamanho de Fonte, Line Height e Fontes Variáveis",
+          "order": 2,
+          "references": [
+            {
+              "label": "CSS Fonts Level 4",
+              "url": "https://drafts.csswg.org/css-fonts-4/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "wrapping-whitespace-and-hyphenation",
+          "title": "Whitespace, Quebra e Hifenização",
+          "order": 3,
+          "references": [
+            {
+              "label": "CSS Text Level 4",
+              "url": "https://drafts.csswg.org/css-text-4/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "text-alignment-and-decoration",
+          "title": "Alinhamento e Decoração de Texto",
+          "order": 4,
+          "references": [
+            {
+              "label": "CSS Text Decoration Level 4",
+              "url": "https://drafts.csswg.org/css-text-decor-4/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "lists-and-tables",
+          "title": "Estilizando Listas e Tabelas",
+          "order": 5,
+          "references": [
+            {
+              "label": "CSS Text Level 4",
+              "url": "https://drafts.csswg.org/css-text-4/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "painting-and-images",
+      "title": "Cor, Backgrounds e Efeitos Visuais",
+      "order": 9,
+      "topics": [
+        {
+          "id": "colors-and-alpha",
+          "title": "Cores, Alpha e `currentColor`",
+          "order": 1,
+          "references": [
+            {
+              "label": "CSS Color Level 4",
+              "url": "https://drafts.csswg.org/css-color-4/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "backgrounds-and-gradients",
+          "title": "Camadas de Background e Gradientes",
+          "order": 2,
+          "references": [
+            {
+              "label": "CSS Backgrounds and Borders Level 3",
+              "url": "https://drafts.csswg.org/css-backgrounds-3/"
+            },
+            {
+              "label": "CSS Images Level 4",
+              "url": "https://drafts.csswg.org/css-images-4/"
+            }
+          ]
+        },
+        {
+          "id": "borders-outlines-and-shadows",
+          "title": "Bordas, Radius, Outlines e Shadows",
+          "order": 3,
+          "references": [
+            {
+              "label": "CSS Backgrounds and Borders Level 3",
+              "url": "https://drafts.csswg.org/css-backgrounds-3/"
+            },
+            {
+              "label": "CSS Basic User Interface Level 4",
+              "url": "https://drafts.csswg.org/css-ui-4/"
+            }
+          ]
+        },
+        {
+          "id": "replaced-elements-and-object-fit",
+          "title": "Elementos Substituídos e Object Fitting",
+          "order": 4,
+          "references": [
+            {
+              "label": "CSS Images Level 4",
+              "url": "https://drafts.csswg.org/css-images-4/"
+            },
+            {
+              "label": "CSS Box Sizing Level 3",
+              "url": "https://drafts.csswg.org/css-sizing-3/"
+            }
+          ]
+        },
+        {
+          "id": "filters-masks-and-blending",
+          "title": "Filters, Clipping, Masking e Blending",
+          "order": 5,
+          "references": [
+            {
+              "label": "Filter Effects Level 1",
+              "url": "https://drafts.fxtf.org/filter-effects-1/"
+            },
+            {
+              "label": "CSS Masking Level 1",
+              "url": "https://drafts.fxtf.org/css-masking-1/"
+            }
+          ]
+        },
+        {
+          "id": "color-schemes-and-forced-colors",
+          "title": "Color Schemes e Forced Colors",
+          "order": 6,
+          "references": [
+            {
+              "label": "CSS Color Level 4",
+              "url": "https://drafts.csswg.org/css-color-4/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "responsive-and-conditional",
+      "title": "CSS Responsivo e Condicional",
+      "order": 10,
+      "topics": [
+        {
+          "id": "responsive-layout-principles",
+          "title": "Layout Responsivo Antes de Breakpoints",
+          "order": 1,
+          "references": [
+            {
+              "label": "CSS Box Sizing Level 3",
+              "url": "https://drafts.csswg.org/css-sizing-3/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "media-queries",
+          "title": "Media Queries e Sintaxe de Range",
+          "order": 2,
+          "references": [
+            {
+              "label": "Media Queries Level 5",
+              "url": "https://drafts.csswg.org/mediaqueries-5/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "preference-and-input-queries",
+          "title": "Queries de Preferência do Usuário e Capacidade de Entrada",
+          "order": 3,
+          "references": [
+            {
+              "label": "Media Queries Level 5",
+              "url": "https://drafts.csswg.org/mediaqueries-5/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "container-queries",
+          "title": "Container Queries e Unidades de Container",
+          "order": 4,
+          "references": [
+            {
+              "label": "CSS Conditional Rules Level 5",
+              "url": "https://drafts.csswg.org/css-conditional-5/"
+            },
+            {
+              "label": "MDN: Container queries",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries"
+            }
+          ]
+        },
+        {
+          "id": "supports-and-progressive-enhancement",
+          "title": "Feature Queries e Progressive Enhancement",
+          "order": 5,
+          "references": [
+            {
+              "label": "CSS Conditional Rules Level 5",
+              "url": "https://drafts.csswg.org/css-conditional-5/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ui-scrolling-and-motion",
+      "title": "UI, Scrolling e Movimento",
+      "order": 11,
+      "topics": [
+        {
+          "id": "form-controls-focus-and-accent",
+          "title": "Controles de Formulário, Foco e Accent Color",
+          "order": 1,
+          "references": [
+            {
+              "label": "CSS Basic User Interface Level 4",
+              "url": "https://drafts.csswg.org/css-ui-4/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "scroll-alignment-and-snap",
+          "title": "Alinhamento de Scroll, Snap, Overscroll e Scrollbars",
+          "order": 2,
+          "references": [
+            {
+              "label": "CSS Scroll Snap Level 1",
+              "url": "https://drafts.csswg.org/css-scroll-snap-1/"
+            },
+            {
+              "label": "CSS Overflow Level 4",
+              "url": "https://drafts.csswg.org/css-overflow-4/"
+            }
+          ]
+        },
+        {
+          "id": "transforms",
+          "title": "Transforms",
+          "order": 3,
+          "references": [
+            {
+              "label": "CSS Transforms Level 2",
+              "url": "https://drafts.csswg.org/css-transforms-2/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "transitions",
+          "title": "Transitions e Starting Styles",
+          "order": 4,
+          "references": [
+            {
+              "label": "CSS Transitions Level 2",
+              "url": "https://drafts.csswg.org/css-transitions-2/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "keyframes-easing-and-reduced-motion",
+          "title": "Keyframes, Easing e Movimento Reduzido",
+          "order": 5,
+          "references": [
+            {
+              "label": "CSS Animations Level 2",
+              "url": "https://drafts.csswg.org/css-animations-2/"
+            },
+            {
+              "label": "CSS Easing Functions Level 2",
+              "url": "https://drafts.csswg.org/css-easing-2/"
+            }
+          ]
+        },
+        {
+          "id": "scroll-driven-and-view-transitions",
+          "title": "Animações por Scroll e View Transitions",
+          "order": 6,
+          "references": [
+            {
+              "label": "Scroll-driven Animations",
+              "url": "https://drafts.csswg.org/scroll-animations-1/"
+            },
+            {
+              "label": "CSS View Transitions Level 2",
+              "url": "https://drafts.csswg.org/css-view-transitions-2/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "architecture-and-performance",
+      "title": "Arquitetura, Compatibilidade e Performance",
+      "order": 12,
+      "topics": [
+        {
+          "id": "design-tokens-and-theme-architecture",
+          "title": "Design Tokens e Arquitetura de Tema",
+          "order": 1,
+          "references": [
+            {
+              "label": "CSS Custom Properties Level 2",
+              "url": "https://drafts.csswg.org/css-variables-2/"
+            },
+            {
+              "label": "CSS Cascading and Inheritance Level 5",
+              "url": "https://drafts.csswg.org/css-cascade-5/"
+            }
+          ]
+        },
+        {
+          "id": "containment-and-content-visibility",
+          "title": "Containment e `content-visibility`",
+          "order": 2,
+          "references": [
+            {
+              "label": "CSS Containment Level 2",
+              "url": "https://drafts.csswg.org/css-contain-2/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "will-change-and-animation-performance",
+          "title": "`will-change` e Performance de Rendering",
+          "order": 3,
+          "references": [
+            {
+              "label": "CSS Containment Level 2",
+              "url": "https://drafts.csswg.org/css-contain-2/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        },
+        {
+          "id": "compatibility-and-testing",
+          "title": "Compatibilidade, Entrega Progressiva e Depuração",
+          "order": 4,
+          "references": [
+            {
+              "label": "CSS Snapshot 2026",
+              "url": "https://drafts.csswg.org/css-2026/"
+            },
+            {
+              "label": "MDN: CSS",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

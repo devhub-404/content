@@ -1,0 +1,949 @@
+{
+  "locale": "pt",
+  "status": "published",
+  "title": "C++",
+  "slug": "cpp",
+  "description": "Um roadmap de C++ moderno ordenado por pré-requisitos, centrado em práticas estáveis de C++23 e cobrindo value semantics, RAII, move semantics, classes, templates, concepts, standard library, concorrência, erros e tooling nativo.",
+  "metadata": {
+    "tags": [
+      "cpp",
+      "c++",
+      "systems-programming",
+      "cpp23",
+      "programming"
+    ]
+  },
+  "sections": [
+    {
+      "id": "language-and-build",
+      "title": "Linguagem e Modelo de Build",
+      "order": 1,
+      "topics": [
+        {
+          "id": "what-cpp-is",
+          "title": "O que é C++ Moderno",
+          "order": 1,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "Programiz: C++ Programming",
+              "url": "https://www.programiz.com/cpp-programming"
+            }
+          ]
+        },
+        {
+          "id": "translation-units-linking-and-odr",
+          "title": "Translation Units, Linking e ODR",
+          "order": 2,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "headers-modules-and-includes",
+          "title": "Headers, Modules e Includes",
+          "order": 3,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "undefined-behavior-and-the-abstract-machine",
+          "title": "Undefined Behavior e Abstract Machine",
+          "order": 4,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "values-types-and-initialization",
+      "title": "Valores, Tipos e Inicialização",
+      "order": 2,
+      "topics": [
+        {
+          "id": "fundamental-types",
+          "title": "Tipos Fundamentais",
+          "order": 1,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "initialization-forms",
+          "title": "Formas de Inicialização",
+          "order": 2,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "auto-decltype-and-type-deduction",
+          "title": "`auto`, `decltype` e Dedução de Tipo",
+          "order": 3,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "const-and-constexpr",
+          "title": "`const`, `constexpr` e Avaliação Constante",
+          "order": 4,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "references-and-pointers",
+          "title": "Referências e Ponteiros",
+          "order": 5,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "value-categories-and-move-semantics-intro",
+          "title": "Categorias de Valor e Introdução a Move Semantics",
+          "order": 6,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "control-flow-and-functions",
+      "title": "Fluxo de Controle e Funções",
+      "order": 3,
+      "topics": [
+        {
+          "id": "conditionals-loops-and-range-for",
+          "title": "Condicionais, Loops e Range-for",
+          "order": 1,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "Programiz: C++ Programming",
+              "url": "https://www.programiz.com/cpp-programming"
+            }
+          ]
+        },
+        {
+          "id": "function-overloading-and-default-arguments",
+          "title": "Overloading de Funções e Argumentos Default",
+          "order": 2,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "lambdas-and-captures",
+          "title": "Lambdas e Captures",
+          "order": 3,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "templates-intro",
+          "title": "Templates de Função",
+          "order": 4,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "variadic-templates-and-folds",
+          "title": "Variadic Templates e Fold Expressions",
+          "order": 5,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classes-and-raii",
+      "title": "Classes e RAII",
+      "order": 4,
+      "topics": [
+        {
+          "id": "class-basics-and-encapsulation",
+          "title": "Fundamentos de Classes e Encapsulamento",
+          "order": 1,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "constructors-and-member-initializers",
+          "title": "Constructors e Inicialização de Membros",
+          "order": 2,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "raii-and-destructors",
+          "title": "RAII e Destructors",
+          "order": 3,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "special-member-functions",
+          "title": "Copy, Move e Special Member Functions",
+          "order": 4,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "operator-overloading",
+          "title": "Operator Overloading",
+          "order": 5,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inheritance-and-polymorphism",
+      "title": "Herança e Polimorfismo",
+      "order": 5,
+      "topics": [
+        {
+          "id": "inheritance-and-virtual-functions",
+          "title": "Herança e Funções Virtuais",
+          "order": 1,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "object-slicing-and-polymorphic-ownership",
+          "title": "Object Slicing e Ownership Polimórfico",
+          "order": 2,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "dynamic-cast-and-rtti",
+          "title": "RTTI e `dynamic_cast`",
+          "order": 3,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ownership-and-resource-management",
+      "title": "Ownership e Resource Management",
+      "order": 6,
+      "topics": [
+        {
+          "id": "unique-ptr",
+          "title": "`std::unique_ptr`",
+          "order": 1,
+          "references": [
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "shared-ptr-and-weak-ptr",
+          "title": "`std::shared_ptr` e `std::weak_ptr`",
+          "order": 2,
+          "references": [
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "move-semantics-and-perfect-forwarding",
+          "title": "Move Semantics e Perfect Forwarding",
+          "order": 3,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "views-spans-and-borrowing",
+          "title": "`std::span`, `std::string_view` e Views Borrowed",
+          "order": 4,
+          "references": [
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "standard-library-containers",
+      "title": "Containers da Standard Library",
+      "order": 7,
+      "topics": [
+        {
+          "id": "vector-array-and-deque",
+          "title": "`vector`, `array` e `deque`",
+          "order": 1,
+          "references": [
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "map-set-and-unordered-containers",
+          "title": "Containers Associativos e Unordered",
+          "order": 2,
+          "references": [
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "container-adaptors",
+          "title": "Adaptadores `stack`, `queue` e `priority_queue`",
+          "order": 3,
+          "references": [
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "iterator-invalidation",
+          "title": "Invalidation de Iterators e References",
+          "order": 4,
+          "references": [
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "algorithms-ranges-and-iterators",
+      "title": "Algoritmos, Ranges e Iterators",
+      "order": 8,
+      "topics": [
+        {
+          "id": "iterator-model",
+          "title": "Modelo de Iterators",
+          "order": 1,
+          "references": [
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "algorithms",
+          "title": "Algoritmos Padrão",
+          "order": 2,
+          "references": [
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "ranges-and-views",
+          "title": "Ranges e Views",
+          "order": 3,
+          "references": [
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "projections-and-comparators",
+          "title": "Comparators e Projections",
+          "order": 4,
+          "references": [
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "templates-and-concepts",
+      "title": "Templates e Concepts",
+      "order": 9,
+      "topics": [
+        {
+          "id": "class-templates",
+          "title": "Class Templates",
+          "order": 1,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "concepts-and-requires",
+          "title": "Concepts e `requires`",
+          "order": 2,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "specialization-and-overload-selection",
+          "title": "Specialization e Seleção de Overloads",
+          "order": 3,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "metaprogramming-and-type-traits",
+          "title": "Type Traits e Metaprogramação",
+          "order": 4,
+          "references": [
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "errors-and-sum-types",
+      "title": "Erros e Sum Types",
+      "order": 10,
+      "topics": [
+        {
+          "id": "exceptions-and-stack-unwinding",
+          "title": "Exceptions e Stack Unwinding",
+          "order": 1,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "noexcept-and-exception-safety",
+          "title": "`noexcept` e Exception Safety",
+          "order": 2,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "optional-variant-and-any",
+          "title": "`optional`, `variant` e `any`",
+          "order": 3,
+          "references": [
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "expected-and-error-values",
+          "title": "`std::expected` e Valores de Erro",
+          "order": 4,
+          "references": [
+            {
+              "label": "cppreference: C++23",
+              "url": "https://en.cppreference.com/w/cpp/23"
+            },
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concurrency",
+      "title": "Concorrência",
+      "order": 11,
+      "topics": [
+        {
+          "id": "threads-jthread-and-stop-tokens",
+          "title": "Threads, `jthread` e Stop Tokens",
+          "order": 1,
+          "references": [
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "mutexes-locks-and-condition-variables",
+          "title": "Mutexes, Locks e Condition Variables",
+          "order": 2,
+          "references": [
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "atomics-and-memory-order",
+          "title": "Atômicos e Memory Ordering",
+          "order": 3,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            }
+          ]
+        },
+        {
+          "id": "futures-and-async",
+          "title": "Futures e `std::async`",
+          "order": 4,
+          "references": [
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "library-facilities",
+      "title": "Recursos da Biblioteca",
+      "order": 12,
+      "topics": [
+        {
+          "id": "strings-and-formatting",
+          "title": "Strings, String Views e Formatting",
+          "order": 1,
+          "references": [
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            },
+            {
+              "label": "cppreference: C++23",
+              "url": "https://en.cppreference.com/w/cpp/23"
+            }
+          ]
+        },
+        {
+          "id": "filesystem",
+          "title": "Filesystem",
+          "order": 2,
+          "references": [
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "chrono",
+          "title": "Tempo com `<chrono>`",
+          "order": 3,
+          "references": [
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "random-numbers",
+          "title": "Random Numbers",
+          "order": 4,
+          "references": [
+            {
+              "label": "cppreference: C++ standard library",
+              "url": "https://en.cppreference.com/w/cpp/standard_library"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tooling-quality-and-modern-practice",
+      "title": "Tooling, Qualidade e Prática Moderna",
+      "order": 13,
+      "topics": [
+        {
+          "id": "warnings-sanitizers-and-static-analysis",
+          "title": "Warnings, Sanitizers e Static Analysis",
+          "order": 1,
+          "references": [
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            },
+            {
+              "label": "Programiz: C++ Programming",
+              "url": "https://www.programiz.com/cpp-programming"
+            }
+          ]
+        },
+        {
+          "id": "debugging-native-cpp",
+          "title": "Depuração de C++ Nativo",
+          "order": 2,
+          "references": [
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            },
+            {
+              "label": "Programiz: C++ Programming",
+              "url": "https://www.programiz.com/cpp-programming"
+            }
+          ]
+        },
+        {
+          "id": "api-design-and-value-semantics",
+          "title": "Design de API e Value Semantics",
+          "order": 3,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "performance-and-zero-cost-abstractions",
+          "title": "Performance e Zero-cost Abstractions",
+          "order": 4,
+          "references": [
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            },
+            {
+              "label": "cppreference: C++ language",
+              "url": "https://en.cppreference.com/w/cpp/language"
+            }
+          ]
+        },
+        {
+          "id": "compatibility-and-language-versions",
+          "title": "Versões da Linguagem e Compatibilidade",
+          "order": 5,
+          "references": [
+            {
+              "label": "cppreference: C++23",
+              "url": "https://en.cppreference.com/w/cpp/23"
+            },
+            {
+              "label": "Working Draft: Programming Languages — C++",
+              "url": "https://eel.is/c++draft/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

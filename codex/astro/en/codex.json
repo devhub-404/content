@@ -1,0 +1,42 @@
+{
+  "locale": "en",
+  "title": "Astro",
+  "slug": "astro",
+  "description": "A web framework focused on delivering fast content-driven sites with a server-first rendering model.",
+  "status": "published",
+  "tags": [
+    "astro",
+    "javascript",
+    "web"
+  ],
+  "branding": {
+    "color": "#FF5D01",
+    "logo": "/logos/astro.svg"
+  },
+  "links": {
+    "official": "https://astro.build",
+    "repository": "https://github.com/withastro/astro"
+  },
+  "metadata": [
+    {
+      "label": "Maintainer",
+      "value": "Astro Team"
+    },
+    {
+      "label": "Language",
+      "value": "JavaScript / TypeScript"
+    },
+    {
+      "label": "License",
+      "value": "MIT"
+    },
+    {
+      "label": "Rendering",
+      "value": "Server-first"
+    },
+    {
+      "label": "Focus",
+      "value": "Content-driven sites"
+    }
+  ]
+}

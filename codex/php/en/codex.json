@@ -1,0 +1,40 @@
+{
+  "locale": "en",
+  "title": "Php",
+  "slug": "php",
+  "description": "A server-side scripting language for web applications, command-line programs, and general-purpose automation.",
+  "status": "published",
+  "tags": [
+    "php",
+    "php-8-5",
+    "web-development",
+    "composer",
+    "programming"
+  ],
+  "branding": {
+    "color": "#777BB4",
+    "logo": "/logos/php.svg"
+  },
+  "links": {
+    "official": "https://www.php.net/",
+    "repository": "https://github.com/php/php-src"
+  },
+  "metadata": [
+    {
+      "label": "Type",
+      "value": "Programming language"
+    },
+    {
+      "label": "Runtime",
+      "value": "Zend Engine"
+    },
+    {
+      "label": "Focus",
+      "value": "Web development"
+    },
+    {
+      "label": "License",
+      "value": "PHP-3.01"
+    }
+  ]
+}

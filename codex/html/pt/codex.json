@@ -1,0 +1,17 @@
+{
+  "locale": "pt",
+  "title": "HTML",
+  "slug": "html",
+  "description": "Linguagem de marcação que define a estrutura e o significado do conteúdo web.",
+  "status": "published",
+  "tags": ["html", "web", "accessibility"],
+  "branding": {"color": "#E34F26", "logo": "/logos/html.svg"},
+  "links": {"official": "https://html.spec.whatwg.org/", "repository": "https://github.com/whatwg/html"},
+  "metadata": [
+    {"label": "Especificação", "value": "WHATWG HTML"},
+    {"label": "Tipo", "value": "Linguagem de marcação"},
+    {"label": "Runtime", "value": "Navegador"},
+    {"label": "Foco", "value": "Estrutura de documentos"},
+    {"label": "Plataforma", "value": "Web"}
+  ]
+}

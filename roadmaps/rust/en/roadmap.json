@@ -1,0 +1,1060 @@
+{
+  "locale": "en",
+  "status": "published",
+  "title": "Rust",
+  "slug": "rust",
+  "description": "A prerequisite-ordered Rust roadmap centered on ownership, borrowing, lifetimes, algebraic data types, traits, iterators, safe resource management, concurrency, async, unsafe boundaries, Cargo, testing, and production library design.",
+  "metadata": {
+    "tags": [
+      "rust",
+      "systems-programming",
+      "ownership",
+      "programming"
+    ]
+  },
+  "sections": [
+    {
+      "id": "language-and-toolchain",
+      "title": "Language & Toolchain",
+      "order": 1,
+      "topics": [
+        {
+          "id": "what-rust-is",
+          "title": "What Rust Is",
+          "order": 1,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "rustc-cargo-and-rustup",
+          "title": "`rustc`, Cargo, and Rustup",
+          "order": 2,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Cargo Book",
+              "url": "https://doc.rust-lang.org/cargo/"
+            }
+          ]
+        },
+        {
+          "id": "crates-packages-and-targets",
+          "title": "Crates, Packages, and Targets",
+          "order": 3,
+          "references": [
+            {
+              "label": "The Cargo Book",
+              "url": "https://doc.rust-lang.org/cargo/"
+            },
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            }
+          ]
+        },
+        {
+          "id": "expressions-statements-and-blocks",
+          "title": "Expressions, Statements, and Blocks",
+          "order": 4,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bindings-and-types",
+      "title": "Bindings & Types",
+      "order": 2,
+      "topics": [
+        {
+          "id": "let-mut-and-shadowing",
+          "title": "`let`, `mut`, and Shadowing",
+          "order": 1,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "scalar-and-compound-types",
+          "title": "Scalar and Compound Types",
+          "order": 2,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "functions-and-return-types",
+          "title": "Functions and Return Types",
+          "order": 3,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "type-aliases-and-newtypes",
+          "title": "Type Aliases and Newtypes",
+          "order": 4,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "casts-and-conversions",
+          "title": "Conversions and `as` Casts",
+          "order": 5,
+          "references": [
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            },
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ownership-and-borrowing",
+      "title": "Ownership & Borrowing",
+      "order": 3,
+      "topics": [
+        {
+          "id": "ownership-moves-and-copy",
+          "title": "Ownership, Moves, and `Copy`",
+          "order": 1,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "references-and-borrowing",
+          "title": "References and Borrowing",
+          "order": 2,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "mutable-borrowing",
+          "title": "Mutable Borrowing",
+          "order": 3,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "slices",
+          "title": "Slices",
+          "order": 4,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "lifetimes-intro",
+          "title": "Lifetime Relationships",
+          "order": 5,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "dangling-references-and-borrow-checker",
+          "title": "Dangling References and the Borrow Checker",
+          "order": 6,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "control-flow-and-patterns",
+      "title": "Control Flow & Patterns",
+      "order": 4,
+      "topics": [
+        {
+          "id": "if-loop-while-for",
+          "title": "`if`, `loop`, `while`, and `for`",
+          "order": 1,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "match",
+          "title": "Pattern Matching with `match`",
+          "order": 2,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "if-let-while-let-and-let-else",
+          "title": "`if let`, `while let`, and `let...else`",
+          "order": 3,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "destructuring-and-pattern-bindings",
+          "title": "Destructuring and Pattern Bindings",
+          "order": 4,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "structs-enums-and-methods",
+      "title": "Structs, Enums & Methods",
+      "order": 5,
+      "topics": [
+        {
+          "id": "structs-and-tuple-structs",
+          "title": "Structs and Tuple Structs",
+          "order": 1,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "methods-and-associated-functions",
+          "title": "Methods and Associated Functions",
+          "order": 2,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "enums-and-data-carrying-variants",
+          "title": "Enums and Data-carrying Variants",
+          "order": 3,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "option",
+          "title": "`Option<T>` Instead of Null",
+          "order": 4,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "collections-and-strings",
+      "title": "Collections & Strings",
+      "order": 6,
+      "topics": [
+        {
+          "id": "vec",
+          "title": "`Vec<T>`",
+          "order": 1,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            }
+          ]
+        },
+        {
+          "id": "string-and-str",
+          "title": "`String` and `str`",
+          "order": 2,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            }
+          ]
+        },
+        {
+          "id": "hashmap-and-entry-api",
+          "title": "`HashMap` and the Entry API",
+          "order": 3,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            }
+          ]
+        },
+        {
+          "id": "iterating-borrowing-and-consuming-collections",
+          "title": "Borrowing vs Consuming Collections",
+          "order": 4,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "errors-and-results",
+      "title": "Errors & Results",
+      "order": 7,
+      "topics": [
+        {
+          "id": "result",
+          "title": "`Result<T, E>`",
+          "order": 1,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            }
+          ]
+        },
+        {
+          "id": "question-mark-operator",
+          "title": "The `?` Operator",
+          "order": 2,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "panic-and-unrecoverable-errors",
+          "title": "`panic!` and Unrecoverable Errors",
+          "order": 3,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            }
+          ]
+        },
+        {
+          "id": "custom-error-types",
+          "title": "Custom Error Types",
+          "order": 4,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "traits-generics-and-lifetimes",
+      "title": "Traits, Generics & Lifetimes",
+      "order": 8,
+      "topics": [
+        {
+          "id": "traits",
+          "title": "Traits and Implementations",
+          "order": 1,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "generic-functions-and-trait-bounds",
+          "title": "Generic Functions and Trait Bounds",
+          "order": 2,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "impl-trait-and-trait-objects",
+          "title": "`impl Trait` and Trait Objects",
+          "order": 3,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "advanced-lifetime-relationships",
+          "title": "Lifetime Parameters in Types and Traits",
+          "order": 4,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "associated-types-and-generic-associated-types",
+          "title": "Associated Types and GATs",
+          "order": 5,
+          "references": [
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            },
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "closures-and-iterators",
+      "title": "Closures & Iterators",
+      "order": 9,
+      "topics": [
+        {
+          "id": "closures-and-capture-modes",
+          "title": "Closures and Capture Modes",
+          "order": 1,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "iterator-trait-and-lazy-evaluation",
+          "title": "The `Iterator` Trait and Lazy Evaluation",
+          "order": 2,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            }
+          ]
+        },
+        {
+          "id": "intoiterator-and-iteration-ownership",
+          "title": "`IntoIterator` and Iteration Ownership",
+          "order": 3,
+          "references": [
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "collect-fold-and-short-circuiting",
+          "title": "`collect`, `fold`, and Short-circuiting Consumers",
+          "order": 4,
+          "references": [
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            },
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "smart-pointers-and-interior-mutability",
+      "title": "Smart Pointers & Interior Mutability",
+      "order": 10,
+      "topics": [
+        {
+          "id": "box",
+          "title": "`Box<T>`",
+          "order": 1,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            }
+          ]
+        },
+        {
+          "id": "rc-arc-and-weak",
+          "title": "`Rc`, `Arc`, and `Weak`",
+          "order": 2,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            }
+          ]
+        },
+        {
+          "id": "cell-and-refcell",
+          "title": "`Cell` and `RefCell`",
+          "order": 3,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            }
+          ]
+        },
+        {
+          "id": "deref-and-drop",
+          "title": "`Deref` and `Drop`",
+          "order": 4,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modules-crates-and-cargo",
+      "title": "Modules, Crates & Cargo",
+      "order": 11,
+      "topics": [
+        {
+          "id": "modules-use-and-visibility",
+          "title": "Modules, `use`, and Visibility",
+          "order": 1,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "dependencies-features-and-cargo-toml",
+          "title": "Dependencies, Features, and `Cargo.toml`",
+          "order": 2,
+          "references": [
+            {
+              "label": "Cargo Reference",
+              "url": "https://doc.rust-lang.org/cargo/reference/"
+            },
+            {
+              "label": "The Cargo Book",
+              "url": "https://doc.rust-lang.org/cargo/"
+            }
+          ]
+        },
+        {
+          "id": "workspaces",
+          "title": "Cargo Workspaces",
+          "order": 3,
+          "references": [
+            {
+              "label": "The Cargo Book",
+              "url": "https://doc.rust-lang.org/cargo/"
+            },
+            {
+              "label": "Cargo Reference",
+              "url": "https://doc.rust-lang.org/cargo/reference/"
+            }
+          ]
+        },
+        {
+          "id": "documentation-tests-and-doctests",
+          "title": "Documentation and Doctests",
+          "order": 4,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Cargo Book",
+              "url": "https://doc.rust-lang.org/cargo/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concurrency-and-async",
+      "title": "Concurrency & Async",
+      "order": 12,
+      "topics": [
+        {
+          "id": "threads-and-move-closures",
+          "title": "Threads and `move` Closures",
+          "order": 1,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            }
+          ]
+        },
+        {
+          "id": "channels",
+          "title": "Channels",
+          "order": 2,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            }
+          ]
+        },
+        {
+          "id": "arc-mutex-and-send-sync",
+          "title": "`Arc`, `Mutex`, `Send`, and `Sync`",
+          "order": 3,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            }
+          ]
+        },
+        {
+          "id": "async-await-and-futures",
+          "title": "`async`, `await`, and `Future`",
+          "order": 4,
+          "references": [
+            {
+              "label": "Asynchronous Programming in Rust",
+              "url": "https://rust-lang.github.io/async-book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "pinning-and-self-referential-futures",
+          "title": "Pinning and Self-referential Futures",
+          "order": 5,
+          "references": [
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            },
+            {
+              "label": "Asynchronous Programming in Rust",
+              "url": "https://rust-lang.github.io/async-book/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unsafe-ffi-and-macros",
+      "title": "Unsafe, FFI & Macros",
+      "order": 13,
+      "topics": [
+        {
+          "id": "unsafe-rust",
+          "title": "Unsafe Rust and Safety Invariants",
+          "order": 1,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rustonomicon",
+              "url": "https://doc.rust-lang.org/nomicon/"
+            }
+          ]
+        },
+        {
+          "id": "raw-pointers-and-manual-memory",
+          "title": "Raw Pointers and Manual Memory",
+          "order": 2,
+          "references": [
+            {
+              "label": "The Rustonomicon",
+              "url": "https://doc.rust-lang.org/nomicon/"
+            },
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            }
+          ]
+        },
+        {
+          "id": "ffi-and-c-interop",
+          "title": "FFI and C Interoperability",
+          "order": 3,
+          "references": [
+            {
+              "label": "The Rustonomicon",
+              "url": "https://doc.rust-lang.org/nomicon/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "declarative-macros",
+          "title": "Declarative Macros",
+          "order": 4,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        },
+        {
+          "id": "procedural-macros",
+          "title": "Procedural Macros and Derives",
+          "order": 5,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Rust Reference",
+              "url": "https://doc.rust-lang.org/reference/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testing-tooling-and-production",
+      "title": "Testing, Tooling & Production",
+      "order": 14,
+      "topics": [
+        {
+          "id": "unit-integration-and-doc-tests",
+          "title": "Unit, Integration, and Documentation Tests",
+          "order": 1,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "The Cargo Book",
+              "url": "https://doc.rust-lang.org/cargo/"
+            }
+          ]
+        },
+        {
+          "id": "fmt-clippy-and-compiler-lints",
+          "title": "`rustfmt`, Clippy, and Compiler Lints",
+          "order": 2,
+          "references": [
+            {
+              "label": "Clippy Documentation",
+              "url": "https://doc.rust-lang.org/clippy/"
+            },
+            {
+              "label": "The Cargo Book",
+              "url": "https://doc.rust-lang.org/cargo/"
+            }
+          ]
+        },
+        {
+          "id": "benchmarking-and-profiling",
+          "title": "Benchmarking and Profiling",
+          "order": 3,
+          "references": [
+            {
+              "label": "The Cargo Book",
+              "url": "https://doc.rust-lang.org/cargo/"
+            },
+            {
+              "label": "Rust Standard Library",
+              "url": "https://doc.rust-lang.org/std/"
+            }
+          ]
+        },
+        {
+          "id": "public-api-and-semver",
+          "title": "Public APIs and SemVer",
+          "order": 4,
+          "references": [
+            {
+              "label": "Cargo Reference",
+              "url": "https://doc.rust-lang.org/cargo/reference/"
+            },
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            }
+          ]
+        },
+        {
+          "id": "editions-msrv-and-compatibility",
+          "title": "Editions, MSRV, and Compatibility",
+          "order": 5,
+          "references": [
+            {
+              "label": "The Rust Programming Language",
+              "url": "https://doc.rust-lang.org/book/"
+            },
+            {
+              "label": "Cargo Reference",
+              "url": "https://doc.rust-lang.org/cargo/reference/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

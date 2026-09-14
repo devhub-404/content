@@ -1,0 +1,39 @@
+{
+  "locale": "pt",
+  "title": "Rust",
+  "slug": "rust",
+  "description": "Uma linguagem de programação de sistemas focada em segurança de memória, desempenho previsível e concorrência sem receio.",
+  "status": "published",
+  "tags": [
+    "rust",
+    "systems-programming",
+    "ownership",
+    "programming"
+  ],
+  "branding": {
+    "color": "#DEA584",
+    "logo": "/logos/rust.svg"
+  },
+  "links": {
+    "official": "https://www.rust-lang.org/",
+    "repository": "https://github.com/rust-lang/rust"
+  },
+  "metadata": [
+    {
+      "label": "Tipo",
+      "value": "Programming language"
+    },
+    {
+      "label": "Runtime",
+      "value": "Native"
+    },
+    {
+      "label": "Foco",
+      "value": "Systems programming"
+    },
+    {
+      "label": "Licença",
+      "value": "MIT / Apache-2.0"
+    }
+  ]
+}

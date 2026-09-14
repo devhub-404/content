@@ -1,0 +1,42 @@
+{
+  "locale": "en",
+  "title": "React",
+  "slug": "react",
+  "description": "A library for building user interfaces from composable components and declarative state transitions.",
+  "status": "published",
+  "tags": [
+    "react",
+    "javascript",
+    "ui"
+  ],
+  "branding": {
+    "color": "#61DAFB",
+    "logo": "/logos/react.svg"
+  },
+  "links": {
+    "official": "https://react.dev",
+    "repository": "https://github.com/facebook/react"
+  },
+  "metadata": [
+    {
+      "label": "Maintainer",
+      "value": "Meta Open Source"
+    },
+    {
+      "label": "Language",
+      "value": "JavaScript / TypeScript"
+    },
+    {
+      "label": "License",
+      "value": "MIT"
+    },
+    {
+      "label": "Model",
+      "value": "Component-based UI"
+    },
+    {
+      "label": "Ecosystem",
+      "value": "Web and native"
+    }
+  ]
+}

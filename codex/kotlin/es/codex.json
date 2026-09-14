@@ -1,0 +1,40 @@
+{
+  "locale": "es",
+  "title": "Kotlin",
+  "slug": "kotlin",
+  "description": "Un lenguaje conciso y de tipado estático para desarrollo en JVM, Android, multiplataforma y JavaScript.",
+  "status": "published",
+  "tags": [
+    "kotlin",
+    "jvm",
+    "multiplatform",
+    "coroutines",
+    "programming"
+  ],
+  "branding": {
+    "color": "#7F52FF",
+    "logo": "/logos/kotlin.svg"
+  },
+  "links": {
+    "official": "https://kotlinlang.org/",
+    "repository": "https://github.com/JetBrains/kotlin"
+  },
+  "metadata": [
+    {
+      "label": "Tipo",
+      "value": "Programming language"
+    },
+    {
+      "label": "Runtime",
+      "value": "JVM, Native and JS"
+    },
+    {
+      "label": "Enfoque",
+      "value": "Multiplatform development"
+    },
+    {
+      "label": "Licencia",
+      "value": "Apache-2.0"
+    }
+  ]
+}

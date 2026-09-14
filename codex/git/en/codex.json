@@ -1,0 +1,26 @@
+{
+  "locale": "en",
+  "title": "Git",
+  "slug": "git",
+  "description": "A distributed version control system for tracking changes, collaborating safely, and maintaining software history.",
+  "status": "published",
+  "tags": [
+    "git",
+    "version-control",
+    "developer-tools"
+  ],
+  "branding": {
+    "color": "#F05032",
+    "logo": "/logos/git.svg"
+  },
+  "links": {
+    "official": "https://git-scm.com/",
+    "repository": "https://github.com/git/git"
+  },
+  "metadata": [
+    { "label": "Type", "value": "Version control system" },
+    { "label": "Model", "value": "Distributed" },
+    { "label": "Focus", "value": "History and collaboration" },
+    { "label": "License", "value": "GPL-2.0" }
+  ]
+}

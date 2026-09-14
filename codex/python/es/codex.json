@@ -1,0 +1,40 @@
+{
+  "locale": "es",
+  "title": "Python",
+  "slug": "python",
+  "description": "Un lenguaje de propósito general centrado en código legible, abstracciones expresivas, automatización y una amplia biblioteca estándar.",
+  "status": "published",
+  "tags": [
+    "python",
+    "python-3-14",
+    "programming",
+    "asyncio",
+    "typing"
+  ],
+  "branding": {
+    "color": "#3776AB",
+    "logo": "/logos/python.svg"
+  },
+  "links": {
+    "official": "https://www.python.org/",
+    "repository": "https://github.com/python/cpython"
+  },
+  "metadata": [
+    {
+      "label": "Tipo",
+      "value": "Programming language"
+    },
+    {
+      "label": "Runtime",
+      "value": "CPython and other runtimes"
+    },
+    {
+      "label": "Enfoque",
+      "value": "General-purpose development"
+    },
+    {
+      "label": "Licencia",
+      "value": "PSF License"
+    }
+  ]
+}

@@ -1,0 +1,890 @@
+{
+  "locale": "en",
+  "status": "published",
+  "title": "C#",
+  "slug": "csharp",
+  "description": "A prerequisite-ordered roadmap for modern C# 14 and .NET 10, covering the type system, objects, LINQ, resource lifetimes, async programming, runtime performance, reflection, standard-library APIs, testing, and production tooling.",
+  "metadata": {
+    "tags": [
+      "csharp",
+      "dotnet",
+      "programming",
+      "async",
+      "linq"
+    ]
+  },
+  "sections": [
+    {
+      "id": "language-and-projects",
+      "title": "Language & .NET Projects",
+      "order": 1,
+      "topics": [
+        {
+          "id": "what-csharp-is",
+          "title": "What C# Is",
+          "order": 1,
+          "references": [
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            },
+            {
+              "label": "Programiz: C# Programming",
+              "url": "https://www.programiz.com/csharp-programming"
+            }
+          ]
+        },
+        {
+          "id": "dotnet-sdk-and-project-files",
+          "title": ".NET SDK and Project Files",
+          "order": 2,
+          "references": [
+            {
+              "label": ".NET documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "program-entry-and-top-level-statements",
+          "title": "Program Entry and Top-level Statements",
+          "order": 3,
+          "references": [
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            },
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            }
+          ]
+        },
+        {
+          "id": "namespaces-and-using-directives",
+          "title": "Namespaces and `using` Directives",
+          "order": 4,
+          "references": [
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            },
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "values-and-types",
+      "title": "Values & Types",
+      "order": 2,
+      "topics": [
+        {
+          "id": "built-in-types-and-literals",
+          "title": "Built-in Types and Literals",
+          "order": 1,
+          "references": [
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            },
+            {
+              "label": "Programiz: C# Programming",
+              "url": "https://www.programiz.com/csharp-programming"
+            }
+          ]
+        },
+        {
+          "id": "variables-const-and-type-inference",
+          "title": "Variables, `const`, and Type Inference",
+          "order": 2,
+          "references": [
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "conversions-casts-and-parsing",
+          "title": "Conversions, Casts, and Parsing",
+          "order": 3,
+          "references": [
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "strings-interpolation-and-spans",
+          "title": "Strings, Interpolation, and Text Values",
+          "order": 4,
+          "references": [
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "nullable-value-and-reference-types",
+          "title": "Nullable Value and Reference Types",
+          "order": 5,
+          "references": [
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "control-flow-and-functions",
+      "title": "Control Flow & Functions",
+      "order": 3,
+      "topics": [
+        {
+          "id": "conditionals-switch-and-patterns",
+          "title": "Conditionals, `switch`, and Patterns",
+          "order": 1,
+          "references": [
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "loops-and-enumeration",
+          "title": "Loops and Enumeration",
+          "order": 2,
+          "references": [
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "methods-parameters-and-return-values",
+          "title": "Methods, Parameters, and Return Values",
+          "order": 3,
+          "references": [
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            },
+            {
+              "label": "Programiz: C# Programming",
+              "url": "https://www.programiz.com/csharp-programming"
+            }
+          ]
+        },
+        {
+          "id": "local-functions-and-expression-bodied-members",
+          "title": "Local Functions and Expression-bodied Members",
+          "order": 4,
+          "references": [
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "delegates-lambdas-and-events",
+          "title": "Delegates, Lambdas, and Events",
+          "order": 5,
+          "references": [
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "objects-and-abstractions",
+      "title": "Objects & Abstractions",
+      "order": 4,
+      "topics": [
+        {
+          "id": "classes-fields-and-properties",
+          "title": "Classes, Fields, and Properties",
+          "order": 1,
+          "references": [
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "constructors-init-and-required-members",
+          "title": "Constructors, `init`, and Required Members",
+          "order": 2,
+          "references": [
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "records-and-value-like-data",
+          "title": "Records and Value-like Data",
+          "order": 3,
+          "references": [
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "structs-and-value-types",
+          "title": "Structs and Value Types",
+          "order": 4,
+          "references": [
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "inheritance-virtual-and-abstract-members",
+          "title": "Inheritance, Virtual, and Abstract Members",
+          "order": 5,
+          "references": [
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "interfaces-and-default-members",
+          "title": "Interfaces and Default Members",
+          "order": 6,
+          "references": [
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "generic-types-and-constraints",
+          "title": "Generic Types and Constraints",
+          "order": 7,
+          "references": [
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "extension-methods-and-members",
+          "title": "Extension Methods and Extension Members",
+          "order": 8,
+          "references": [
+            {
+              "label": "What's new in C# 14",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14"
+            },
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "collections-and-linq",
+      "title": "Collections & LINQ",
+      "order": 5,
+      "topics": [
+        {
+          "id": "arrays-lists-and-collection-expressions",
+          "title": "Arrays, Lists, and Collection Expressions",
+          "order": 1,
+          "references": [
+            {
+              "label": "Collections in .NET",
+              "url": "https://learn.microsoft.com/en-us/dotnet/standard/collections/"
+            },
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            }
+          ]
+        },
+        {
+          "id": "dictionary-hashset-and-equality",
+          "title": "Dictionary, HashSet, and Equality",
+          "order": 2,
+          "references": [
+            {
+              "label": "Collections in .NET",
+              "url": "https://learn.microsoft.com/en-us/dotnet/standard/collections/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "ienumerable-and-yield",
+          "title": "`IEnumerable<T>` and `yield`",
+          "order": 3,
+          "references": [
+            {
+              "label": "LINQ documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/linq/"
+            },
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            }
+          ]
+        },
+        {
+          "id": "linq-querying-and-deferred-execution",
+          "title": "LINQ Querying and Deferred Execution",
+          "order": 4,
+          "references": [
+            {
+              "label": "LINQ documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/linq/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "tuples-deconstruction-and-keyvalue-shapes",
+          "title": "Tuples and Deconstruction",
+          "order": 5,
+          "references": [
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "errors-and-resource-lifetimes",
+      "title": "Errors & Resource Lifetimes",
+      "order": 6,
+      "topics": [
+        {
+          "id": "exceptions-try-catch-finally",
+          "title": "Exceptions, `try`, `catch`, and `finally`",
+          "order": 1,
+          "references": [
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            },
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            }
+          ]
+        },
+        {
+          "id": "idisposable-and-using",
+          "title": "`IDisposable` and `using`",
+          "order": 2,
+          "references": [
+            {
+              "label": ".NET documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "iasyncdisposable-and-await-using",
+          "title": "`IAsyncDisposable` and `await using`",
+          "order": 3,
+          "references": [
+            {
+              "label": "Asynchronous programming with async and await",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/"
+            },
+            {
+              "label": ".NET documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/"
+            }
+          ]
+        },
+        {
+          "id": "custom-exceptions-and-error-contracts",
+          "title": "Custom Exceptions and Error Contracts",
+          "order": 4,
+          "references": [
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            },
+            {
+              "label": ".NET documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asynchronous-and-concurrent-programming",
+      "title": "Async & Concurrency",
+      "order": 7,
+      "topics": [
+        {
+          "id": "task-async-and-await",
+          "title": "`Task`, `async`, and `await`",
+          "order": 1,
+          "references": [
+            {
+              "label": "Asynchronous programming with async and await",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "task-composition-and-parallelism",
+          "title": "Task Composition and Concurrency",
+          "order": 2,
+          "references": [
+            {
+              "label": "Asynchronous programming with async and await",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/"
+            },
+            {
+              "label": ".NET documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/"
+            }
+          ]
+        },
+        {
+          "id": "cancellation-tokens",
+          "title": "Cancellation Tokens",
+          "order": 3,
+          "references": [
+            {
+              "label": "Asynchronous programming with async and await",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/"
+            },
+            {
+              "label": ".NET documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/"
+            }
+          ]
+        },
+        {
+          "id": "async-streams",
+          "title": "Async Streams with `IAsyncEnumerable<T>`",
+          "order": 4,
+          "references": [
+            {
+              "label": "Asynchronous programming with async and await",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/"
+            },
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            }
+          ]
+        },
+        {
+          "id": "threads-locks-and-concurrent-collections",
+          "title": "Threads, Locks, and Concurrent Collections",
+          "order": 5,
+          "references": [
+            {
+              "label": ".NET documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/"
+            },
+            {
+              "label": "Collections in .NET",
+              "url": "https://learn.microsoft.com/en-us/dotnet/standard/collections/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "runtime-and-performance",
+      "title": "Runtime & Performance",
+      "order": 8,
+      "topics": [
+        {
+          "id": "garbage-collection-and-object-lifetimes",
+          "title": "Garbage Collection and Object Lifetimes",
+          "order": 1,
+          "references": [
+            {
+              "label": ".NET documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "span-memory-and-allocation-aware-code",
+          "title": "`Span<T>`, `Memory<T>`, and Allocation-aware Code",
+          "order": 2,
+          "references": [
+            {
+              "label": "What's new in C# 14",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14"
+            },
+            {
+              "label": ".NET documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/"
+            }
+          ]
+        },
+        {
+          "id": "ref-structs-stackalloc-and-byref-safety",
+          "title": "`ref struct`, `stackalloc`, and By-ref Safety",
+          "order": 3,
+          "references": [
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            },
+            {
+              "label": "What's new in C# 14",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14"
+            }
+          ]
+        },
+        {
+          "id": "unsafe-code-and-native-interop",
+          "title": "Unsafe Code and Native Interop",
+          "order": 4,
+          "references": [
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            },
+            {
+              "label": ".NET documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reflection-metadata-and-metaprogramming",
+      "title": "Reflection & Metadata",
+      "order": 9,
+      "topics": [
+        {
+          "id": "attributes",
+          "title": "Attributes",
+          "order": 1,
+          "references": [
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "reflection-and-type-metadata",
+          "title": "Reflection and Type Metadata",
+          "order": 2,
+          "references": [
+            {
+              "label": ".NET documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "expression-trees",
+          "title": "Expression Trees",
+          "order": 3,
+          "references": [
+            {
+              "label": "LINQ documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/linq/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "standard-library-and-data",
+      "title": "Standard Library & Data",
+      "order": 10,
+      "topics": [
+        {
+          "id": "file-and-stream-io",
+          "title": "File and Stream I/O",
+          "order": 1,
+          "references": [
+            {
+              "label": ".NET documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "json-serialization",
+          "title": "JSON Serialization",
+          "order": 2,
+          "references": [
+            {
+              "label": ".NET documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "httpclient-and-network-requests",
+          "title": "`HttpClient` and Network Requests",
+          "order": 3,
+          "references": [
+            {
+              "label": ".NET documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/"
+            },
+            {
+              "label": "Asynchronous programming with async and await",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/"
+            }
+          ]
+        },
+        {
+          "id": "date-time-and-time-zones",
+          "title": "Date, Time, and Time Zones",
+          "order": 4,
+          "references": [
+            {
+              "label": ".NET documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "regular-expressions",
+          "title": "Regular Expressions",
+          "order": 5,
+          "references": [
+            {
+              "label": ".NET documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "packages-testing-and-production",
+      "title": "Packages, Testing & Production",
+      "order": 11,
+      "topics": [
+        {
+          "id": "nuget-and-package-references",
+          "title": "NuGet and Package References",
+          "order": 1,
+          "references": [
+            {
+              "label": "NuGet documentation",
+              "url": "https://learn.microsoft.com/en-us/nuget/"
+            },
+            {
+              "label": ".NET documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/"
+            }
+          ]
+        },
+        {
+          "id": "unit-testing-and-testable-design",
+          "title": "Unit Testing and Testable Design",
+          "order": 2,
+          "references": [
+            {
+              "label": ".NET documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "analyzers-formatting-and-nullability",
+          "title": "Analyzers, Formatting, and Nullability Warnings",
+          "order": 3,
+          "references": [
+            {
+              "label": ".NET documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "debugging-profiling-and-diagnostics",
+          "title": "Debugging, Profiling, and Diagnostics",
+          "order": 4,
+          "references": [
+            {
+              "label": ".NET documentation",
+              "url": "https://learn.microsoft.com/en-us/dotnet/"
+            },
+            {
+              "label": "Microsoft Learn: C# Guide",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+            }
+          ]
+        },
+        {
+          "id": "language-versioning-and-compatibility",
+          "title": "Language Versioning and Compatibility",
+          "order": 5,
+          "references": [
+            {
+              "label": "What's new in C# 14",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-14"
+            },
+            {
+              "label": "C# Language Reference",
+              "url": "https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

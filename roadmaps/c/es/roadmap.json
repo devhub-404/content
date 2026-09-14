@@ -1,0 +1,784 @@
+{
+  "locale": "es",
+  "status": "published",
+  "title": "C",
+  "slug": "c",
+  "description": "Un roadmap de C moderno ordenado por prerrequisitos, usando C23 como baseline actual y cubriendo compilación, tipos, punteros, ownership de memoria, biblioteca estándar, concurrencia, portabilidad y depuración nativa.",
+  "metadata": {
+    "tags": [
+      "c",
+      "systems-programming",
+      "c23",
+      "programming"
+    ]
+  },
+  "sections": [
+    {
+      "id": "language-and-build",
+      "title": "Lenguaje y Modelo de Build",
+      "order": 1,
+      "topics": [
+        {
+          "id": "what-c-is",
+          "title": "Qué es C",
+          "order": 1,
+          "references": [
+            {
+              "label": "WG14: Programming Language C",
+              "url": "https://open-std.org/jtc1/sc22/wg14/"
+            },
+            {
+              "label": "Programiz: C Programming",
+              "url": "https://www.programiz.com/c-programming"
+            }
+          ]
+        },
+        {
+          "id": "translation-and-linking",
+          "title": "Traducción, Compilación y Enlazado",
+          "order": 2,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "main-and-program-termination",
+          "title": "`main` y Terminación del Programa",
+          "order": 3,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "headers-and-includes",
+          "title": "Headers y `#include`",
+          "order": 4,
+          "references": [
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            },
+            {
+              "label": "Programiz: C Programming",
+              "url": "https://www.programiz.com/c-programming"
+            }
+          ]
+        },
+        {
+          "id": "undefined-unspecified-and-implementation-defined",
+          "title": "Comportamiento Undefined, Unspecified e Implementation-defined",
+          "order": 5,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "values-and-types",
+      "title": "Valores y Tipos",
+      "order": 2,
+      "topics": [
+        {
+          "id": "integer-types-and-limits",
+          "title": "Tipos Enteros y Límites",
+          "order": 1,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "floating-point-and-complex",
+          "title": "Punto Flotante y Tipos Complejos",
+          "order": 2,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "boolean-character-and-string-literals",
+          "title": "Booleanos, Caracteres y String Literals",
+          "order": 3,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "conversions-and-promotions",
+          "title": "Conversiones y Promociones Enteras",
+          "order": 4,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "const-volatile-restrict",
+          "title": "`const`, `volatile` y `restrict`",
+          "order": 5,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "control-flow",
+      "title": "Flujo de Control",
+      "order": 3,
+      "topics": [
+        {
+          "id": "if-switch-and-conditional",
+          "title": "`if`, `switch` y Operador Condicional",
+          "order": 1,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "Programiz: C Programming",
+              "url": "https://www.programiz.com/c-programming"
+            }
+          ]
+        },
+        {
+          "id": "loops",
+          "title": "Loops `for`, `while` y `do`",
+          "order": 2,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "Programiz: C Programming",
+              "url": "https://www.programiz.com/c-programming"
+            }
+          ]
+        },
+        {
+          "id": "goto-and-structured-cleanup",
+          "title": "`goto` y Cleanup Estructurado",
+          "order": 3,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "functions-scope-and-storage",
+      "title": "Funciones, Scope y Storage",
+      "order": 4,
+      "topics": [
+        {
+          "id": "function-declarations-and-prototypes",
+          "title": "Declaraciones y Prototipos de Función",
+          "order": 1,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "scope-linkage-and-storage-duration",
+          "title": "Scope, Linkage y Storage Duration",
+          "order": 2,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "function-pointers-and-callbacks",
+          "title": "Punteros a Función y Callbacks",
+          "order": 3,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "inline-and-header-functions",
+          "title": "`inline` y Funciones Definidas en Headers",
+          "order": 4,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrays-strings-and-pointers",
+      "title": "Arrays, Strings y Punteros",
+      "order": 5,
+      "topics": [
+        {
+          "id": "arrays-and-bounds",
+          "title": "Arrays y Límites",
+          "order": 1,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "pointers-and-indirection",
+          "title": "Punteros e Indirección",
+          "order": 2,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "pointer-arithmetic",
+          "title": "Aritmética de Punteros y Recorrido de Arrays",
+          "order": 3,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "null-pointers-and-nullptr",
+          "title": "Punteros Nulos y `nullptr`",
+          "order": 4,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "c-strings",
+          "title": "Strings Terminadas en Nulo",
+          "order": 5,
+          "references": [
+            {
+              "label": "cppreference: C library",
+              "url": "https://en.cppreference.com/w/c/header"
+            },
+            {
+              "label": "Programiz: C Programming",
+              "url": "https://www.programiz.com/c-programming"
+            }
+          ]
+        },
+        {
+          "id": "multidimensional-arrays",
+          "title": "Arrays Multidimensionales",
+          "order": 6,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aggregate-types",
+      "title": "Structs, Unions y Enums",
+      "order": 6,
+      "topics": [
+        {
+          "id": "structs",
+          "title": "Structs",
+          "order": 1,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "enums",
+          "title": "Enumeraciones",
+          "order": 2,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "unions-and-tagged-unions",
+          "title": "Unions y Tagged Unions",
+          "order": 3,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "typedef-and-type-aliases",
+          "title": "`typedef` y Nombres de Tipo",
+          "order": 4,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "bit-fields-and-layout",
+          "title": "Bit-fields, Alignment y Layout",
+          "order": 5,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dynamic-memory-and-ownership",
+      "title": "Memoria Dinámica y Ownership",
+      "order": 7,
+      "topics": [
+        {
+          "id": "malloc-calloc-free",
+          "title": "`malloc`, `calloc` y `free`",
+          "order": 1,
+          "references": [
+            {
+              "label": "cppreference: C library",
+              "url": "https://en.cppreference.com/w/c/header"
+            },
+            {
+              "label": "Programiz: C Programming",
+              "url": "https://www.programiz.com/c-programming"
+            }
+          ]
+        },
+        {
+          "id": "realloc-and-growing-buffers",
+          "title": "`realloc` y Buffers Crecientes",
+          "order": 2,
+          "references": [
+            {
+              "label": "cppreference: C library",
+              "url": "https://en.cppreference.com/w/c/header"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "ownership-conventions",
+          "title": "Convenciones de Ownership en APIs C",
+          "order": 3,
+          "references": [
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            },
+            {
+              "label": "Programiz: C Programming",
+              "url": "https://www.programiz.com/c-programming"
+            }
+          ]
+        },
+        {
+          "id": "object-lifetime-and-dangling-pointers",
+          "title": "Lifetime de Objetos y Dangling Pointers",
+          "order": 4,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "preprocessor-and-modern-c",
+      "title": "Preprocesador y C Moderno",
+      "order": 8,
+      "topics": [
+        {
+          "id": "macros-and-conditional-compilation",
+          "title": "Macros y Compilación Condicional",
+          "order": 1,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "generic-selection",
+          "title": "Selección Genérica con `_Generic`",
+          "order": 2,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "static-assertions-and-attributes",
+          "title": "Static Assertions y Attributes",
+          "order": 3,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "typeof-auto-and-c23-inference",
+          "title": "`typeof`, `auto` e Inferencia de Tipo en C23",
+          "order": 4,
+          "references": [
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "standard-library-and-io",
+      "title": "Biblioteca Estándar e I/O",
+      "order": 9,
+      "topics": [
+        {
+          "id": "formatted-io",
+          "title": "I/O Formateado",
+          "order": 1,
+          "references": [
+            {
+              "label": "cppreference: C library",
+              "url": "https://en.cppreference.com/w/c/header"
+            },
+            {
+              "label": "Programiz: C Programming",
+              "url": "https://www.programiz.com/c-programming"
+            }
+          ]
+        },
+        {
+          "id": "files-and-streams",
+          "title": "Archivos y Streams",
+          "order": 2,
+          "references": [
+            {
+              "label": "cppreference: C library",
+              "url": "https://en.cppreference.com/w/c/header"
+            },
+            {
+              "label": "Programiz: C Programming",
+              "url": "https://www.programiz.com/c-programming"
+            }
+          ]
+        },
+        {
+          "id": "errors-errno-and-diagnostics",
+          "title": "`errno`, Errores y Diagnósticos",
+          "order": 3,
+          "references": [
+            {
+              "label": "cppreference: C library",
+              "url": "https://en.cppreference.com/w/c/header"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "stdlib-algorithms-and-conversion",
+          "title": "Algoritmos y Conversión de la Biblioteca",
+          "order": 4,
+          "references": [
+            {
+              "label": "cppreference: C library",
+              "url": "https://en.cppreference.com/w/c/header"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concurrency-and-atomics",
+      "title": "Concurrencia y Atómicos",
+      "order": 10,
+      "topics": [
+        {
+          "id": "threads-and-mutexes",
+          "title": "Threads y Mutexes",
+          "order": 1,
+          "references": [
+            {
+              "label": "cppreference: C library",
+              "url": "https://en.cppreference.com/w/c/header"
+            },
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            }
+          ]
+        },
+        {
+          "id": "atomic-types-and-memory-order",
+          "title": "Tipos Atómicos y Memory Ordering",
+          "order": 2,
+          "references": [
+            {
+              "label": "cppreference: C library",
+              "url": "https://en.cppreference.com/w/c/header"
+            },
+            {
+              "label": "ISO/IEC 9899:2023 Working Draft N3096",
+              "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n3096.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tooling-portability-and-quality",
+      "title": "Tooling, Portabilidad y Calidad",
+      "order": 11,
+      "topics": [
+        {
+          "id": "compiler-warnings-and-sanitizers",
+          "title": "Warnings del Compilador y Sanitizers",
+          "order": 1,
+          "references": [
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            },
+            {
+              "label": "Programiz: C Programming",
+              "url": "https://www.programiz.com/c-programming"
+            }
+          ]
+        },
+        {
+          "id": "debugging-and-core-dumps",
+          "title": "Depuración de Programas C Nativos",
+          "order": 2,
+          "references": [
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            },
+            {
+              "label": "Programiz: C Programming",
+              "url": "https://www.programiz.com/c-programming"
+            }
+          ]
+        },
+        {
+          "id": "portability-and-feature-detection",
+          "title": "Portabilidad y Feature Detection",
+          "order": 3,
+          "references": [
+            {
+              "label": "WG14: Programming Language C",
+              "url": "https://open-std.org/jtc1/sc22/wg14/"
+            },
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            }
+          ]
+        },
+        {
+          "id": "api-design-in-c",
+          "title": "Diseñando APIs C Mantenibles",
+          "order": 4,
+          "references": [
+            {
+              "label": "cppreference: C language",
+              "url": "https://en.cppreference.com/w/c/language"
+            },
+            {
+              "label": "Programiz: C Programming",
+              "url": "https://www.programiz.com/c-programming"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

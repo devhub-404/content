@@ -1,0 +1,600 @@
+{
+  "locale": "es",
+  "status": "published",
+  "title": "SolidJS",
+  "slug": "solidjs",
+  "description": "Un roadmap de SolidJS ordenado por prerrequisitos, centrado en fine-grained reactivity, signals, computations, components, stores, ownership, async resources, routing, SolidStart, SSR, testing y el contexto de migración de Solid 2.0.",
+  "metadata": {
+    "tags": [
+      "solidjs",
+      "javascript",
+      "frontend",
+      "reactivity"
+    ]
+  },
+  "sections": [
+    {
+      "id": "reactivity-model",
+      "title": "Modelo de Reactividad",
+      "order": 1,
+      "topics": [
+        {
+          "id": "what-solid-is",
+          "title": "Qué es SolidJS",
+          "order": 1,
+          "references": [
+            {
+              "label": "SolidJS Documentation",
+              "url": "https://docs.solidjs.com"
+            },
+            {
+              "label": "Solid releases",
+              "url": "https://github.com/solidjs/solid/releases"
+            }
+          ]
+        },
+        {
+          "id": "compiler-and-dom-updates",
+          "title": "Compiler y Updates Granulares del DOM",
+          "order": 2,
+          "references": [
+            {
+              "label": "SolidJS: Fine-grained reactivity",
+              "url": "https://docs.solidjs.com/concepts/intro-to-reactivity"
+            },
+            {
+              "label": "SolidJS: JSX",
+              "url": "https://docs.solidjs.com/concepts/jsx"
+            }
+          ]
+        },
+        {
+          "id": "signals",
+          "title": "Signals",
+          "order": 3,
+          "references": [
+            {
+              "label": "SolidJS: Signals",
+              "url": "https://docs.solidjs.com/concepts/signals"
+            }
+          ]
+        },
+        {
+          "id": "tracking-scopes",
+          "title": "Tracking Scopes y Dependency Graphs",
+          "order": 4,
+          "references": [
+            {
+              "label": "SolidJS: Effects",
+              "url": "https://docs.solidjs.com/concepts/effects"
+            },
+            {
+              "label": "SolidJS: Memos",
+              "url": "https://docs.solidjs.com/concepts/derived-values/memos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "computations-and-derived-state",
+      "title": "Computations y State Derivado",
+      "order": 2,
+      "topics": [
+        {
+          "id": "memos",
+          "title": "Valores Derivados con `createMemo`",
+          "order": 1,
+          "references": [
+            {
+              "label": "SolidJS: Memos",
+              "url": "https://docs.solidjs.com/concepts/derived-values/memos"
+            },
+            {
+              "label": "SolidJS: createMemo",
+              "url": "https://docs.solidjs.com/reference/basic-reactivity/create-memo"
+            }
+          ]
+        },
+        {
+          "id": "effects",
+          "title": "Effects",
+          "order": 2,
+          "references": [
+            {
+              "label": "SolidJS: Effects",
+              "url": "https://docs.solidjs.com/concepts/effects"
+            },
+            {
+              "label": "SolidJS: createEffect",
+              "url": "https://docs.solidjs.com/reference/basic-reactivity/create-effect"
+            }
+          ]
+        },
+        {
+          "id": "batching",
+          "title": "Batching de Updates",
+          "order": 3,
+          "references": [
+            {
+              "label": "SolidJS: batch",
+              "url": "https://docs.solidjs.com/reference/reactive-utilities/batch"
+            }
+          ]
+        },
+        {
+          "id": "untrack-and-explicit-dependencies",
+          "title": "`untrack`, `on` y Control Explícito de Dependencies",
+          "order": 4,
+          "references": [
+            {
+              "label": "SolidJS: untrack",
+              "url": "https://docs.solidjs.com/reference/reactive-utilities/untrack"
+            },
+            {
+              "label": "SolidJS: on",
+              "url": "https://docs.solidjs.com/reference/reactive-utilities/on-util"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "components-props-and-control-flow",
+      "title": "Components, Props y Control Flow",
+      "order": 3,
+      "topics": [
+        {
+          "id": "components-and-jsx",
+          "title": "Components y JSX",
+          "order": 1,
+          "references": [
+            {
+              "label": "SolidJS: Components",
+              "url": "https://docs.solidjs.com/concepts/components/basics"
+            },
+            {
+              "label": "SolidJS: JSX",
+              "url": "https://docs.solidjs.com/concepts/jsx"
+            }
+          ]
+        },
+        {
+          "id": "props-and-reactivity",
+          "title": "Props y Acceso Reactivo",
+          "order": 2,
+          "references": [
+            {
+              "label": "SolidJS: Props",
+              "url": "https://docs.solidjs.com/concepts/components/props"
+            }
+          ]
+        },
+        {
+          "id": "children",
+          "title": "Children y Helper `children`",
+          "order": 3,
+          "references": [
+            {
+              "label": "SolidJS: children",
+              "url": "https://docs.solidjs.com/reference/component-apis/children"
+            }
+          ]
+        },
+        {
+          "id": "show-switch-and-match",
+          "title": "UI Condicional con `Show`, `Switch` y `Match`",
+          "order": 4,
+          "references": [
+            {
+              "label": "SolidJS: Conditional rendering",
+              "url": "https://docs.solidjs.com/concepts/control-flow/conditional-rendering"
+            }
+          ]
+        },
+        {
+          "id": "for-and-index",
+          "title": "List Rendering con `For` e `Index`",
+          "order": 5,
+          "references": [
+            {
+              "label": "SolidJS: List rendering",
+              "url": "https://docs.solidjs.com/concepts/control-flow/list-rendering"
+            }
+          ]
+        },
+        {
+          "id": "dynamic-components-and-portals",
+          "title": "Dynamic Components y Portals",
+          "order": 6,
+          "references": [
+            {
+              "label": "SolidJS: Dynamic",
+              "url": "https://docs.solidjs.com/reference/components/dynamic"
+            },
+            {
+              "label": "SolidJS: Portal",
+              "url": "https://docs.solidjs.com/reference/components/portal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stores-and-context",
+      "title": "Stores y Context",
+      "order": 4,
+      "topics": [
+        {
+          "id": "stores",
+          "title": "State Anidado con `createStore`",
+          "order": 1,
+          "references": [
+            {
+              "label": "SolidJS: Stores",
+              "url": "https://docs.solidjs.com/concepts/stores"
+            },
+            {
+              "label": "SolidJS: createStore",
+              "url": "https://docs.solidjs.com/reference/store-utilities/create-store"
+            }
+          ]
+        },
+        {
+          "id": "store-updates-and-reconcile",
+          "title": "Store Updates, `produce` y `reconcile`",
+          "order": 2,
+          "references": [
+            {
+              "label": "SolidJS: Store utilities",
+              "url": "https://docs.solidjs.com/reference/store-utilities"
+            }
+          ]
+        },
+        {
+          "id": "context",
+          "title": "Context",
+          "order": 3,
+          "references": [
+            {
+              "label": "SolidJS: Context",
+              "url": "https://docs.solidjs.com/concepts/context"
+            }
+          ]
+        },
+        {
+          "id": "create-mutable",
+          "title": "`createMutable` y State Mutation-style",
+          "order": 4,
+          "references": [
+            {
+              "label": "SolidJS: createMutable",
+              "url": "https://docs.solidjs.com/reference/store-utilities/create-mutable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lifecycle-ownership-and-dom",
+      "title": "Lifecycle, Ownership y DOM",
+      "order": 5,
+      "topics": [
+        {
+          "id": "on-mount-and-cleanup",
+          "title": "`onMount` y `onCleanup`",
+          "order": 1,
+          "references": [
+            {
+              "label": "SolidJS: Lifecycle",
+              "url": "https://docs.solidjs.com/concepts/lifecycle"
+            },
+            {
+              "label": "SolidJS: onCleanup",
+              "url": "https://docs.solidjs.com/reference/lifecycle/on-cleanup"
+            }
+          ]
+        },
+        {
+          "id": "reactive-owners-and-create-root",
+          "title": "Reactive Owners y `createRoot`",
+          "order": 2,
+          "references": [
+            {
+              "label": "SolidJS: createRoot",
+              "url": "https://docs.solidjs.com/reference/reactive-utilities/create-root"
+            },
+            {
+              "label": "SolidJS: getOwner",
+              "url": "https://docs.solidjs.com/reference/reactive-utilities/get-owner"
+            }
+          ]
+        },
+        {
+          "id": "refs",
+          "title": "DOM Refs",
+          "order": 3,
+          "references": [
+            {
+              "label": "SolidJS: Refs",
+              "url": "https://docs.solidjs.com/concepts/refs"
+            }
+          ]
+        },
+        {
+          "id": "events-and-delegation",
+          "title": "Events y Event Delegation",
+          "order": 4,
+          "references": [
+            {
+              "label": "SolidJS: Event handlers",
+              "url": "https://docs.solidjs.com/concepts/components/event-handlers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "async-and-boundaries",
+      "title": "Datos Async y Boundaries",
+      "order": 6,
+      "topics": [
+        {
+          "id": "resources",
+          "title": "Datos Async con `createResource`",
+          "order": 1,
+          "references": [
+            {
+              "label": "SolidJS: createResource",
+              "url": "https://docs.solidjs.com/reference/data-apis/create-resource"
+            }
+          ]
+        },
+        {
+          "id": "suspense",
+          "title": "Suspense",
+          "order": 2,
+          "references": [
+            {
+              "label": "SolidJS: Suspense",
+              "url": "https://docs.solidjs.com/reference/components/suspense"
+            }
+          ]
+        },
+        {
+          "id": "error-boundary",
+          "title": "Error Boundaries",
+          "order": 3,
+          "references": [
+            {
+              "label": "SolidJS: ErrorBoundary",
+              "url": "https://docs.solidjs.com/reference/components/error-boundary"
+            }
+          ]
+        },
+        {
+          "id": "transitions-and-deferred",
+          "title": "Transitions y Deferred Values",
+          "order": 4,
+          "references": [
+            {
+              "label": "SolidJS: useTransition",
+              "url": "https://docs.solidjs.com/reference/secondary-primitives/use-transition"
+            },
+            {
+              "label": "SolidJS: createDeferred",
+              "url": "https://docs.solidjs.com/reference/secondary-primitives/create-deferred"
+            }
+          ]
+        },
+        {
+          "id": "lazy",
+          "title": "Lazy Components",
+          "order": 5,
+          "references": [
+            {
+              "label": "SolidJS: lazy",
+              "url": "https://docs.solidjs.com/reference/component-apis/lazy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reusable-primitives",
+      "title": "Primitives Reactivas Reutilizables",
+      "order": 7,
+      "topics": [
+        {
+          "id": "custom-primitives",
+          "title": "Primitives Reactivas Personalizadas",
+          "order": 1,
+          "references": [
+            {
+              "label": "SolidJS: Reactivity",
+              "url": "https://docs.solidjs.com/concepts/intro-to-reactivity"
+            }
+          ]
+        },
+        {
+          "id": "merge-and-split-props",
+          "title": "`mergeProps` y `splitProps`",
+          "order": 2,
+          "references": [
+            {
+              "label": "SolidJS: mergeProps",
+              "url": "https://docs.solidjs.com/reference/reactive-utilities/merge-props"
+            },
+            {
+              "label": "SolidJS: splitProps",
+              "url": "https://docs.solidjs.com/reference/reactive-utilities/split-props"
+            }
+          ]
+        },
+        {
+          "id": "observable-interoperability",
+          "title": "Interop con Observables",
+          "order": 3,
+          "references": [
+            {
+              "label": "SolidJS: from",
+              "url": "https://docs.solidjs.com/reference/reactive-utilities/from"
+            }
+          ]
+        },
+        {
+          "id": "reactive-state-outside-components",
+          "title": "Reactive State Fuera de Components",
+          "order": 4,
+          "references": [
+            {
+              "label": "SolidJS: createRoot",
+              "url": "https://docs.solidjs.com/reference/reactive-utilities/create-root"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "routing-and-solidstart",
+      "title": "Routing y SolidStart",
+      "order": 8,
+      "topics": [
+        {
+          "id": "solid-router-basics",
+          "title": "Fundamentos de Solid Router",
+          "order": 1,
+          "references": [
+            {
+              "label": "Solid Router: Concepts",
+              "url": "https://docs.solidjs.com/solid-router/concepts"
+            },
+            {
+              "label": "Solid Router: Components",
+              "url": "https://docs.solidjs.com/solid-router/reference/components"
+            }
+          ]
+        },
+        {
+          "id": "solidstart-routing",
+          "title": "File-based Routing en SolidStart",
+          "order": 2,
+          "references": [
+            {
+              "label": "SolidStart v2: Routing",
+              "url": "https://docs.solidjs.com/solid-start/v2/building-your-application/routing"
+            }
+          ]
+        },
+        {
+          "id": "solidstart-data-loading",
+          "title": "Queries y Data Loading en SolidStart",
+          "order": 3,
+          "references": [
+            {
+              "label": "SolidStart v2: Data fetching",
+              "url": "https://docs.solidjs.com/solid-start/v2/building-your-application/data-fetching"
+            }
+          ]
+        },
+        {
+          "id": "solidstart-server-functions-and-actions",
+          "title": "Server Functions y Actions",
+          "order": 4,
+          "references": [
+            {
+              "label": "SolidStart v2: Data fetching",
+              "url": "https://docs.solidjs.com/solid-start/v2/building-your-application/data-fetching"
+            },
+            {
+              "label": "SolidStart v1: Data mutation",
+              "url": "https://docs.solidjs.com/solid-start/v1/building-your-application/data-mutation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ssr-testing-and-production",
+      "title": "SSR, Testing y Producción",
+      "order": 9,
+      "topics": [
+        {
+          "id": "ssr-and-hydration",
+          "title": "SSR y Hydration",
+          "order": 1,
+          "references": [
+            {
+              "label": "SolidJS: Server rendering",
+              "url": "https://docs.solidjs.com/guides/server-side-rendering"
+            },
+            {
+              "label": "SolidJS: renderToString",
+              "url": "https://docs.solidjs.com/reference/rendering/render-to-string"
+            }
+          ]
+        },
+        {
+          "id": "testing",
+          "title": "Probando Solid Components",
+          "order": 2,
+          "references": [
+            {
+              "label": "SolidJS: Testing",
+              "url": "https://docs.solidjs.com/guides/testing"
+            },
+            {
+              "label": "Solid Testing Library",
+              "url": "https://testing-library.com/docs/solid-testing-library/intro/"
+            }
+          ]
+        },
+        {
+          "id": "devtools-and-debugging",
+          "title": "DevTools y Debugging Reactivo",
+          "order": 3,
+          "references": [
+            {
+              "label": "SolidJS Devtools",
+              "url": "https://github.com/thetarnav/solid-devtools"
+            },
+            {
+              "label": "SolidJS Documentation",
+              "url": "https://docs.solidjs.com"
+            }
+          ]
+        },
+        {
+          "id": "accessibility",
+          "title": "Accesibilidad y Semántica Nativa del DOM",
+          "order": 4,
+          "references": [
+            {
+              "label": "MDN: Accessibility",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility"
+            },
+            {
+              "label": "SolidJS: JSX",
+              "url": "https://docs.solidjs.com/concepts/jsx"
+            }
+          ]
+        },
+        {
+          "id": "solid-2-migration-context",
+          "title": "Solid 2.0 RC y Contexto de Migración",
+          "order": 5,
+          "references": [
+            {
+              "label": "Solid 2.0 RC discussion",
+              "url": "https://github.com/solidjs/solid/discussions/2995"
+            },
+            {
+              "label": "Solid releases",
+              "url": "https://github.com/solidjs/solid/releases"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

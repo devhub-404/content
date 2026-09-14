@@ -1,0 +1,964 @@
+{
+  "locale": "en",
+  "status": "published",
+  "title": "TypeScript",
+  "slug": "typescript",
+  "description": "A prerequisite-ordered TypeScript roadmap for developers who already know JavaScript, covering inference, narrowing, type modeling, generics, classes, modules, declarations, current compiler configuration, JavaScript interoperability, and library publishing.",
+  "metadata": {
+    "tags": [
+      "typescript",
+      "javascript",
+      "static-types",
+      "programming"
+    ]
+  },
+  "sections": [
+    {
+      "id": "typescript-foundations",
+      "title": "TypeScript Foundations",
+      "order": 1,
+      "topics": [
+        {
+          "id": "what-typescript-adds",
+          "title": "What TypeScript Adds to JavaScript",
+          "order": 1,
+          "references": [
+            {
+              "label": "TypeScript Handbook: The Basics",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/basic-types.html"
+            },
+            {
+              "label": "TypeScript Handbook: Everyday Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+            }
+          ]
+        },
+        {
+          "id": "inference-and-annotations",
+          "title": "Inference and Type Annotations",
+          "order": 2,
+          "references": [
+            {
+              "label": "TypeScript Handbook: The Basics",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/basic-types.html"
+            },
+            {
+              "label": "TypeScript Handbook: Everyday Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+            }
+          ]
+        },
+        {
+          "id": "type-erasure-and-runtime-values",
+          "title": "Type Erasure and Runtime Values",
+          "order": 3,
+          "references": [
+            {
+              "label": "TypeScript Handbook: The Basics",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/basic-types.html"
+            },
+            {
+              "label": "TypeScript Handbook: Everyday Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+            }
+          ]
+        },
+        {
+          "id": "compiler-and-no-emit",
+          "title": "Type Checking, Emission, and `noEmit`",
+          "order": 4,
+          "references": [
+            {
+              "label": "TypeScript: What is a tsconfig.json",
+              "url": "https://www.typescriptlang.org/docs/handbook/tsconfig-json.html"
+            },
+            {
+              "label": "TSConfig Reference",
+              "url": "https://www.typescriptlang.org/tsconfig/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "everyday-types",
+      "title": "Everyday Types",
+      "order": 2,
+      "topics": [
+        {
+          "id": "primitive-and-array-types",
+          "title": "Primitive and Array Types",
+          "order": 1,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Everyday Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+            },
+            {
+              "label": "W3Schools: TypeScript Tutorial",
+              "url": "https://www.w3schools.com/typescript/"
+            }
+          ]
+        },
+        {
+          "id": "any-unknown-never",
+          "title": "`any`, `unknown`, and `never`",
+          "order": 2,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Everyday Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+            },
+            {
+              "label": "TypeScript Handbook: Narrowing",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html"
+            }
+          ]
+        },
+        {
+          "id": "literal-types-and-unions",
+          "title": "Literal Types and Unions",
+          "order": 3,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Everyday Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+            },
+            {
+              "label": "TypeScript Handbook: Narrowing",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html"
+            }
+          ]
+        },
+        {
+          "id": "type-aliases-and-interfaces",
+          "title": "Type Aliases and Interfaces",
+          "order": 4,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Everyday Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+            },
+            {
+              "label": "TypeScript Handbook: Object Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html"
+            }
+          ]
+        },
+        {
+          "id": "optional-readonly-and-index-signatures",
+          "title": "Optional, Readonly, and Index Signatures",
+          "order": 5,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Object Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html"
+            },
+            {
+              "label": "TypeScript Handbook: Everyday Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+            }
+          ]
+        },
+        {
+          "id": "tuples-and-readonly-tuples",
+          "title": "Tuples and Readonly Tuples",
+          "order": 6,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Object Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html"
+            },
+            {
+              "label": "TypeScript Handbook: Everyday Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+            }
+          ]
+        },
+        {
+          "id": "null-and-undefined",
+          "title": "Null, Undefined, and Strict Null Checking",
+          "order": 7,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Everyday Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+            },
+            {
+              "label": "TSConfig Reference",
+              "url": "https://www.typescriptlang.org/tsconfig/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "narrowing",
+      "title": "Narrowing & Control Flow",
+      "order": 3,
+      "topics": [
+        {
+          "id": "typeof-and-truthiness-narrowing",
+          "title": "`typeof` and Truthiness Narrowing",
+          "order": 1,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Narrowing",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html"
+            },
+            {
+              "label": "TypeScript Handbook: Everyday Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+            }
+          ]
+        },
+        {
+          "id": "instanceof-in-and-equality",
+          "title": "`instanceof`, `in`, and Equality Narrowing",
+          "order": 2,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Narrowing",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html"
+            },
+            {
+              "label": "TypeScript Handbook: Classes",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html"
+            }
+          ]
+        },
+        {
+          "id": "discriminated-unions",
+          "title": "Discriminated Unions",
+          "order": 3,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Narrowing",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html"
+            },
+            {
+              "label": "TypeScript Handbook: Everyday Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+            }
+          ]
+        },
+        {
+          "id": "type-predicates-and-assertion-functions",
+          "title": "Type Predicates and Assertion Functions",
+          "order": 4,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Narrowing",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html"
+            },
+            {
+              "label": "TypeScript Handbook: More on Functions",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/functions.html"
+            }
+          ]
+        },
+        {
+          "id": "exhaustiveness-with-never",
+          "title": "Exhaustiveness with `never`",
+          "order": 5,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Narrowing",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html"
+            },
+            {
+              "label": "TypeScript Handbook: Everyday Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "functions",
+      "title": "Function Types",
+      "order": 4,
+      "topics": [
+        {
+          "id": "function-type-expressions",
+          "title": "Function Type Expressions and Call Signatures",
+          "order": 1,
+          "references": [
+            {
+              "label": "TypeScript Handbook: More on Functions",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/functions.html"
+            },
+            {
+              "label": "TypeScript Handbook: Everyday Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+            }
+          ]
+        },
+        {
+          "id": "optional-rest-and-destructured-parameters",
+          "title": "Optional, Rest, and Destructured Parameters",
+          "order": 2,
+          "references": [
+            {
+              "label": "TypeScript Handbook: More on Functions",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/functions.html"
+            },
+            {
+              "label": "TypeScript Handbook: Object Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html"
+            }
+          ]
+        },
+        {
+          "id": "function-overloads",
+          "title": "Function Overloads",
+          "order": 3,
+          "references": [
+            {
+              "label": "TypeScript Handbook: More on Functions",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/functions.html"
+            },
+            {
+              "label": "TypeScript Handbook: Generics",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html"
+            }
+          ]
+        },
+        {
+          "id": "this-parameters",
+          "title": "Typing `this` Parameters",
+          "order": 4,
+          "references": [
+            {
+              "label": "TypeScript Handbook: More on Functions",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/functions.html"
+            },
+            {
+              "label": "TypeScript Handbook: Classes",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html"
+            }
+          ]
+        },
+        {
+          "id": "generic-functions",
+          "title": "Generic Functions",
+          "order": 5,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Generics",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html"
+            },
+            {
+              "label": "TypeScript Handbook: More on Functions",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/functions.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "object-modeling",
+      "title": "Object Modeling",
+      "order": 5,
+      "topics": [
+        {
+          "id": "structural-typing",
+          "title": "Structural Typing",
+          "order": 1,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Object Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html"
+            },
+            {
+              "label": "TypeScript Handbook: Everyday Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+            }
+          ]
+        },
+        {
+          "id": "excess-property-checks",
+          "title": "Excess Property Checks",
+          "order": 2,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Object Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html"
+            },
+            {
+              "label": "TypeScript Handbook: Everyday Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+            }
+          ]
+        },
+        {
+          "id": "intersections",
+          "title": "Intersection Types",
+          "order": 3,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Object Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html"
+            },
+            {
+              "label": "TypeScript Handbook: Everyday Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+            }
+          ]
+        },
+        {
+          "id": "extends-and-interface-composition",
+          "title": "Interface Extension and Object Composition",
+          "order": 4,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Object Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html"
+            },
+            {
+              "label": "TypeScript Handbook: Classes",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html"
+            }
+          ]
+        },
+        {
+          "id": "as-const-and-satisfies",
+          "title": "`as const` and `satisfies`",
+          "order": 5,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Everyday Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+            },
+            {
+              "label": "TypeScript 5.0 Release Notes",
+              "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-0.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generics-and-type-operators",
+      "title": "Generics & Type Operators",
+      "order": 6,
+      "topics": [
+        {
+          "id": "generic-constraints",
+          "title": "Generic Constraints",
+          "order": 1,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Generics",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html"
+            },
+            {
+              "label": "TypeScript Handbook: Keyof Type Operator",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/keyof-types.html"
+            }
+          ]
+        },
+        {
+          "id": "keyof-and-indexed-access",
+          "title": "`keyof` and Indexed Access Types",
+          "order": 2,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Keyof Type Operator",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/keyof-types.html"
+            },
+            {
+              "label": "TypeScript Handbook: Indexed Access Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html"
+            }
+          ]
+        },
+        {
+          "id": "typeof-in-type-positions",
+          "title": "`typeof` in Type Positions",
+          "order": 3,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Typeof Type Operator",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/typeof-types.html"
+            },
+            {
+              "label": "TypeScript Handbook: Everyday Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+            }
+          ]
+        },
+        {
+          "id": "conditional-types-and-infer",
+          "title": "Conditional Types and `infer`",
+          "order": 4,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Conditional Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/conditional-types.html"
+            },
+            {
+              "label": "TypeScript Handbook: Generics",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html"
+            }
+          ]
+        },
+        {
+          "id": "mapped-types",
+          "title": "Mapped Types",
+          "order": 5,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Mapped Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/mapped-types.html"
+            },
+            {
+              "label": "TypeScript Handbook: Keyof Type Operator",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/keyof-types.html"
+            }
+          ]
+        },
+        {
+          "id": "template-literal-types",
+          "title": "Template Literal Types",
+          "order": 6,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Template Literal Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html"
+            },
+            {
+              "label": "TypeScript Handbook: Mapped Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/mapped-types.html"
+            }
+          ]
+        },
+        {
+          "id": "utility-types",
+          "title": "Standard Utility Types",
+          "order": 7,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Mapped Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/mapped-types.html"
+            },
+            {
+              "label": "TypeScript Handbook: Conditional Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/conditional-types.html"
+            }
+          ]
+        },
+        {
+          "id": "const-type-parameters",
+          "title": "Const Type Parameters",
+          "order": 8,
+          "references": [
+            {
+              "label": "TypeScript 5.0 Release Notes",
+              "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-0.html"
+            },
+            {
+              "label": "TypeScript Handbook: Generics",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classes",
+      "title": "Classes in TypeScript",
+      "order": 7,
+      "topics": [
+        {
+          "id": "class-fields-and-constructor-types",
+          "title": "Class Fields and Constructor Types",
+          "order": 1,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Classes",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html"
+            },
+            {
+              "label": "TypeScript Handbook: Everyday Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+            }
+          ]
+        },
+        {
+          "id": "public-protected-private",
+          "title": "`public`, `protected`, and `private`",
+          "order": 2,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Classes",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html"
+            },
+            {
+              "label": "TypeScript Handbook: Everyday Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+            }
+          ]
+        },
+        {
+          "id": "implements-and-abstract-classes",
+          "title": "`implements` and Abstract Classes",
+          "order": 3,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Classes",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html"
+            },
+            {
+              "label": "TypeScript Handbook: Object Types",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/objects.html"
+            }
+          ]
+        },
+        {
+          "id": "generic-classes",
+          "title": "Generic Classes",
+          "order": 4,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Classes",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html"
+            },
+            {
+              "label": "TypeScript Handbook: Generics",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html"
+            }
+          ]
+        },
+        {
+          "id": "parameter-properties-and-override",
+          "title": "Parameter Properties and `override`",
+          "order": 5,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Classes",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html"
+            },
+            {
+              "label": "TSConfig Reference",
+              "url": "https://www.typescriptlang.org/tsconfig/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modules-and-packages",
+      "title": "Modules & Packages",
+      "order": 8,
+      "topics": [
+        {
+          "id": "type-only-imports-and-exports",
+          "title": "Type-only Imports and Exports",
+          "order": 1,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Modules",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/modules.html"
+            },
+            {
+              "label": "TypeScript: Modules Reference",
+              "url": "https://www.typescriptlang.org/docs/handbook/modules/reference.html"
+            }
+          ]
+        },
+        {
+          "id": "module-resolution",
+          "title": "Module Resolution",
+          "order": 2,
+          "references": [
+            {
+              "label": "TypeScript: Modules Reference",
+              "url": "https://www.typescriptlang.org/docs/handbook/modules/reference.html"
+            },
+            {
+              "label": "TSConfig Reference",
+              "url": "https://www.typescriptlang.org/tsconfig/"
+            }
+          ]
+        },
+        {
+          "id": "declaration-files",
+          "title": "Declaration Files (`.d.ts`)",
+          "order": 3,
+          "references": [
+            {
+              "label": "TypeScript: Declaration Files",
+              "url": "https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html"
+            },
+            {
+              "label": "TypeScript: Modules .d.ts",
+              "url": "https://www.typescriptlang.org/docs/handbook/declaration-files/templates/module-d-ts.html"
+            }
+          ]
+        },
+        {
+          "id": "ambient-declarations-and-augmentation",
+          "title": "Ambient Declarations and Module Augmentation",
+          "order": 4,
+          "references": [
+            {
+              "label": "TypeScript: Declaration Files",
+              "url": "https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html"
+            },
+            {
+              "label": "TypeScript Handbook: Declaration Merging",
+              "url": "https://www.typescriptlang.org/docs/handbook/declaration-merging.html"
+            }
+          ]
+        },
+        {
+          "id": "declaration-merging-and-namespaces",
+          "title": "Declaration Merging and Namespaces",
+          "order": 5,
+          "references": [
+            {
+              "label": "TypeScript Handbook: Declaration Merging",
+              "url": "https://www.typescriptlang.org/docs/handbook/declaration-merging.html"
+            },
+            {
+              "label": "TypeScript 6.0 Release Notes",
+              "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-6-0.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "javascript-and-jsx",
+      "title": "JavaScript Interop & JSX",
+      "order": 9,
+      "topics": [
+        {
+          "id": "allowjs-and-checkjs",
+          "title": "`allowJs` and `checkJs`",
+          "order": 1,
+          "references": [
+            {
+              "label": "TypeScript: JavaScript Projects",
+              "url": "https://www.typescriptlang.org/docs/handbook/intro-to-js-ts.html"
+            },
+            {
+              "label": "Type Checking JavaScript Files",
+              "url": "https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html"
+            }
+          ]
+        },
+        {
+          "id": "jsdoc-types",
+          "title": "TypeScript Types in JSDoc",
+          "order": 2,
+          "references": [
+            {
+              "label": "Type Checking JavaScript Files",
+              "url": "https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html"
+            },
+            {
+              "label": "TypeScript: JavaScript Projects",
+              "url": "https://www.typescriptlang.org/docs/handbook/intro-to-js-ts.html"
+            }
+          ]
+        },
+        {
+          "id": "jsx-and-tsx",
+          "title": "JSX and TSX",
+          "order": 3,
+          "references": [
+            {
+              "label": "TypeScript Handbook: JSX",
+              "url": "https://www.typescriptlang.org/docs/handbook/jsx.html"
+            },
+            {
+              "label": "TSConfig Reference",
+              "url": "https://www.typescriptlang.org/tsconfig/"
+            }
+          ]
+        },
+        {
+          "id": "decorators",
+          "title": "Standard Decorators",
+          "order": 4,
+          "references": [
+            {
+              "label": "TypeScript 5.0 Release Notes",
+              "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-0.html"
+            },
+            {
+              "label": "TypeScript Handbook: Classes",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/classes.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "configuration",
+      "title": "Compiler Configuration",
+      "order": 10,
+      "topics": [
+        {
+          "id": "tsconfig-basics",
+          "title": "`tsconfig.json` Basics",
+          "order": 1,
+          "references": [
+            {
+              "label": "TypeScript: What is a tsconfig.json",
+              "url": "https://www.typescriptlang.org/docs/handbook/tsconfig-json.html"
+            },
+            {
+              "label": "TSConfig Reference",
+              "url": "https://www.typescriptlang.org/tsconfig/"
+            }
+          ]
+        },
+        {
+          "id": "strict-mode-options",
+          "title": "The `strict` Family",
+          "order": 2,
+          "references": [
+            {
+              "label": "TSConfig Reference",
+              "url": "https://www.typescriptlang.org/tsconfig/"
+            },
+            {
+              "label": "TypeScript 6.0 Release Notes",
+              "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-6-0.html"
+            }
+          ]
+        },
+        {
+          "id": "target-lib-and-downleveling",
+          "title": "`target`, `lib`, and Downleveling",
+          "order": 3,
+          "references": [
+            {
+              "label": "TSConfig Reference",
+              "url": "https://www.typescriptlang.org/tsconfig/"
+            },
+            {
+              "label": "TypeScript 6.0 Release Notes",
+              "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-6-0.html"
+            }
+          ]
+        },
+        {
+          "id": "module-settings-in-typescript-6",
+          "title": "Module Settings in TypeScript 6.0",
+          "order": 4,
+          "references": [
+            {
+              "label": "TypeScript 6.0 Release Notes",
+              "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-6-0.html"
+            },
+            {
+              "label": "TypeScript: Modules Reference",
+              "url": "https://www.typescriptlang.org/docs/handbook/modules/reference.html"
+            }
+          ]
+        },
+        {
+          "id": "types-and-type-roots",
+          "title": "Ambient Type Packages and `types`",
+          "order": 5,
+          "references": [
+            {
+              "label": "TSConfig Reference",
+              "url": "https://www.typescriptlang.org/tsconfig/"
+            },
+            {
+              "label": "TypeScript 6.0 Release Notes",
+              "url": "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-6-0.html"
+            }
+          ]
+        },
+        {
+          "id": "project-references",
+          "title": "Project References",
+          "order": 6,
+          "references": [
+            {
+              "label": "TypeScript: Project References",
+              "url": "https://www.typescriptlang.org/docs/handbook/project-references.html"
+            },
+            {
+              "label": "TypeScript: What is a tsconfig.json",
+              "url": "https://www.typescriptlang.org/docs/handbook/tsconfig-json.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "libraries-and-production",
+      "title": "Libraries & Production Types",
+      "order": 11,
+      "topics": [
+        {
+          "id": "public-api-design",
+          "title": "Designing a Public Type API",
+          "order": 1,
+          "references": [
+            {
+              "label": "TypeScript: Modules .d.ts",
+              "url": "https://www.typescriptlang.org/docs/handbook/declaration-files/templates/module-d-ts.html"
+            },
+            {
+              "label": "TypeScript Handbook: Generics",
+              "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html"
+            }
+          ]
+        },
+        {
+          "id": "declaration-emission",
+          "title": "Declaration Emission",
+          "order": 2,
+          "references": [
+            {
+              "label": "TypeScript: Declaration Files",
+              "url": "https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html"
+            },
+            {
+              "label": "TSConfig Reference",
+              "url": "https://www.typescriptlang.org/tsconfig/"
+            }
+          ]
+        },
+        {
+          "id": "package-types-and-exports",
+          "title": "Package Types and Export Maps",
+          "order": 3,
+          "references": [
+            {
+              "label": "TypeScript: Modules Reference",
+              "url": "https://www.typescriptlang.org/docs/handbook/modules/reference.html"
+            },
+            {
+              "label": "TypeScript: Modules .d.ts",
+              "url": "https://www.typescriptlang.org/docs/handbook/declaration-files/templates/module-d-ts.html"
+            }
+          ]
+        },
+        {
+          "id": "type-testing-and-regressions",
+          "title": "Testing Types and Preventing Regressions",
+          "order": 4,
+          "references": [
+            {
+              "label": "TypeScript: Declaration Files",
+              "url": "https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html"
+            },
+            {
+              "label": "TSConfig Reference",
+              "url": "https://www.typescriptlang.org/tsconfig/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

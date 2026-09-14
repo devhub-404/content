@@ -1,0 +1,39 @@
+{
+  "locale": "en",
+  "title": "Rust",
+  "slug": "rust",
+  "description": "A systems programming language focused on memory safety, predictable performance, and fearless concurrency.",
+  "status": "published",
+  "tags": [
+    "rust",
+    "systems-programming",
+    "ownership",
+    "programming"
+  ],
+  "branding": {
+    "color": "#DEA584",
+    "logo": "/logos/rust.svg"
+  },
+  "links": {
+    "official": "https://www.rust-lang.org/",
+    "repository": "https://github.com/rust-lang/rust"
+  },
+  "metadata": [
+    {
+      "label": "Type",
+      "value": "Programming language"
+    },
+    {
+      "label": "Runtime",
+      "value": "Native"
+    },
+    {
+      "label": "Focus",
+      "value": "Systems programming"
+    },
+    {
+      "label": "License",
+      "value": "MIT / Apache-2.0"
+    }
+  ]
+}

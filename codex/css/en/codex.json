@@ -1,0 +1,42 @@
+{
+  "locale": "en",
+  "title": "CSS",
+  "slug": "css",
+  "description": "The style sheet language that controls presentation, layout, and responsive behavior on the Web.",
+  "status": "published",
+  "tags": [
+    "css",
+    "web",
+    "design"
+  ],
+  "branding": {
+    "color": "#1572B6",
+    "logo": "/logos/css.svg"
+  },
+  "links": {
+    "official": "https://www.w3.org/Style/CSS/",
+    "repository": "https://github.com/w3c/csswg-drafts"
+  },
+  "metadata": [
+    {
+      "label": "Specification",
+      "value": "W3C CSS"
+    },
+    {
+      "label": "Type",
+      "value": "Style sheet language"
+    },
+    {
+      "label": "Runtime",
+      "value": "Browser"
+    },
+    {
+      "label": "Focus",
+      "value": "Presentation and layout"
+    },
+    {
+      "label": "Platform",
+      "value": "Web"
+    }
+  ]
+}

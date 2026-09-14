@@ -1,0 +1,764 @@
+{
+  "locale": "en",
+  "status": "published",
+  "title": "Next.js",
+  "slug": "nextjs",
+  "description": "A prerequisite-ordered Next.js 16.3 roadmap centered on the App Router, Server and Client Components, routing, data fetching, streaming, Cache Components, Server Functions, request boundaries, metadata, security, testing, observability, deployment, and upgrades.",
+  "metadata": {
+    "tags": [
+      "nextjs",
+      "react",
+      "web-framework",
+      "full-stack"
+    ]
+  },
+  "sections": [
+    {
+      "id": "framework-and-app-router",
+      "title": "Framework & App Router",
+      "order": 1,
+      "topics": [
+        {
+          "id": "what-nextjs-is",
+          "title": "What Next.js Is",
+          "order": 1,
+          "references": [
+            {
+              "label": "Next.js App Router",
+              "url": "https://nextjs.org/docs/app/"
+            },
+            {
+              "label": "Next.js 16.3",
+              "url": "https://nextjs.org/blog/next-16-3"
+            }
+          ]
+        },
+        {
+          "id": "installation-and-project-structure",
+          "title": "Installation and Project Structure",
+          "order": 2,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/installation"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/project-structure"
+            }
+          ]
+        },
+        {
+          "id": "next-config-and-runtime",
+          "title": "Next Config and Runtime Choices",
+          "order": 3,
+          "references": [
+            {
+              "label": "Next.js Configuration",
+              "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/edge"
+            }
+          ]
+        },
+        {
+          "id": "app-router-vs-pages-router",
+          "title": "App Router and the Legacy Pages Router",
+          "order": 4,
+          "references": [
+            {
+              "label": "Next.js App Router",
+              "url": "https://nextjs.org/docs/app/"
+            },
+            {
+              "label": "Next.js Pages Router",
+              "url": "https://nextjs.org/docs/pages"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "route-tree-and-navigation",
+      "title": "Route Tree & Navigation",
+      "order": 2,
+      "topics": [
+        {
+          "id": "pages-and-layouts",
+          "title": "Pages and Layouts",
+          "order": 1,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/layouts-and-pages"
+            }
+          ]
+        },
+        {
+          "id": "dynamic-segments-and-params",
+          "title": "Dynamic Segments and Params",
+          "order": 2,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/file-conventions/dynamic-routes"
+            }
+          ]
+        },
+        {
+          "id": "route-groups-and-private-folders",
+          "title": "Route Groups and Private Folders",
+          "order": 3,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route-groups"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/project-structure"
+            }
+          ]
+        },
+        {
+          "id": "parallel-and-intercepting-routes",
+          "title": "Parallel and Intercepting Routes",
+          "order": 4,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/file-conventions/parallel-routes"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/file-conventions/intercepting-routes"
+            }
+          ]
+        },
+        {
+          "id": "linking-prefetching-and-navigation",
+          "title": "Linking, Prefetching, and Navigation",
+          "order": 5,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/linking-and-navigating"
+            },
+            {
+              "label": "Next.js 16.3 Instant Navigations",
+              "url": "https://nextjs.org/blog/next-16-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "server-and-client-components",
+      "title": "Server & Client Components",
+      "order": 3,
+      "topics": [
+        {
+          "id": "server-components-by-default",
+          "title": "Server Components by Default",
+          "order": 1,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/server-and-client-components"
+            }
+          ]
+        },
+        {
+          "id": "use-client-boundaries",
+          "title": "`use client` Boundaries",
+          "order": 2,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/server-and-client-components"
+            }
+          ]
+        },
+        {
+          "id": "composition-across-boundaries",
+          "title": "Composition Across Server/Client Boundaries",
+          "order": 3,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/server-and-client-components"
+            }
+          ]
+        },
+        {
+          "id": "context-and-providers",
+          "title": "Context and Providers",
+          "order": 4,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/server-and-client-components"
+            }
+          ]
+        },
+        {
+          "id": "third-party-client-components",
+          "title": "Third-party Client Components",
+          "order": 5,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/server-and-client-components"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-fetching-and-streaming",
+      "title": "Data Fetching & Streaming",
+      "order": 4,
+      "topics": [
+        {
+          "id": "server-data-fetching",
+          "title": "Fetching in Server Components",
+          "order": 1,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/fetching-data"
+            }
+          ]
+        },
+        {
+          "id": "parallel-and-sequential-data",
+          "title": "Parallel and Sequential Data Fetching",
+          "order": 2,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/fetching-data"
+            }
+          ]
+        },
+        {
+          "id": "loading-and-suspense",
+          "title": "`loading.js` and Suspense Streaming",
+          "order": 3,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/fetching-data"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/file-conventions/loading"
+            }
+          ]
+        },
+        {
+          "id": "client-data-and-use",
+          "title": "Client Data and React `use`",
+          "order": 4,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/fetching-data"
+            },
+            {
+              "label": "React use",
+              "url": "https://react.dev/reference/react/use"
+            }
+          ]
+        },
+        {
+          "id": "dynamic-apis",
+          "title": "Dynamic APIs and Request-time Data",
+          "order": 5,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/functions/cookies"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/functions/headers"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cache-components-and-revalidation",
+      "title": "Cache Components & Revalidation",
+      "order": 5,
+      "topics": [
+        {
+          "id": "cache-components-model",
+          "title": "Cache Components Model",
+          "order": 1,
+          "references": [
+            {
+              "label": "Next.js: Cache Components",
+              "url": "https://nextjs.org/docs/app/getting-started/partial-prerendering"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/config/next-config-js/cacheComponents"
+            }
+          ]
+        },
+        {
+          "id": "use-cache",
+          "title": "The `use cache` Directive",
+          "order": 2,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/directives/use-cache"
+            }
+          ]
+        },
+        {
+          "id": "cache-life-and-tags",
+          "title": "`cacheLife` and `cacheTag`",
+          "order": 3,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/functions/cacheLife"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/functions/cacheTag"
+            }
+          ]
+        },
+        {
+          "id": "revalidate-and-update-tags",
+          "title": "`revalidateTag`, `updateTag`, and `revalidatePath`",
+          "order": 4,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/functions/revalidateTag"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/functions/revalidatePath"
+            }
+          ]
+        },
+        {
+          "id": "cache-safety-and-personalization",
+          "title": "Cache Safety and Personalization",
+          "order": 5,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/guides/caching"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/guides/data-security"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mutations-and-server-functions",
+      "title": "Mutations & Server Functions",
+      "order": 6,
+      "topics": [
+        {
+          "id": "server-functions-and-actions",
+          "title": "Server Functions and Server Actions",
+          "order": 1,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/mutating-data"
+            },
+            {
+              "label": "React Server Functions",
+              "url": "https://react.dev/reference/rsc/server-functions"
+            }
+          ]
+        },
+        {
+          "id": "forms-with-server-actions",
+          "title": "Forms with Server Actions",
+          "order": 2,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/mutating-data"
+            }
+          ]
+        },
+        {
+          "id": "action-state-and-optimistic-ui",
+          "title": "Action State and Optimistic UI",
+          "order": 3,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/mutating-data"
+            },
+            {
+              "label": "React useActionState",
+              "url": "https://react.dev/reference/react/useActionState"
+            }
+          ]
+        },
+        {
+          "id": "redirecting-and-revalidating-after-mutations",
+          "title": "Redirecting and Revalidating after Mutations",
+          "order": 4,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/functions/redirect"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/functions/revalidatePath"
+            }
+          ]
+        },
+        {
+          "id": "server-action-security",
+          "title": "Server Action Security",
+          "order": 5,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/guides/data-security"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/guides/authentication"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "route-handlers-and-request-boundaries",
+      "title": "Route Handlers & Request Boundaries",
+      "order": 7,
+      "topics": [
+        {
+          "id": "route-handlers",
+          "title": "Route Handlers",
+          "order": 1,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/file-conventions/route"
+            }
+          ]
+        },
+        {
+          "id": "cookies-headers-and-responses",
+          "title": "Cookies, Headers, and Responses",
+          "order": 2,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/functions/cookies"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/functions/headers"
+            }
+          ]
+        },
+        {
+          "id": "proxy",
+          "title": "Proxy",
+          "order": 3,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/proxy"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/file-conventions/proxy"
+            }
+          ]
+        },
+        {
+          "id": "backend-for-frontend",
+          "title": "Next.js as a Backend for Frontend",
+          "order": 4,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/guides/backend-for-frontend"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metadata-and-asset-optimization",
+      "title": "Metadata & Asset Optimization",
+      "order": 8,
+      "topics": [
+        {
+          "id": "metadata",
+          "title": "Metadata API",
+          "order": 1,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/metadata-and-og-images"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "title": "`next/image`",
+          "order": 2,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/components/image"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/images"
+            }
+          ]
+        },
+        {
+          "id": "fonts",
+          "title": "`next/font`",
+          "order": 3,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/fonts"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/components/font"
+            }
+          ]
+        },
+        {
+          "id": "scripts-and-third-parties",
+          "title": "Scripts and Third-party Code",
+          "order": 4,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/components/script"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/guides/lazy-loading"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "errors-auth-and-security",
+      "title": "Errors, Auth & Security",
+      "order": 9,
+      "topics": [
+        {
+          "id": "error-not-found-and-global-error",
+          "title": "Error and Not-found Boundaries",
+          "order": 1,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/error-handling"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/api-reference/file-conventions/not-found"
+            }
+          ]
+        },
+        {
+          "id": "authentication-sessions-and-authorization",
+          "title": "Authentication, Sessions, and Authorization",
+          "order": 2,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/guides/authentication"
+            }
+          ]
+        },
+        {
+          "id": "server-only-code-and-environment-variables",
+          "title": "Server-only Code and Environment Variables",
+          "order": 3,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/guides/environment-variables"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/guides/data-security"
+            }
+          ]
+        },
+        {
+          "id": "content-security-policy",
+          "title": "Content Security Policy",
+          "order": 4,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/guides/content-security-policy"
+            }
+          ]
+        },
+        {
+          "id": "data-validation-and-safe-serialization",
+          "title": "Data Validation and Safe Serialization",
+          "order": 5,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/guides/data-security"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testing-observability-and-performance",
+      "title": "Testing, Observability & Performance",
+      "order": 10,
+      "topics": [
+        {
+          "id": "testing-strategy",
+          "title": "Testing Strategy",
+          "order": 1,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/guides/testing"
+            }
+          ]
+        },
+        {
+          "id": "instrumentation-and-logging",
+          "title": "Instrumentation and Logging",
+          "order": 2,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/guides/instrumentation"
+            }
+          ]
+        },
+        {
+          "id": "bundle-size-and-client-boundaries",
+          "title": "Bundle Size and Client Boundaries",
+          "order": 3,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/guides/production-checklist"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/guides/package-bundling"
+            }
+          ]
+        },
+        {
+          "id": "core-web-vitals-and-navigation-performance",
+          "title": "Core Web Vitals and Navigation Performance",
+          "order": 4,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/guides/production-checklist"
+            },
+            {
+              "label": "Next.js 16.3",
+              "url": "https://nextjs.org/blog/next-16-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "deployment-and-upgrades",
+      "title": "Deployment & Upgrades",
+      "order": 11,
+      "topics": [
+        {
+          "id": "deployment-models",
+          "title": "Deployment Models",
+          "order": 1,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/getting-started/deploying"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/guides/self-hosting"
+            }
+          ]
+        },
+        {
+          "id": "static-export",
+          "title": "Static Export",
+          "order": 2,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/guides/static-exports"
+            }
+          ]
+        },
+        {
+          "id": "adapters-and-portability",
+          "title": "Adapters and Platform Portability",
+          "order": 3,
+          "references": [
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/guides/adapters"
+            },
+            {
+              "label": "Next.js Across Platforms",
+              "url": "https://nextjs.org/blog/nextjs-across-platforms"
+            }
+          ]
+        },
+        {
+          "id": "next-16-upgrades-and-security-releases",
+          "title": "Next.js 16.3 LTS, Upgrades, and Security Releases",
+          "order": 4,
+          "references": [
+            {
+              "label": "Next.js Blog",
+              "url": "https://nextjs.org/blog"
+            },
+            {
+              "label": "Next.js Docs",
+              "url": "https://nextjs.org/docs/app/guides/upgrading/version-16"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

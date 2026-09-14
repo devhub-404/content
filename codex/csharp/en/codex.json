@@ -1,0 +1,40 @@
+{
+  "locale": "en",
+  "title": "C#",
+  "slug": "csharp",
+  "description": "A modern, strongly typed language for building applications on the .NET platform.",
+  "status": "published",
+  "tags": [
+    "csharp",
+    "dotnet",
+    "programming",
+    "async",
+    "linq"
+  ],
+  "branding": {
+    "color": "#512BD4",
+    "logo": "/logos/csharp.svg"
+  },
+  "links": {
+    "official": "https://learn.microsoft.com/dotnet/csharp/",
+    "repository": "https://github.com/dotnet/roslyn"
+  },
+  "metadata": [
+    {
+      "label": "Type",
+      "value": "Programming language"
+    },
+    {
+      "label": "Runtime",
+      "value": ".NET"
+    },
+    {
+      "label": "Focus",
+      "value": "Application development"
+    },
+    {
+      "label": "License",
+      "value": "MIT / .NET libraries"
+    }
+  ]
+}

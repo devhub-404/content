@@ -1,0 +1,40 @@
+{
+  "locale": "pt",
+  "title": "Php",
+  "slug": "php",
+  "description": "Uma linguagem de scripting no servidor para aplicações web, programas de linha de comando e automação de uso geral.",
+  "status": "published",
+  "tags": [
+    "php",
+    "php-8-5",
+    "web-development",
+    "composer",
+    "programming"
+  ],
+  "branding": {
+    "color": "#777BB4",
+    "logo": "/logos/php.svg"
+  },
+  "links": {
+    "official": "https://www.php.net/",
+    "repository": "https://github.com/php/php-src"
+  },
+  "metadata": [
+    {
+      "label": "Tipo",
+      "value": "Programming language"
+    },
+    {
+      "label": "Runtime",
+      "value": "Zend Engine"
+    },
+    {
+      "label": "Foco",
+      "value": "Web development"
+    },
+    {
+      "label": "Licença",
+      "value": "PHP-3.01"
+    }
+  ]
+}

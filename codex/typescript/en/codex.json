@@ -1,0 +1,42 @@
+{
+  "locale": "en",
+  "title": "TypeScript",
+  "slug": "typescript",
+  "description": "A typed superset of JavaScript that improves tooling and reliability without changing the language runtime.",
+  "status": "published",
+  "tags": [
+    "typescript",
+    "javascript",
+    "tooling"
+  ],
+  "branding": {
+    "color": "#3178C6",
+    "logo": "/logos/typescript.svg"
+  },
+  "links": {
+    "official": "https://www.typescriptlang.org",
+    "repository": "https://github.com/microsoft/TypeScript"
+  },
+  "metadata": [
+    {
+      "label": "Maintainer",
+      "value": "Microsoft"
+    },
+    {
+      "label": "Runtime",
+      "value": "JavaScript"
+    },
+    {
+      "label": "License",
+      "value": "Apache-2.0"
+    },
+    {
+      "label": "Compiler",
+      "value": "tsc"
+    },
+    {
+      "label": "Ecosystem",
+      "value": "JavaScript"
+    }
+  ]
+}

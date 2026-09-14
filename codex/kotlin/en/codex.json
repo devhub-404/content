@@ -1,0 +1,40 @@
+{
+  "locale": "en",
+  "title": "Kotlin",
+  "slug": "kotlin",
+  "description": "A concise, statically typed language for JVM, Android, multiplatform, and JavaScript development.",
+  "status": "published",
+  "tags": [
+    "kotlin",
+    "jvm",
+    "multiplatform",
+    "coroutines",
+    "programming"
+  ],
+  "branding": {
+    "color": "#7F52FF",
+    "logo": "/logos/kotlin.svg"
+  },
+  "links": {
+    "official": "https://kotlinlang.org/",
+    "repository": "https://github.com/JetBrains/kotlin"
+  },
+  "metadata": [
+    {
+      "label": "Type",
+      "value": "Programming language"
+    },
+    {
+      "label": "Runtime",
+      "value": "JVM, Native and JS"
+    },
+    {
+      "label": "Focus",
+      "value": "Multiplatform development"
+    },
+    {
+      "label": "License",
+      "value": "Apache-2.0"
+    }
+  ]
+}

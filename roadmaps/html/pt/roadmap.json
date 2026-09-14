@@ -1,0 +1,844 @@
+{
+  "locale": "pt",
+  "status": "published",
+  "title": "HTML",
+  "slug": "html",
+  "description": "Um roadmap de aprendizado de HTML ordenado por pré-requisitos, com aulas compactas e autossuficientes que cobrem o essencial de cada conceito e deixam detalhes exaustivos e casos raros para as referências.",
+  "metadata": {
+    "tags": [
+      "html",
+      "web-development",
+      "semantic-html",
+      "accessibility"
+    ]
+  },
+  "sections": [
+    {
+      "id": "language-and-document",
+      "title": "Linguagem HTML e Documento",
+      "order": 1,
+      "topics": [
+        {
+          "id": "html-purpose",
+          "title": "Para que Serve o HTML",
+          "order": 1,
+          "references": [
+            {
+              "label": "HTML Living Standard",
+              "url": "https://html.spec.whatwg.org/multipage/"
+            },
+            {
+              "label": "Programiz: Learn HTML",
+              "url": "https://www.programiz.com/html"
+            }
+          ]
+        },
+        {
+          "id": "document-skeleton",
+          "title": "A Estrutura Básica do Documento HTML",
+          "order": 2,
+          "references": [
+            {
+              "label": "WHATWG: The HTML syntax",
+              "url": "https://html.spec.whatwg.org/multipage/syntax.html"
+            },
+            {
+              "label": "MDN: Structuring content with HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+            }
+          ]
+        },
+        {
+          "id": "elements-and-tags",
+          "title": "Elementos, Tags e Elementos Vazios",
+          "order": 3,
+          "references": [
+            {
+              "label": "WHATWG: The HTML syntax",
+              "url": "https://html.spec.whatwg.org/multipage/syntax.html"
+            },
+            {
+              "label": "Programiz: Learn HTML",
+              "url": "https://www.programiz.com/html"
+            }
+          ]
+        },
+        {
+          "id": "attributes",
+          "title": "Atributos e Atributos Booleanos",
+          "order": 4,
+          "references": [
+            {
+              "label": "WHATWG: The HTML syntax",
+              "url": "https://html.spec.whatwg.org/multipage/syntax.html"
+            },
+            {
+              "label": "MDN: HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            }
+          ]
+        },
+        {
+          "id": "nesting-and-parsing",
+          "title": "Aninhamento e Parsing do Navegador",
+          "order": 5,
+          "references": [
+            {
+              "label": "WHATWG: The HTML syntax",
+              "url": "https://html.spec.whatwg.org/multipage/syntax.html"
+            },
+            {
+              "label": "MDN: Structuring content with HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metadata",
+      "title": "Metadados do Documento",
+      "order": 2,
+      "topics": [
+        {
+          "id": "language-charset-viewport",
+          "title": "Idioma, Charset e Viewport",
+          "order": 1,
+          "references": [
+            {
+              "label": "WHATWG: The elements of HTML",
+              "url": "https://html.spec.whatwg.org/multipage/semantics.html"
+            },
+            {
+              "label": "MDN: HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            }
+          ]
+        },
+        {
+          "id": "title-and-description",
+          "title": "Título e Descrição da Página",
+          "order": 2,
+          "references": [
+            {
+              "label": "WHATWG: The elements of HTML",
+              "url": "https://html.spec.whatwg.org/multipage/semantics.html"
+            },
+            {
+              "label": "MDN: HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            }
+          ]
+        },
+        {
+          "id": "links-styles-icons",
+          "title": "Folhas de Estilo, Ícones e Links de Recursos",
+          "order": 3,
+          "references": [
+            {
+              "label": "WHATWG: Links",
+              "url": "https://html.spec.whatwg.org/multipage/links.html"
+            },
+            {
+              "label": "MDN: HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            }
+          ]
+        },
+        {
+          "id": "script-loading",
+          "title": "Carregando Scripts",
+          "order": 4,
+          "references": [
+            {
+              "label": "WHATWG: Scripting",
+              "url": "https://html.spec.whatwg.org/multipage/scripting.html"
+            },
+            {
+              "label": "MDN: HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "text-and-grouping",
+      "title": "Semântica de Texto e Agrupamento",
+      "order": 3,
+      "topics": [
+        {
+          "id": "headings-and-paragraphs",
+          "title": "Títulos e Parágrafos",
+          "order": 1,
+          "references": [
+            {
+              "label": "WHATWG: Text-level semantics",
+              "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html"
+            },
+            {
+              "label": "Programiz: Learn HTML",
+              "url": "https://www.programiz.com/html"
+            }
+          ]
+        },
+        {
+          "id": "emphasis-and-importance",
+          "title": "Ênfase e Importância",
+          "order": 2,
+          "references": [
+            {
+              "label": "WHATWG: Text-level semantics",
+              "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html"
+            },
+            {
+              "label": "MDN: Structuring content with HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+            }
+          ]
+        },
+        {
+          "id": "inline-text-semantics",
+          "title": "Semântica Útil para Texto Inline",
+          "order": 3,
+          "references": [
+            {
+              "label": "WHATWG: Text-level semantics",
+              "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html"
+            },
+            {
+              "label": "MDN: HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            }
+          ]
+        },
+        {
+          "id": "quotes-and-preformatted-text",
+          "title": "Citações e Texto Pré-formatado",
+          "order": 4,
+          "references": [
+            {
+              "label": "WHATWG: Text-level semantics",
+              "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html"
+            },
+            {
+              "label": "MDN: Structuring content with HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+            }
+          ]
+        },
+        {
+          "id": "lists",
+          "title": "Listas",
+          "order": 5,
+          "references": [
+            {
+              "label": "WHATWG: The elements of HTML",
+              "url": "https://html.spec.whatwg.org/multipage/semantics.html"
+            },
+            {
+              "label": "Programiz: Learn HTML",
+              "url": "https://www.programiz.com/html"
+            }
+          ]
+        },
+        {
+          "id": "generic-containers",
+          "title": "`div`, `span` e Agrupamento Genérico",
+          "order": 6,
+          "references": [
+            {
+              "label": "WHATWG: The elements of HTML",
+              "url": "https://html.spec.whatwg.org/multipage/semantics.html"
+            },
+            {
+              "label": "MDN: HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            }
+          ]
+        },
+        {
+          "id": "figures-and-breaks",
+          "title": "Figuras, Legendas e Quebras Temáticas",
+          "order": 7,
+          "references": [
+            {
+              "label": "WHATWG: The elements of HTML",
+              "url": "https://html.spec.whatwg.org/multipage/semantics.html"
+            },
+            {
+              "label": "MDN: Structuring content with HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "document-structure",
+      "title": "Estrutura do Documento e Landmarks",
+      "order": 4,
+      "topics": [
+        {
+          "id": "main-header-footer",
+          "title": "`main`, `header` e `footer`",
+          "order": 1,
+          "references": [
+            {
+              "label": "WHATWG: Sections",
+              "url": "https://html.spec.whatwg.org/multipage/sections.html"
+            },
+            {
+              "label": "MDN: Structuring content with HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+            }
+          ]
+        },
+        {
+          "id": "nav-and-search",
+          "title": "`nav` e `search`",
+          "order": 2,
+          "references": [
+            {
+              "label": "WHATWG: Sections",
+              "url": "https://html.spec.whatwg.org/multipage/sections.html"
+            },
+            {
+              "label": "MDN: Structuring content with HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+            }
+          ]
+        },
+        {
+          "id": "article-section-aside",
+          "title": "`article`, `section` e `aside`",
+          "order": 3,
+          "references": [
+            {
+              "label": "WHATWG: Sections",
+              "url": "https://html.spec.whatwg.org/multipage/sections.html"
+            },
+            {
+              "label": "MDN: Structuring content with HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+            }
+          ]
+        },
+        {
+          "id": "heading-hierarchy",
+          "title": "Hierarquia de Títulos em Documentos Reais",
+          "order": 4,
+          "references": [
+            {
+              "label": "WHATWG: Sections",
+              "url": "https://html.spec.whatwg.org/multipage/sections.html"
+            },
+            {
+              "label": "MDN: Structuring content with HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "links-and-navigation",
+      "title": "Links e Navegação",
+      "order": 5,
+      "topics": [
+        {
+          "id": "links-and-urls",
+          "title": "Links, URLs e Texto do Link",
+          "order": 1,
+          "references": [
+            {
+              "label": "WHATWG: Links",
+              "url": "https://html.spec.whatwg.org/multipage/links.html"
+            },
+            {
+              "label": "Programiz: Learn HTML",
+              "url": "https://www.programiz.com/html"
+            }
+          ]
+        },
+        {
+          "id": "fragment-links",
+          "title": "Links de Fragmento e IDs",
+          "order": 2,
+          "references": [
+            {
+              "label": "WHATWG: Links",
+              "url": "https://html.spec.whatwg.org/multipage/links.html"
+            },
+            {
+              "label": "MDN: Structuring content with HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+            }
+          ]
+        },
+        {
+          "id": "link-behaviors",
+          "title": "Novas Abas, Downloads, E-mail e Telefone",
+          "order": 3,
+          "references": [
+            {
+              "label": "WHATWG: Links",
+              "url": "https://html.spec.whatwg.org/multipage/links.html"
+            },
+            {
+              "label": "MDN: Structuring content with HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "images-and-media",
+      "title": "Imagens e Mídia",
+      "order": 6,
+      "topics": [
+        {
+          "id": "images-and-alt",
+          "title": "Imagens e Texto Alternativo",
+          "order": 1,
+          "references": [
+            {
+              "label": "WHATWG: Embedded content",
+              "url": "https://html.spec.whatwg.org/multipage/embedded-content.html"
+            },
+            {
+              "label": "MDN: Responsive images",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images"
+            }
+          ]
+        },
+        {
+          "id": "responsive-images",
+          "title": "Imagens Responsivas com `srcset`, `sizes` e `picture`",
+          "order": 2,
+          "references": [
+            {
+              "label": "WHATWG: Embedded content",
+              "url": "https://html.spec.whatwg.org/multipage/embedded-content.html"
+            },
+            {
+              "label": "MDN: Responsive images",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images"
+            }
+          ]
+        },
+        {
+          "id": "image-loading",
+          "title": "Carregamento e Prioridade de Imagens",
+          "order": 3,
+          "references": [
+            {
+              "label": "WHATWG: Embedded content",
+              "url": "https://html.spec.whatwg.org/multipage/embedded-content.html"
+            },
+            {
+              "label": "MDN: Responsive images",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images"
+            }
+          ]
+        },
+        {
+          "id": "audio-video-tracks",
+          "title": "Áudio, Vídeo, Sources e Tracks",
+          "order": 4,
+          "references": [
+            {
+              "label": "WHATWG: Media elements",
+              "url": "https://html.spec.whatwg.org/multipage/media.html"
+            },
+            {
+              "label": "MDN: HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            }
+          ]
+        },
+        {
+          "id": "iframes",
+          "title": "Iframes e Documentos Incorporados",
+          "order": 5,
+          "references": [
+            {
+              "label": "WHATWG: Embedded content",
+              "url": "https://html.spec.whatwg.org/multipage/embedded-content.html"
+            },
+            {
+              "label": "MDN: HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tables",
+      "title": "Tabelas",
+      "order": 7,
+      "topics": [
+        {
+          "id": "table-structure",
+          "title": "Estrutura da Tabela e Cabeçalhos",
+          "order": 1,
+          "references": [
+            {
+              "label": "WHATWG: Tabular data",
+              "url": "https://html.spec.whatwg.org/multipage/tables.html"
+            },
+            {
+              "label": "MDN: HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            }
+          ]
+        },
+        {
+          "id": "spanning-and-complex-tables",
+          "title": "Células Mescladas e Tabelas Complexas",
+          "order": 2,
+          "references": [
+            {
+              "label": "WHATWG: Tabular data",
+              "url": "https://html.spec.whatwg.org/multipage/tables.html"
+            },
+            {
+              "label": "MDN: HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forms",
+      "title": "Formulários",
+      "order": 8,
+      "topics": [
+        {
+          "id": "form-submission",
+          "title": "Formulários, Names e Envio",
+          "order": 1,
+          "references": [
+            {
+              "label": "WHATWG: Forms",
+              "url": "https://html.spec.whatwg.org/multipage/forms.html"
+            },
+            {
+              "label": "MDN: Forms and buttons in HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_forms"
+            }
+          ]
+        },
+        {
+          "id": "labels-and-grouping",
+          "title": "Labels, Fieldsets e Legends",
+          "order": 2,
+          "references": [
+            {
+              "label": "WHATWG: Forms",
+              "url": "https://html.spec.whatwg.org/multipage/forms.html"
+            },
+            {
+              "label": "MDN: Forms and buttons in HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_forms"
+            }
+          ]
+        },
+        {
+          "id": "textual-inputs",
+          "title": "Tipos de Input Textuais",
+          "order": 3,
+          "references": [
+            {
+              "label": "WHATWG: Forms",
+              "url": "https://html.spec.whatwg.org/multipage/forms.html"
+            },
+            {
+              "label": "MDN: Forms and buttons in HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_forms"
+            }
+          ]
+        },
+        {
+          "id": "choice-controls",
+          "title": "Checkboxes, Radio Buttons e Select",
+          "order": 4,
+          "references": [
+            {
+              "label": "WHATWG: Forms",
+              "url": "https://html.spec.whatwg.org/multipage/forms.html"
+            },
+            {
+              "label": "MDN: Forms and buttons in HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_forms"
+            }
+          ]
+        },
+        {
+          "id": "textarea-and-buttons",
+          "title": "`textarea` e Botões",
+          "order": 5,
+          "references": [
+            {
+              "label": "WHATWG: Forms",
+              "url": "https://html.spec.whatwg.org/multipage/forms.html"
+            },
+            {
+              "label": "MDN: Forms and buttons in HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_forms"
+            }
+          ]
+        },
+        {
+          "id": "numeric-date-file-inputs",
+          "title": "Inputs Numéricos, Data, Range, Cor e Arquivo",
+          "order": 6,
+          "references": [
+            {
+              "label": "WHATWG: Forms",
+              "url": "https://html.spec.whatwg.org/multipage/forms.html"
+            },
+            {
+              "label": "MDN: Forms and buttons in HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_forms"
+            }
+          ]
+        },
+        {
+          "id": "validation-autocomplete",
+          "title": "Validação e Autocomplete",
+          "order": 7,
+          "references": [
+            {
+              "label": "WHATWG: Forms",
+              "url": "https://html.spec.whatwg.org/multipage/forms.html"
+            },
+            {
+              "label": "MDN: Forms and buttons in HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_forms"
+            }
+          ]
+        },
+        {
+          "id": "form-output-elements",
+          "title": "`datalist`, `output`, `meter` e `progress`",
+          "order": 8,
+          "references": [
+            {
+              "label": "WHATWG: Forms",
+              "url": "https://html.spec.whatwg.org/multipage/forms.html"
+            },
+            {
+              "label": "MDN: Forms and buttons in HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/HTML_forms"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interactive-html",
+      "title": "HTML Interativo",
+      "order": 9,
+      "topics": [
+        {
+          "id": "details-summary",
+          "title": "`details` e `summary`",
+          "order": 1,
+          "references": [
+            {
+              "label": "WHATWG: Interactive elements",
+              "url": "https://html.spec.whatwg.org/multipage/interactive-elements.html"
+            },
+            {
+              "label": "MDN: HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            }
+          ]
+        },
+        {
+          "id": "dialog",
+          "title": "Diálogos",
+          "order": 2,
+          "references": [
+            {
+              "label": "WHATWG: Interactive elements",
+              "url": "https://html.spec.whatwg.org/multipage/interactive-elements.html"
+            },
+            {
+              "label": "MDN: HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            }
+          ]
+        },
+        {
+          "id": "popover",
+          "title": "Popovers",
+          "order": 3,
+          "references": [
+            {
+              "label": "WHATWG: The popover attribute",
+              "url": "https://html.spec.whatwg.org/multipage/popover.html"
+            },
+            {
+              "label": "MDN: HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            }
+          ]
+        },
+        {
+          "id": "hidden-inert",
+          "title": "`hidden` e `inert`",
+          "order": 4,
+          "references": [
+            {
+              "label": "WHATWG: The elements of HTML",
+              "url": "https://html.spec.whatwg.org/multipage/semantics.html"
+            },
+            {
+              "label": "MDN: HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scripting-templates-and-custom-data",
+      "title": "Scripts, Templates e Dados Personalizados",
+      "order": 10,
+      "topics": [
+        {
+          "id": "script-and-noscript",
+          "title": "`script` e `noscript`",
+          "order": 1,
+          "references": [
+            {
+              "label": "WHATWG: Scripting",
+              "url": "https://html.spec.whatwg.org/multipage/scripting.html"
+            },
+            {
+              "label": "MDN: HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            }
+          ]
+        },
+        {
+          "id": "template-and-shadow-dom",
+          "title": "`template`, Shadow DOM Declarativo e Slots",
+          "order": 2,
+          "references": [
+            {
+              "label": "WHATWG: Scripting",
+              "url": "https://html.spec.whatwg.org/multipage/scripting.html"
+            },
+            {
+              "label": "MDN: HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            }
+          ]
+        },
+        {
+          "id": "global-hooks",
+          "title": "`id`, `class` e `data-*`",
+          "order": 3,
+          "references": [
+            {
+              "label": "WHATWG: The elements of HTML",
+              "url": "https://html.spec.whatwg.org/multipage/semantics.html"
+            },
+            {
+              "label": "MDN: HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            }
+          ]
+        },
+        {
+          "id": "direction-and-editing",
+          "title": "Direção, Ganchos de Foco e Conteúdo Editável",
+          "order": 4,
+          "references": [
+            {
+              "label": "WHATWG: The elements of HTML",
+              "url": "https://html.spec.whatwg.org/multipage/semantics.html"
+            },
+            {
+              "label": "MDN: HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "semantics-accessibility-and-quality",
+      "title": "Semântica, Acessibilidade e Qualidade",
+      "order": 11,
+      "topics": [
+        {
+          "id": "native-semantics-first",
+          "title": "HTML Nativo Primeiro",
+          "order": 1,
+          "references": [
+            {
+              "label": "HTML Living Standard",
+              "url": "https://html.spec.whatwg.org/multipage/"
+            },
+            {
+              "label": "MDN: Structuring content with HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+            }
+          ]
+        },
+        {
+          "id": "accessible-names",
+          "title": "Nomes Acessíveis",
+          "order": 2,
+          "references": [
+            {
+              "label": "WHATWG: Forms",
+              "url": "https://html.spec.whatwg.org/multipage/forms.html"
+            },
+            {
+              "label": "MDN: Structuring content with HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+            }
+          ]
+        },
+        {
+          "id": "source-order-and-focus",
+          "title": "Ordem do Código e Ordem de Foco",
+          "order": 3,
+          "references": [
+            {
+              "label": "WHATWG: Sections",
+              "url": "https://html.spec.whatwg.org/multipage/sections.html"
+            },
+            {
+              "label": "MDN: Structuring content with HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+            }
+          ]
+        },
+        {
+          "id": "validation-and-debugging",
+          "title": "Validação e Depuração de HTML",
+          "order": 4,
+          "references": [
+            {
+              "label": "WHATWG: The HTML syntax",
+              "url": "https://html.spec.whatwg.org/multipage/syntax.html"
+            },
+            {
+              "label": "MDN: Structuring content with HTML",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

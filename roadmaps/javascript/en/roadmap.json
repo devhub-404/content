@@ -1,0 +1,1061 @@
+{
+  "locale": "en",
+  "status": "published",
+  "title": "JavaScript",
+  "slug": "javascript",
+  "description": "A prerequisite-ordered JavaScript roadmap that separates the ECMAScript language from browser APIs and teaches the essential surface of each topic through compact, example-driven lessons.",
+  "metadata": {
+    "tags": [
+      "javascript",
+      "ecmascript",
+      "programming",
+      "web-development"
+    ]
+  },
+  "sections": [
+    {
+      "id": "language-and-execution",
+      "title": "Language & Execution",
+      "order": 1,
+      "topics": [
+        {
+          "id": "javascript-and-runtimes",
+          "title": "JavaScript and Runtimes",
+          "order": 1,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "scripts-modules-and-strict-mode",
+          "title": "Scripts, Modules, and Strict Mode",
+          "order": 2,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Modules",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules"
+            }
+          ]
+        },
+        {
+          "id": "statements-expressions-and-comments",
+          "title": "Statements, Expressions, and Comments",
+          "order": 3,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "Programiz: JavaScript Tutorial",
+              "url": "https://www.programiz.com/javascript"
+            }
+          ]
+        },
+        {
+          "id": "let-const-and-var",
+          "title": "`let`, `const`, and `var`",
+          "order": 4,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "values-and-operators",
+      "title": "Values, Types & Operators",
+      "order": 2,
+      "topics": [
+        {
+          "id": "primitive-types",
+          "title": "Primitive Types",
+          "order": 1,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "numbers-bigint-and-math",
+          "title": "Numbers, BigInt, and Math",
+          "order": 2,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "strings-and-template-literals",
+          "title": "Strings and Template Literals",
+          "order": 3,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "truthiness-nullish-and-coercion",
+          "title": "Truthiness, Nullish Values, and Coercion",
+          "order": 4,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "equality-and-comparison",
+          "title": "Equality and Comparison",
+          "order": 5,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "operators-and-optional-chaining",
+          "title": "Operators, Short-circuiting, and Optional Chaining",
+          "order": 6,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "control-flow-and-errors",
+      "title": "Control Flow & Errors",
+      "order": 3,
+      "topics": [
+        {
+          "id": "conditionals",
+          "title": "Conditionals",
+          "order": 1,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "Programiz: JavaScript Tutorial",
+              "url": "https://www.programiz.com/javascript"
+            }
+          ]
+        },
+        {
+          "id": "loops-and-iteration-statements",
+          "title": "Loops and Iteration Statements",
+          "order": 2,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "exceptions",
+          "title": "Exceptions",
+          "order": 3,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "invariants-and-validation",
+          "title": "Program Invariants and Validation",
+          "order": 4,
+          "references": [
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            },
+            {
+              "label": "JavaScriptTutorial.net",
+              "url": "https://www.javascripttutorial.net/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "functions-and-scope",
+      "title": "Functions, Scope & Closures",
+      "order": 4,
+      "topics": [
+        {
+          "id": "functions-and-return-values",
+          "title": "Functions and Return Values",
+          "order": 1,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "parameters-defaults-and-rest",
+          "title": "Parameters, Defaults, and Rest",
+          "order": 2,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "arrow-functions-and-this",
+          "title": "Arrow Functions and Lexical `this`",
+          "order": 3,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "scope-and-closures",
+          "title": "Lexical Scope and Closures",
+          "order": 4,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "higher-order-functions",
+          "title": "Callbacks and Higher-order Functions",
+          "order": 5,
+          "references": [
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            },
+            {
+              "label": "JavaScriptTutorial.net",
+              "url": "https://www.javascripttutorial.net/"
+            }
+          ]
+        },
+        {
+          "id": "recursion",
+          "title": "Recursion",
+          "order": 6,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "Programiz: JavaScript Tutorial",
+              "url": "https://www.programiz.com/javascript"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "objects-and-classes",
+      "title": "Objects, Prototypes & Classes",
+      "order": 5,
+      "topics": [
+        {
+          "id": "objects-and-properties",
+          "title": "Objects and Properties",
+          "order": 1,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "object-spread-and-destructuring",
+          "title": "Object Spread and Destructuring",
+          "order": 2,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "methods-this-bind-call-apply",
+          "title": "Methods, `this`, `bind`, `call`, and `apply`",
+          "order": 3,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "prototype-chain",
+          "title": "The Prototype Chain",
+          "order": 4,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "classes-and-private-fields",
+          "title": "Classes and Private Fields",
+          "order": 5,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "inheritance-and-static-members",
+          "title": "Inheritance and Static Members",
+          "order": 6,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "property-descriptors",
+          "title": "Property Descriptors and Accessors",
+          "order": 7,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Reference",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrays-and-collections",
+      "title": "Arrays & Collections",
+      "order": 6,
+      "topics": [
+        {
+          "id": "array-basics",
+          "title": "Array Basics",
+          "order": 1,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "array-transform-search-and-reduce",
+          "title": "Transforming, Searching, and Reducing Arrays",
+          "order": 2,
+          "references": [
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            },
+            {
+              "label": "JavaScriptTutorial.net",
+              "url": "https://www.javascripttutorial.net/"
+            }
+          ]
+        },
+        {
+          "id": "array-copying-and-sorting",
+          "title": "Copying and Sorting Arrays",
+          "order": 3,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Reference",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference"
+            }
+          ]
+        },
+        {
+          "id": "array-destructuring-and-spread",
+          "title": "Array Destructuring and Spread",
+          "order": 4,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "map-and-set",
+          "title": "`Map` and `Set`",
+          "order": 5,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "weak-collections",
+          "title": "Weak Collections",
+          "order": 6,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "typed-arrays-and-binary-data",
+          "title": "Typed Arrays and Binary Data",
+          "order": 7,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "built-ins-and-protocols",
+      "title": "Built-ins & Language Protocols",
+      "order": 7,
+      "topics": [
+        {
+          "id": "json",
+          "title": "JSON",
+          "order": 1,
+          "references": [
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            },
+            {
+              "label": "JavaScriptTutorial.net",
+              "url": "https://www.javascripttutorial.net/"
+            }
+          ]
+        },
+        {
+          "id": "date-and-intl",
+          "title": "Dates and Internationalization",
+          "order": 2,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "regular-expressions",
+          "title": "Regular Expressions",
+          "order": 3,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "iterables-and-iterators",
+          "title": "Iterables and Iterators",
+          "order": 4,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "generators",
+          "title": "Generators and Async Generators",
+          "order": 5,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "symbols-and-protocol-hooks",
+          "title": "Symbols and Protocol Hooks",
+          "order": 6,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Reference",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asynchronous-javascript",
+      "title": "Asynchronous JavaScript",
+      "order": 8,
+      "topics": [
+        {
+          "id": "event-loop-and-microtasks",
+          "title": "Event Loop, Tasks, and Microtasks",
+          "order": 1,
+          "references": [
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            },
+            {
+              "label": "MDN: Using Promises",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises"
+            }
+          ]
+        },
+        {
+          "id": "promises",
+          "title": "Promises and Chaining",
+          "order": 2,
+          "references": [
+            {
+              "label": "MDN: Using Promises",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises"
+            },
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            }
+          ]
+        },
+        {
+          "id": "promise-composition",
+          "title": "Promise Composition",
+          "order": 3,
+          "references": [
+            {
+              "label": "MDN: Using Promises",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises"
+            },
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            }
+          ]
+        },
+        {
+          "id": "async-await",
+          "title": "`async` and `await`",
+          "order": 4,
+          "references": [
+            {
+              "label": "MDN: Using Promises",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises"
+            },
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            }
+          ]
+        },
+        {
+          "id": "async-iteration",
+          "title": "Async Iteration",
+          "order": 5,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modules",
+      "title": "Modules",
+      "order": 9,
+      "topics": [
+        {
+          "id": "imports-and-exports",
+          "title": "Imports and Exports",
+          "order": 1,
+          "references": [
+            {
+              "label": "MDN: JavaScript Modules",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules"
+            },
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            }
+          ]
+        },
+        {
+          "id": "reexports-and-cycles",
+          "title": "Re-exports and Cycles",
+          "order": 2,
+          "references": [
+            {
+              "label": "MDN: JavaScript Modules",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules"
+            },
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            }
+          ]
+        },
+        {
+          "id": "dynamic-import-and-top-level-await",
+          "title": "Dynamic Import and Top-level `await`",
+          "order": 3,
+          "references": [
+            {
+              "label": "MDN: JavaScript Modules",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules"
+            },
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            }
+          ]
+        },
+        {
+          "id": "module-resolution-by-host",
+          "title": "Module Resolution by the Host",
+          "order": 4,
+          "references": [
+            {
+              "label": "MDN: JavaScript Modules",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules"
+            },
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "browser-apis",
+      "title": "Browser APIs",
+      "order": 10,
+      "topics": [
+        {
+          "id": "dom-querying-and-traversal",
+          "title": "DOM Querying and Traversal",
+          "order": 1,
+          "references": [
+            {
+              "label": "MDN: Document Object Model",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "dom-creation-and-updates",
+          "title": "Creating and Updating DOM Content",
+          "order": 2,
+          "references": [
+            {
+              "label": "MDN: Document Object Model",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "attributes-classes-and-data",
+          "title": "Attributes, Classes, and Data Attributes",
+          "order": 3,
+          "references": [
+            {
+              "label": "MDN: Document Object Model",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "events-and-delegation",
+          "title": "Events and Delegation",
+          "order": 4,
+          "references": [
+            {
+              "label": "MDN: Introduction to Events",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events"
+            },
+            {
+              "label": "MDN: Document Object Model",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model"
+            }
+          ]
+        },
+        {
+          "id": "forms-and-formdata",
+          "title": "Forms and `FormData`",
+          "order": 5,
+          "references": [
+            {
+              "label": "MDN: Document Object Model",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model"
+            },
+            {
+              "label": "MDN: Introduction to Events",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events"
+            }
+          ]
+        },
+        {
+          "id": "fetch-and-abort",
+          "title": "Fetch and Cancellation",
+          "order": 6,
+          "references": [
+            {
+              "label": "MDN: Fetch API",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+            },
+            {
+              "label": "MDN: Using Promises",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises"
+            }
+          ]
+        },
+        {
+          "id": "url-and-history",
+          "title": "URLs and History",
+          "order": 7,
+          "references": [
+            {
+              "label": "MDN: Document Object Model",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "storage-and-workers",
+          "title": "Storage and Web Workers",
+          "order": 8,
+          "references": [
+            {
+              "label": "MDN: Web Storage API",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API"
+            },
+            {
+              "label": "MDN: Web Workers API",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metaprogramming-and-resources",
+      "title": "Metaprogramming & Resources",
+      "order": 11,
+      "topics": [
+        {
+          "id": "proxy-and-reflect",
+          "title": "`Proxy` and `Reflect`",
+          "order": 1,
+          "references": [
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            },
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            }
+          ]
+        },
+        {
+          "id": "memory-and-garbage-collection",
+          "title": "Memory and Garbage Collection",
+          "order": 2,
+          "references": [
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            },
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            }
+          ]
+        },
+        {
+          "id": "using-and-disposal",
+          "title": "`using` and Explicit Disposal",
+          "order": 3,
+          "references": [
+            {
+              "label": "MDN: JavaScript Resource Management",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Resource_management"
+            },
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            }
+          ]
+        },
+        {
+          "id": "await-using-and-disposable-stacks",
+          "title": "`await using` and Disposable Stacks",
+          "order": 4,
+          "references": [
+            {
+              "label": "MDN: JavaScript Resource Management",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Resource_management"
+            },
+            {
+              "label": "ECMAScript 2026 Language Specification",
+              "url": "https://tc39.es/ecma262/2026/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quality-and-maintainability",
+      "title": "Quality & Maintainability",
+      "order": 12,
+      "topics": [
+        {
+          "id": "debugging",
+          "title": "Debugging JavaScript",
+          "order": 1,
+          "references": [
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            },
+            {
+              "label": "JavaScriptTutorial.net",
+              "url": "https://www.javascripttutorial.net/"
+            }
+          ]
+        },
+        {
+          "id": "mutation-and-state",
+          "title": "Mutation and State Updates",
+          "order": 2,
+          "references": [
+            {
+              "label": "MDN: JavaScript Guide",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+            },
+            {
+              "label": "JavaScriptTutorial.net",
+              "url": "https://www.javascripttutorial.net/"
+            }
+          ]
+        },
+        {
+          "id": "trust-boundaries-and-web-security",
+          "title": "Trust Boundaries and Web Security",
+          "order": 3,
+          "references": [
+            {
+              "label": "MDN: Document Object Model",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model"
+            },
+            {
+              "label": "MDN: Fetch API",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

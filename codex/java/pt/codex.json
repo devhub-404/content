@@ -1,0 +1,39 @@
+{
+  "locale": "pt",
+  "title": "Java",
+  "slug": "java",
+  "description": "Uma linguagem e plataforma de propósito geral centrada na execução portável por meio da Java Virtual Machine.",
+  "status": "published",
+  "tags": [
+    "java",
+    "jvm",
+    "programming",
+    "concurrency"
+  ],
+  "branding": {
+    "color": "#ED8B00",
+    "logo": "/logos/java.svg"
+  },
+  "links": {
+    "official": "https://dev.java/",
+    "repository": "https://github.com/openjdk/jdk"
+  },
+  "metadata": [
+    {
+      "label": "Tipo",
+      "value": "Programming language"
+    },
+    {
+      "label": "Runtime",
+      "value": "JVM"
+    },
+    {
+      "label": "Foco",
+      "value": "Portable applications"
+    },
+    {
+      "label": "Licença",
+      "value": "GPL-2.0 with Classpath Exception"
+    }
+  ]
+}

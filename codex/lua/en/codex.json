@@ -1,0 +1,39 @@
+{
+  "locale": "en",
+  "title": "Lua",
+  "slug": "lua",
+  "description": "A lightweight scripting language designed for embeddability, extensibility, and simple yet powerful abstractions.",
+  "status": "published",
+  "tags": [
+    "lua",
+    "scripting",
+    "embedding",
+    "programming"
+  ],
+  "branding": {
+    "color": "#000080",
+    "logo": "/logos/lua.svg"
+  },
+  "links": {
+    "official": "https://www.lua.org/",
+    "repository": "https://github.com/lua/lua"
+  },
+  "metadata": [
+    {
+      "label": "Type",
+      "value": "Scripting language"
+    },
+    {
+      "label": "Runtime",
+      "value": "Embedded and standalone"
+    },
+    {
+      "label": "Focus",
+      "value": "Scripting and embedding"
+    },
+    {
+      "label": "License",
+      "value": "MIT"
+    }
+  ]
+}

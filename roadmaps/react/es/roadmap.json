@@ -1,0 +1,689 @@
+{
+  "locale": "es",
+  "status": "published",
+  "title": "React",
+  "slug": "react",
+  "description": "Un roadmap de React 19.3 ordenado por prerrequisitos que cubre component rendering, state, effects, concurrencia, forms y actions, APIs avanzadas, server rendering, React Server Components, testing, accessibility y tooling de producción.",
+  "metadata": {
+    "tags": [
+      "react",
+      "javascript",
+      "frontend",
+      "ui"
+    ]
+  },
+  "sections": [
+    {
+      "id": "components-and-rendering",
+      "title": "Components y Rendering",
+      "order": 1,
+      "topics": [
+        {
+          "id": "react-model-and-component-tree",
+          "title": "Modelo de React y Component Tree",
+          "order": 1,
+          "references": [
+            {
+              "label": "React: Quick Start",
+              "url": "https://react.dev/learn"
+            }
+          ]
+        },
+        {
+          "id": "components-jsx-and-expressions",
+          "title": "Components, JSX y Expressions",
+          "order": 2,
+          "references": [
+            {
+              "label": "React: Writing Markup with JSX",
+              "url": "https://react.dev/learn/writing-markup-with-jsx"
+            }
+          ]
+        },
+        {
+          "id": "props-and-component-apis",
+          "title": "Props y APIs de Components",
+          "order": 3,
+          "references": [
+            {
+              "label": "React: Passing Props to a Component",
+              "url": "https://react.dev/learn/passing-props-to-a-component"
+            }
+          ]
+        },
+        {
+          "id": "children-fragments-and-composition",
+          "title": "Children, Fragments y Composition",
+          "order": 4,
+          "references": [
+            {
+              "label": "React: Passing Props to a Component",
+              "url": "https://react.dev/learn/passing-props-to-a-component"
+            }
+          ]
+        },
+        {
+          "id": "conditional-rendering-and-lists",
+          "title": "Conditional Rendering y Lists",
+          "order": 5,
+          "references": [
+            {
+              "label": "React: Conditional Rendering",
+              "url": "https://react.dev/learn/conditional-rendering"
+            },
+            {
+              "label": "React: Rendering Lists",
+              "url": "https://react.dev/learn/rendering-lists"
+            }
+          ]
+        },
+        {
+          "id": "pure-rendering-and-commit",
+          "title": "Rendering Puro y Commit Phase",
+          "order": 6,
+          "references": [
+            {
+              "label": "React: Keeping Components Pure",
+              "url": "https://react.dev/learn/keeping-components-pure"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "events-and-state",
+      "title": "Events y State",
+      "order": 2,
+      "topics": [
+        {
+          "id": "event-handlers",
+          "title": "Event Handlers",
+          "order": 1,
+          "references": [
+            {
+              "label": "React: Responding to Events",
+              "url": "https://react.dev/learn/responding-to-events"
+            }
+          ]
+        },
+        {
+          "id": "state-as-a-snapshot",
+          "title": "State como Snapshot",
+          "order": 2,
+          "references": [
+            {
+              "label": "React: State as a Snapshot",
+              "url": "https://react.dev/learn/state-as-a-snapshot"
+            },
+            {
+              "label": "React: State: A Component’s Memory",
+              "url": "https://react.dev/learn/state-a-components-memory"
+            }
+          ]
+        },
+        {
+          "id": "state-updates-batching-and-updaters",
+          "title": "State Updates, Batching y Updater Functions",
+          "order": 3,
+          "references": [
+            {
+              "label": "React: Queueing a Series of State Updates",
+              "url": "https://react.dev/learn/queueing-a-series-of-state-updates"
+            }
+          ]
+        },
+        {
+          "id": "updating-objects-and-arrays",
+          "title": "Actualizando Objects y Arrays en State",
+          "order": 4,
+          "references": [
+            {
+              "label": "React: Updating Objects in State",
+              "url": "https://react.dev/learn/updating-objects-in-state"
+            },
+            {
+              "label": "React: Updating Arrays in State",
+              "url": "https://react.dev/learn/updating-arrays-in-state"
+            }
+          ]
+        },
+        {
+          "id": "controlled-inputs-and-forms",
+          "title": "Inputs Controlados y Forms",
+          "order": 5,
+          "references": [
+            {
+              "label": "React: <input>",
+              "url": "https://react.dev/reference/react-dom/components/input"
+            },
+            {
+              "label": "React: <form>",
+              "url": "https://react.dev/reference/react-dom/components/form"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state-architecture",
+      "title": "Arquitectura de State",
+      "order": 3,
+      "topics": [
+        {
+          "id": "lifting-and-sharing-state",
+          "title": "Lifting y Compartir State",
+          "order": 1,
+          "references": [
+            {
+              "label": "React: Sharing State Between Components",
+              "url": "https://react.dev/learn/sharing-state-between-components"
+            }
+          ]
+        },
+        {
+          "id": "choosing-state-shape",
+          "title": "Eligiendo State Shape y Datos Derivados",
+          "order": 2,
+          "references": [
+            {
+              "label": "React: Choosing the State Structure",
+              "url": "https://react.dev/learn/choosing-the-state-structure"
+            }
+          ]
+        },
+        {
+          "id": "reducers",
+          "title": "Reducers para Transiciones Complejas de State",
+          "order": 3,
+          "references": [
+            {
+              "label": "React: Extracting State Logic into a Reducer",
+              "url": "https://react.dev/learn/extracting-state-logic-into-a-reducer"
+            },
+            {
+              "label": "React: useReducer",
+              "url": "https://react.dev/reference/react/useReducer"
+            }
+          ]
+        },
+        {
+          "id": "context",
+          "title": "Context para Valores Transversales",
+          "order": 4,
+          "references": [
+            {
+              "label": "React: Passing Data Deeply with Context",
+              "url": "https://react.dev/learn/passing-data-deeply-with-context"
+            },
+            {
+              "label": "React: useContext",
+              "url": "https://react.dev/reference/react/useContext"
+            }
+          ]
+        },
+        {
+          "id": "reducer-and-context",
+          "title": "Reducers con Context",
+          "order": 5,
+          "references": [
+            {
+              "label": "React: Scaling Up with Reducer and Context",
+              "url": "https://react.dev/learn/scaling-up-with-reducer-and-context"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "refs-effects-and-external-systems",
+      "title": "Refs, Effects y Sistemas Externos",
+      "order": 4,
+      "topics": [
+        {
+          "id": "refs-as-instance-memory",
+          "title": "Refs como Memoria de Instancia",
+          "order": 1,
+          "references": [
+            {
+              "label": "React: Referencing Values with Refs",
+              "url": "https://react.dev/learn/referencing-values-with-refs"
+            },
+            {
+              "label": "React: useRef",
+              "url": "https://react.dev/reference/react/useRef"
+            }
+          ]
+        },
+        {
+          "id": "dom-refs-and-imperative-actions",
+          "title": "DOM Refs y Acciones Imperativas",
+          "order": 2,
+          "references": [
+            {
+              "label": "React: Manipulating the DOM with Refs",
+              "url": "https://react.dev/learn/manipulating-the-dom-with-refs"
+            }
+          ]
+        },
+        {
+          "id": "effects-and-synchronization",
+          "title": "Effects y Sincronización",
+          "order": 3,
+          "references": [
+            {
+              "label": "React: Synchronizing with Effects",
+              "url": "https://react.dev/learn/synchronizing-with-effects"
+            },
+            {
+              "label": "React: useEffect",
+              "url": "https://react.dev/reference/react/useEffect"
+            }
+          ]
+        },
+        {
+          "id": "effect-dependencies-and-cleanup",
+          "title": "Dependencies y Cleanup de Effects",
+          "order": 4,
+          "references": [
+            {
+              "label": "React: Lifecycle of Reactive Effects",
+              "url": "https://react.dev/learn/lifecycle-of-reactive-effects"
+            },
+            {
+              "label": "React: Removing Effect Dependencies",
+              "url": "https://react.dev/learn/removing-effect-dependencies"
+            }
+          ]
+        },
+        {
+          "id": "effect-events",
+          "title": "Effect Events con `useEffectEvent`",
+          "order": 5,
+          "references": [
+            {
+              "label": "React: Separating Events from Effects",
+              "url": "https://react.dev/learn/separating-events-from-effects"
+            },
+            {
+              "label": "React: useEffectEvent",
+              "url": "https://react.dev/reference/react/useEffectEvent"
+            }
+          ]
+        },
+        {
+          "id": "custom-hooks",
+          "title": "Custom Hooks y Lógica Stateful Reutilizable",
+          "order": 6,
+          "references": [
+            {
+              "label": "React: Reusing Logic with Custom Hooks",
+              "url": "https://react.dev/learn/reusing-logic-with-custom-hooks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concurrency-and-performance",
+      "title": "Concurrencia y Performance",
+      "order": 5,
+      "topics": [
+        {
+          "id": "memoization",
+          "title": "Memoization con `memo`, `useMemo` y `useCallback`",
+          "order": 1,
+          "references": [
+            {
+              "label": "React: useMemo",
+              "url": "https://react.dev/reference/react/useMemo"
+            },
+            {
+              "label": "React: memo",
+              "url": "https://react.dev/reference/react/memo"
+            }
+          ]
+        },
+        {
+          "id": "transitions",
+          "title": "Transitions con `useTransition`",
+          "order": 2,
+          "references": [
+            {
+              "label": "React: useTransition",
+              "url": "https://react.dev/reference/react/useTransition"
+            }
+          ]
+        },
+        {
+          "id": "deferred-values",
+          "title": "Deferred Values",
+          "order": 3,
+          "references": [
+            {
+              "label": "React: useDeferredValue",
+              "url": "https://react.dev/reference/react/useDeferredValue"
+            }
+          ]
+        },
+        {
+          "id": "suspense-and-lazy",
+          "title": "Suspense y Lazy Loading",
+          "order": 4,
+          "references": [
+            {
+              "label": "React: Suspense",
+              "url": "https://react.dev/reference/react/Suspense"
+            },
+            {
+              "label": "React: lazy",
+              "url": "https://react.dev/reference/react/lazy"
+            }
+          ]
+        },
+        {
+          "id": "activity",
+          "title": "Preservando UI Oculta con `<Activity>`",
+          "order": 5,
+          "references": [
+            {
+              "label": "React: Activity",
+              "url": "https://react.dev/reference/react/Activity"
+            },
+            {
+              "label": "React 19.2",
+              "url": "https://react.dev/blog/2025/10/01/react-19-2"
+            }
+          ]
+        },
+        {
+          "id": "view-transitions",
+          "title": "React View Transitions",
+          "order": 6,
+          "references": [
+            {
+              "label": "React: ViewTransition",
+              "url": "https://react.dev/reference/react/ViewTransition"
+            },
+            {
+              "label": "React 19.3",
+              "url": "https://react.dev/blog/2026/09/09/react-19-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forms-and-actions",
+      "title": "Forms y Actions",
+      "order": 6,
+      "topics": [
+        {
+          "id": "form-actions",
+          "title": "Form Actions",
+          "order": 1,
+          "references": [
+            {
+              "label": "React: <form>",
+              "url": "https://react.dev/reference/react-dom/components/form"
+            }
+          ]
+        },
+        {
+          "id": "action-state",
+          "title": "Action State con `useActionState`",
+          "order": 2,
+          "references": [
+            {
+              "label": "React: useActionState",
+              "url": "https://react.dev/reference/react/useActionState"
+            }
+          ]
+        },
+        {
+          "id": "form-status",
+          "title": "UI de Submission con `useFormStatus`",
+          "order": 3,
+          "references": [
+            {
+              "label": "React DOM: useFormStatus",
+              "url": "https://react.dev/reference/react-dom/hooks/useFormStatus"
+            }
+          ]
+        },
+        {
+          "id": "optimistic-state",
+          "title": "State Optimista con `useOptimistic`",
+          "order": 4,
+          "references": [
+            {
+              "label": "React: useOptimistic",
+              "url": "https://react.dev/reference/react/useOptimistic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced-component-apis",
+      "title": "APIs Avanzadas de Components",
+      "order": 7,
+      "topics": [
+        {
+          "id": "portals",
+          "title": "Portals",
+          "order": 1,
+          "references": [
+            {
+              "label": "React DOM: createPortal",
+              "url": "https://react.dev/reference/react-dom/createPortal"
+            }
+          ]
+        },
+        {
+          "id": "error-boundaries",
+          "title": "Error Boundaries",
+          "order": 2,
+          "references": [
+            {
+              "label": "React: Component",
+              "url": "https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary"
+            }
+          ]
+        },
+        {
+          "id": "fragment-refs",
+          "title": "Fragment Refs",
+          "order": 3,
+          "references": [
+            {
+              "label": "React: Fragment",
+              "url": "https://react.dev/reference/react/Fragment"
+            },
+            {
+              "label": "React 19.3",
+              "url": "https://react.dev/blog/2026/09/09/react-19-3"
+            }
+          ]
+        },
+        {
+          "id": "external-stores",
+          "title": "External Stores con `useSyncExternalStore`",
+          "order": 4,
+          "references": [
+            {
+              "label": "React: useSyncExternalStore",
+              "url": "https://react.dev/reference/react/useSyncExternalStore"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "server-rendering-and-rsc",
+      "title": "Server Rendering y React Server Components",
+      "order": 8,
+      "topics": [
+        {
+          "id": "client-roots-and-hydration",
+          "title": "Client Roots y Hydration",
+          "order": 1,
+          "references": [
+            {
+              "label": "React DOM: createRoot",
+              "url": "https://react.dev/reference/react-dom/client/createRoot"
+            },
+            {
+              "label": "React DOM: hydrateRoot",
+              "url": "https://react.dev/reference/react-dom/client/hydrateRoot"
+            }
+          ]
+        },
+        {
+          "id": "streaming-ssr",
+          "title": "Server Rendering con Streaming",
+          "order": 2,
+          "references": [
+            {
+              "label": "React DOM: renderToPipeableStream",
+              "url": "https://react.dev/reference/react-dom/server/renderToPipeableStream"
+            },
+            {
+              "label": "React DOM: renderToReadableStream",
+              "url": "https://react.dev/reference/react-dom/server/renderToReadableStream"
+            }
+          ]
+        },
+        {
+          "id": "server-components",
+          "title": "React Server Components",
+          "order": 3,
+          "references": [
+            {
+              "label": "React: Server Components",
+              "url": "https://react.dev/reference/rsc/server-components"
+            }
+          ]
+        },
+        {
+          "id": "server-client-boundaries",
+          "title": "Boundaries entre Server y Client Components",
+          "order": 4,
+          "references": [
+            {
+              "label": "React: use client",
+              "url": "https://react.dev/reference/rsc/use-client"
+            },
+            {
+              "label": "React: Server Components",
+              "url": "https://react.dev/reference/rsc/server-components"
+            }
+          ]
+        },
+        {
+          "id": "server-functions",
+          "title": "Server Functions",
+          "order": 5,
+          "references": [
+            {
+              "label": "React: Server Functions",
+              "url": "https://react.dev/reference/rsc/server-functions"
+            },
+            {
+              "label": "React: use server",
+              "url": "https://react.dev/reference/rsc/use-server"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tooling-testing-and-production",
+      "title": "Tooling, Testing y Producción",
+      "order": 9,
+      "topics": [
+        {
+          "id": "strict-mode",
+          "title": "Strict Mode",
+          "order": 1,
+          "references": [
+            {
+              "label": "React: StrictMode",
+              "url": "https://react.dev/reference/react/StrictMode"
+            }
+          ]
+        },
+        {
+          "id": "react-devtools-and-profiling",
+          "title": "React DevTools y Profiling",
+          "order": 2,
+          "references": [
+            {
+              "label": "React: React Developer Tools",
+              "url": "https://react.dev/learn/react-developer-tools"
+            },
+            {
+              "label": "React: Profiler",
+              "url": "https://react.dev/reference/react/Profiler"
+            }
+          ]
+        },
+        {
+          "id": "testing-components-by-behavior",
+          "title": "Probando Components por Comportamiento",
+          "order": 3,
+          "references": [
+            {
+              "label": "React: Testing",
+              "url": "https://react.dev/learn/testing"
+            }
+          ]
+        },
+        {
+          "id": "accessibility-and-dom-semantics",
+          "title": "Accesibilidad y Semántica del DOM",
+          "order": 4,
+          "references": [
+            {
+              "label": "React: Common components",
+              "url": "https://react.dev/reference/react-dom/components/common"
+            },
+            {
+              "label": "MDN: Accessibility",
+              "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility"
+            }
+          ]
+        },
+        {
+          "id": "react-compiler",
+          "title": "React Compiler y Memoization Automática",
+          "order": 5,
+          "references": [
+            {
+              "label": "React Compiler",
+              "url": "https://react.dev/learn/react-compiler"
+            },
+            {
+              "label": "React Compiler Configuration",
+              "url": "https://react.dev/reference/react-compiler/configuration"
+            }
+          ]
+        },
+        {
+          "id": "versioning-and-upgrades",
+          "title": "React 19.3, Versionado y Upgrades",
+          "order": 6,
+          "references": [
+            {
+              "label": "React Versions",
+              "url": "https://react.dev/versions"
+            },
+            {
+              "label": "React 19.3",
+              "url": "https://react.dev/blog/2026/09/09/react-19-3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

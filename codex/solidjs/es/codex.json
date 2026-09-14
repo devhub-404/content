@@ -1,0 +1,39 @@
+{
+  "locale": "es",
+  "title": "SolidJS",
+  "slug": "solidjs",
+  "description": "Una biblioteca de UI reactiva basada en actualizaciones granulares, componentes composables y un trabajo mínimo en runtime.",
+  "status": "published",
+  "tags": [
+    "solidjs",
+    "javascript",
+    "frontend",
+    "reactivity"
+  ],
+  "branding": {
+    "color": "#2C4F7C",
+    "logo": "/logos/solidjs.svg"
+  },
+  "links": {
+    "official": "https://www.solidjs.com/",
+    "repository": "https://github.com/solidjs/solid"
+  },
+  "metadata": [
+    {
+      "label": "Tipo",
+      "value": "UI library"
+    },
+    {
+      "label": "Runtime",
+      "value": "Browser and Node.js"
+    },
+    {
+      "label": "Enfoque",
+      "value": "Reactive interfaces"
+    },
+    {
+      "label": "Licencia",
+      "value": "MIT"
+    }
+  ]
+}

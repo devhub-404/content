@@ -1,0 +1,39 @@
+{
+  "locale": "en",
+  "title": "Go",
+  "slug": "go",
+  "description": "A compiled language designed for readable, reliable, and efficient software, with concurrency and tooling built into the platform.",
+  "status": "published",
+  "tags": [
+    "go",
+    "golang",
+    "programming",
+    "concurrency"
+  ],
+  "branding": {
+    "color": "#00ADD8",
+    "logo": "/logos/go.svg"
+  },
+  "links": {
+    "official": "https://go.dev/",
+    "repository": "https://github.com/golang/go"
+  },
+  "metadata": [
+    {
+      "label": "Type",
+      "value": "Programming language"
+    },
+    {
+      "label": "Runtime",
+      "value": "Native and server"
+    },
+    {
+      "label": "Focus",
+      "value": "Backend and systems"
+    },
+    {
+      "label": "License",
+      "value": "BSD-style"
+    }
+  ]
+}

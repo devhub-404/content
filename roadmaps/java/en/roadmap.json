@@ -1,0 +1,792 @@
+{
+  "locale": "en",
+  "status": "published",
+  "title": "Java",
+  "slug": "java",
+  "description": "A prerequisite-ordered roadmap for modern Java using Java 25 LTS as the stable baseline, covering the JVM, type system, records and sealed hierarchies, generics, collections, streams, I/O, exceptions, virtual threads, concurrency, performance, testing, and production tooling.",
+  "metadata": {
+    "tags": [
+      "java",
+      "jvm",
+      "programming",
+      "concurrency"
+    ]
+  },
+  "sections": [
+    {
+      "id": "language-jvm-and-projects",
+      "title": "Language, JVM & Projects",
+      "order": 1,
+      "topics": [
+        {
+          "id": "what-java-is",
+          "title": "What Java Is",
+          "order": 1,
+          "references": [
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            },
+            {
+              "label": "Programiz: Java Programming",
+              "url": "https://www.programiz.com/java-programming"
+            }
+          ]
+        },
+        {
+          "id": "jdk-jre-jvm-and-tools",
+          "title": "JDK, JVM, and Core Tools",
+          "order": 2,
+          "references": [
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            },
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            }
+          ]
+        },
+        {
+          "id": "source-files-packages-and-main",
+          "title": "Source Files, Packages, and `main`",
+          "order": 3,
+          "references": [
+            {
+              "label": "Java Language Changes Summary",
+              "url": "https://docs.oracle.com/en/java/javase/25/language/java-language-changes-summary.html"
+            },
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            }
+          ]
+        },
+        {
+          "id": "imports-and-static-imports",
+          "title": "Imports and Static Imports",
+          "order": 4,
+          "references": [
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            },
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            }
+          ]
+        },
+        {
+          "id": "modules-and-module-info",
+          "title": "The Java Platform Module System",
+          "order": 5,
+          "references": [
+            {
+              "label": "Java Language Changes Summary",
+              "url": "https://docs.oracle.com/en/java/javase/25/language/java-language-changes-summary.html"
+            },
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "types-values-and-strings",
+      "title": "Types, Values & Strings",
+      "order": 2,
+      "topics": [
+        {
+          "id": "primitive-types",
+          "title": "Primitive Types",
+          "order": 1,
+          "references": [
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            },
+            {
+              "label": "Programiz: Java Programming",
+              "url": "https://www.programiz.com/java-programming"
+            }
+          ]
+        },
+        {
+          "id": "variables-final-and-var",
+          "title": "Variables, `final`, and `var`",
+          "order": 2,
+          "references": [
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            },
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            }
+          ]
+        },
+        {
+          "id": "reference-types-null-and-identity",
+          "title": "Reference Types, `null`, and Identity",
+          "order": 3,
+          "references": [
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            },
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            }
+          ]
+        },
+        {
+          "id": "strings-text-blocks-and-formatting",
+          "title": "Strings, Text Blocks, and Formatting",
+          "order": 4,
+          "references": [
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            },
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            }
+          ]
+        },
+        {
+          "id": "arrays-and-varargs",
+          "title": "Arrays and Varargs",
+          "order": 5,
+          "references": [
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            },
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            }
+          ]
+        },
+        {
+          "id": "numeric-conversions-and-parsing",
+          "title": "Numeric Conversions and Parsing",
+          "order": 6,
+          "references": [
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            },
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "control-flow-and-methods",
+      "title": "Control Flow & Methods",
+      "order": 3,
+      "topics": [
+        {
+          "id": "if-switch-and-switch-expressions",
+          "title": "`if`, `switch`, and Switch Expressions",
+          "order": 1,
+          "references": [
+            {
+              "label": "Java Language Changes Summary",
+              "url": "https://docs.oracle.com/en/java/javase/25/language/java-language-changes-summary.html"
+            },
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            }
+          ]
+        },
+        {
+          "id": "loops-and-enhanced-for",
+          "title": "Loops and Enhanced `for`",
+          "order": 2,
+          "references": [
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            },
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            }
+          ]
+        },
+        {
+          "id": "methods-overloading-and-parameters",
+          "title": "Methods, Overloading, and Parameters",
+          "order": 3,
+          "references": [
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            },
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            }
+          ]
+        },
+        {
+          "id": "lambdas-functional-interfaces-and-method-references",
+          "title": "Lambdas, Functional Interfaces, and Method References",
+          "order": 4,
+          "references": [
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            },
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            }
+          ]
+        },
+        {
+          "id": "patterns-instanceof-and-switch",
+          "title": "Pattern Matching for `instanceof` and `switch`",
+          "order": 5,
+          "references": [
+            {
+              "label": "Java Language Changes Summary",
+              "url": "https://docs.oracle.com/en/java/javase/25/language/java-language-changes-summary.html"
+            },
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classes-records-and-interfaces",
+      "title": "Classes, Records & Interfaces",
+      "order": 4,
+      "topics": [
+        {
+          "id": "classes-fields-and-constructors",
+          "title": "Classes, Fields, and Constructors",
+          "order": 1,
+          "references": [
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            },
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            }
+          ]
+        },
+        {
+          "id": "records",
+          "title": "Records",
+          "order": 2,
+          "references": [
+            {
+              "label": "Java Language Changes Summary",
+              "url": "https://docs.oracle.com/en/java/javase/25/language/java-language-changes-summary.html"
+            },
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            }
+          ]
+        },
+        {
+          "id": "sealed-classes-and-closed-hierarchies",
+          "title": "Sealed Classes and Closed Hierarchies",
+          "order": 3,
+          "references": [
+            {
+              "label": "Java Language Changes Summary",
+              "url": "https://docs.oracle.com/en/java/javase/25/language/java-language-changes-summary.html"
+            },
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            }
+          ]
+        },
+        {
+          "id": "inheritance-abstract-and-final",
+          "title": "Inheritance, Abstract Classes, and `final`",
+          "order": 4,
+          "references": [
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            },
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            }
+          ]
+        },
+        {
+          "id": "interfaces-and-default-methods",
+          "title": "Interfaces and Default Methods",
+          "order": 5,
+          "references": [
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            },
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            }
+          ]
+        },
+        {
+          "id": "enums",
+          "title": "Enums",
+          "order": 6,
+          "references": [
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            },
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generics-and-type-system",
+      "title": "Generics & Type System",
+      "order": 5,
+      "topics": [
+        {
+          "id": "generic-types-and-methods",
+          "title": "Generic Types and Methods",
+          "order": 1,
+          "references": [
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            },
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            }
+          ]
+        },
+        {
+          "id": "bounds-and-wildcards",
+          "title": "Bounds and Wildcards",
+          "order": 2,
+          "references": [
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            },
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            }
+          ]
+        },
+        {
+          "id": "type-erasure-and-runtime-types",
+          "title": "Type Erasure and Runtime Types",
+          "order": 3,
+          "references": [
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            },
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            }
+          ]
+        },
+        {
+          "id": "annotations-and-reflection",
+          "title": "Annotations and Reflection",
+          "order": 4,
+          "references": [
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            },
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "collections-and-streams",
+      "title": "Collections & Streams",
+      "order": 6,
+      "topics": [
+        {
+          "id": "list-set-and-map",
+          "title": "`List`, `Set`, and `Map`",
+          "order": 1,
+          "references": [
+            {
+              "label": "Dev.java: Collections Framework",
+              "url": "https://dev.java/learn/api/collections-framework/"
+            },
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            }
+          ]
+        },
+        {
+          "id": "immutable-unmodifiable-and-copying-collections",
+          "title": "Unmodifiable Collections and Copies",
+          "order": 2,
+          "references": [
+            {
+              "label": "Dev.java: Collections Framework",
+              "url": "https://dev.java/learn/api/collections-framework/"
+            },
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            }
+          ]
+        },
+        {
+          "id": "iterators-and-iterable",
+          "title": "`Iterable`, `Iterator`, and Traversal",
+          "order": 3,
+          "references": [
+            {
+              "label": "Dev.java: Collections Framework",
+              "url": "https://dev.java/learn/api/collections-framework/"
+            },
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            }
+          ]
+        },
+        {
+          "id": "stream-pipelines",
+          "title": "Stream Pipelines",
+          "order": 4,
+          "references": [
+            {
+              "label": "Dev.java: Stream API",
+              "url": "https://dev.java/learn/api/streams/"
+            },
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            }
+          ]
+        },
+        {
+          "id": "collectors-grouping-and-reduction",
+          "title": "Collectors, Grouping, and Reduction",
+          "order": 5,
+          "references": [
+            {
+              "label": "Dev.java: Stream API",
+              "url": "https://dev.java/learn/api/streams/"
+            },
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            }
+          ]
+        },
+        {
+          "id": "parallel-streams",
+          "title": "Parallel Streams",
+          "order": 6,
+          "references": [
+            {
+              "label": "Dev.java: Stream API",
+              "url": "https://dev.java/learn/api/streams/"
+            },
+            {
+              "label": "Java Concurrency",
+              "url": "https://docs.oracle.com/en/java/javase/25/core/java-concurrency.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exceptions-resources-and-io",
+      "title": "Exceptions, Resources & I/O",
+      "order": 7,
+      "topics": [
+        {
+          "id": "checked-and-unchecked-exceptions",
+          "title": "Checked and Unchecked Exceptions",
+          "order": 1,
+          "references": [
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            },
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            }
+          ]
+        },
+        {
+          "id": "try-with-resources",
+          "title": "Try-with-resources",
+          "order": 2,
+          "references": [
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            },
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            }
+          ]
+        },
+        {
+          "id": "nio-files-paths-and-buffers",
+          "title": "NIO Files, Paths, and Buffers",
+          "order": 3,
+          "references": [
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            },
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            }
+          ]
+        },
+        {
+          "id": "serialization-text-json-and-http",
+          "title": "Text, JSON Libraries, and HTTP",
+          "order": 4,
+          "references": [
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            },
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concurrency-and-virtual-threads",
+      "title": "Concurrency & Virtual Threads",
+      "order": 8,
+      "topics": [
+        {
+          "id": "threads-and-executors",
+          "title": "Threads and Executors",
+          "order": 1,
+          "references": [
+            {
+              "label": "Java Concurrency",
+              "url": "https://docs.oracle.com/en/java/javase/25/core/java-concurrency.html"
+            },
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            }
+          ]
+        },
+        {
+          "id": "virtual-threads",
+          "title": "Virtual Threads",
+          "order": 2,
+          "references": [
+            {
+              "label": "Java Concurrency",
+              "url": "https://docs.oracle.com/en/java/javase/25/core/java-concurrency.html"
+            },
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            }
+          ]
+        },
+        {
+          "id": "synchronization-locks-and-atomics",
+          "title": "Synchronization, Locks, and Atomics",
+          "order": 3,
+          "references": [
+            {
+              "label": "Java Concurrency",
+              "url": "https://docs.oracle.com/en/java/javase/25/core/java-concurrency.html"
+            },
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            }
+          ]
+        },
+        {
+          "id": "completablefuture",
+          "title": "`CompletableFuture`",
+          "order": 4,
+          "references": [
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            },
+            {
+              "label": "Java Concurrency",
+              "url": "https://docs.oracle.com/en/java/javase/25/core/java-concurrency.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "runtime-memory-and-performance",
+      "title": "Runtime, Memory & Performance",
+      "order": 9,
+      "topics": [
+        {
+          "id": "garbage-collection-and-reachability",
+          "title": "Garbage Collection and Reachability",
+          "order": 1,
+          "references": [
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            },
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            }
+          ]
+        },
+        {
+          "id": "boxing-unboxing-and-allocation",
+          "title": "Boxing, Unboxing, and Allocation",
+          "order": 2,
+          "references": [
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            },
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            }
+          ]
+        },
+        {
+          "id": "jvm-jit-and-warmup",
+          "title": "JIT Compilation and Warmup",
+          "order": 3,
+          "references": [
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            },
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tooling-testing-and-production",
+      "title": "Tooling, Testing & Production",
+      "order": 10,
+      "topics": [
+        {
+          "id": "maven-gradle-and-dependencies",
+          "title": "Maven, Gradle, and Dependencies",
+          "order": 1,
+          "references": [
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            },
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            }
+          ]
+        },
+        {
+          "id": "unit-testing-and-junit",
+          "title": "Unit Testing with JUnit",
+          "order": 2,
+          "references": [
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            },
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            }
+          ]
+        },
+        {
+          "id": "debugging-profiling-and-flight-recorder",
+          "title": "Debugging, Profiling, and Flight Recorder",
+          "order": 3,
+          "references": [
+            {
+              "label": "Java SE 25 API",
+              "url": "https://docs.oracle.com/en/java/javase/25/docs/api/"
+            },
+            {
+              "label": "Dev.java: Learn Java",
+              "url": "https://dev.java/learn/"
+            }
+          ]
+        },
+        {
+          "id": "language-releases-lts-and-preview-features",
+          "title": "Releases, LTS, and Preview Features",
+          "order": 4,
+          "references": [
+            {
+              "label": "Java Language Changes Summary",
+              "url": "https://docs.oracle.com/en/java/javase/25/language/java-language-changes-summary.html"
+            },
+            {
+              "label": "Java Language Specification",
+              "url": "https://docs.oracle.com/javase/specs/jls/se25/html/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

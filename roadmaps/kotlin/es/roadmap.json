@@ -1,0 +1,785 @@
+{
+  "locale": "es",
+  "status": "published",
+  "title": "Kotlin",
+  "slug": "kotlin",
+  "description": "Un roadmap de Kotlin 2.4 ordenado por prerrequisitos, cubriendo null safety, modelos de dominio, collections, higher-order functions, generics y variance, coroutines y Flow, delegation y DSLs, interop Java, Multiplatform, testing y producción.",
+  "metadata": {
+    "tags": [
+      "kotlin",
+      "jvm",
+      "multiplatform",
+      "coroutines",
+      "programming"
+    ]
+  },
+  "sections": [
+    {
+      "id": "language-and-platforms",
+      "title": "Lenguaje y Plataformas",
+      "order": 1,
+      "topics": [
+        {
+          "id": "what-kotlin-is",
+          "title": "Qué es Kotlin",
+          "order": 1,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Programiz: Kotlin Programming",
+              "url": "https://www.programiz.com/kotlin-programming"
+            }
+          ]
+        },
+        {
+          "id": "compiler-gradle-and-project-layout",
+          "title": "Compiler, Gradle y Layout de Proyecto",
+          "order": 2,
+          "references": [
+            {
+              "label": "Configure a Gradle project",
+              "url": "https://kotlinlang.org/docs/gradle-configure-project.html"
+            },
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            }
+          ]
+        },
+        {
+          "id": "packages-imports-and-files",
+          "title": "Packages, Imports y Archivos",
+          "order": 3,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Language Specification",
+              "url": "https://kotlinlang.org/spec/introduction.html"
+            }
+          ]
+        },
+        {
+          "id": "multiplatform-source-sets",
+          "title": "Source Sets Multiplatform",
+          "order": 4,
+          "references": [
+            {
+              "label": "Kotlin Multiplatform",
+              "url": "https://kotlinlang.org/docs/multiplatform.html"
+            },
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "values-types-and-null-safety",
+      "title": "Valores, Tipos y Null Safety",
+      "order": 2,
+      "topics": [
+        {
+          "id": "val-var-and-type-inference",
+          "title": "`val`, `var` e Inferencia de Tipo",
+          "order": 1,
+          "references": [
+            {
+              "label": "Kotlin Tour",
+              "url": "https://kotlinlang.org/docs/kotlin-tour-welcome.html"
+            },
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            }
+          ]
+        },
+        {
+          "id": "basic-types-and-numbers",
+          "title": "Tipos Básicos y Números",
+          "order": 2,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Tour",
+              "url": "https://kotlinlang.org/docs/kotlin-tour-welcome.html"
+            }
+          ]
+        },
+        {
+          "id": "strings-templates-and-multiline-text",
+          "title": "Strings, Templates y Texto Multilínea",
+          "order": 3,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Tour",
+              "url": "https://kotlinlang.org/docs/kotlin-tour-welcome.html"
+            }
+          ]
+        },
+        {
+          "id": "nullable-types-safe-calls-and-elvis",
+          "title": "Tipos Nullable, Safe Calls y Elvis",
+          "order": 4,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Tour",
+              "url": "https://kotlinlang.org/docs/kotlin-tour-welcome.html"
+            }
+          ]
+        },
+        {
+          "id": "smart-casts-and-type-checks",
+          "title": "Smart Casts y Type Checks",
+          "order": 5,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Language Specification",
+              "url": "https://kotlinlang.org/spec/introduction.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "control-flow-and-functions",
+      "title": "Flujo de Control y Functions",
+      "order": 3,
+      "topics": [
+        {
+          "id": "if-when-and-expressions",
+          "title": "`if` y `when` como Expressions",
+          "order": 1,
+          "references": [
+            {
+              "label": "Kotlin Tour",
+              "url": "https://kotlinlang.org/docs/kotlin-tour-welcome.html"
+            },
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            }
+          ]
+        },
+        {
+          "id": "loops-ranges-and-progressions",
+          "title": "Loops, Ranges y Progressions",
+          "order": 2,
+          "references": [
+            {
+              "label": "Kotlin Tour",
+              "url": "https://kotlinlang.org/docs/kotlin-tour-welcome.html"
+            },
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            }
+          ]
+        },
+        {
+          "id": "functions-default-named-and-vararg-parameters",
+          "title": "Functions, Default, Named y Vararg Parameters",
+          "order": 3,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Tour",
+              "url": "https://kotlinlang.org/docs/kotlin-tour-welcome.html"
+            }
+          ]
+        },
+        {
+          "id": "local-functions-and-tailrec",
+          "title": "Local Functions y Recursión",
+          "order": 4,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Language Specification",
+              "url": "https://kotlinlang.org/spec/introduction.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classes-data-and-domain-models",
+      "title": "Classes y Modelos de Dominio",
+      "order": 4,
+      "topics": [
+        {
+          "id": "classes-constructors-and-properties",
+          "title": "Classes, Constructors y Properties",
+          "order": 1,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Tour",
+              "url": "https://kotlinlang.org/docs/kotlin-tour-welcome.html"
+            }
+          ]
+        },
+        {
+          "id": "data-classes-and-copy",
+          "title": "Data Classes y `copy`",
+          "order": 2,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Tour",
+              "url": "https://kotlinlang.org/docs/kotlin-tour-welcome.html"
+            }
+          ]
+        },
+        {
+          "id": "sealed-classes-and-interfaces",
+          "title": "Sealed Classes e Interfaces",
+          "order": 3,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Language Specification",
+              "url": "https://kotlinlang.org/spec/introduction.html"
+            }
+          ]
+        },
+        {
+          "id": "objects-companion-objects-and-singletons",
+          "title": "Objects y Companion Objects",
+          "order": 4,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Tour",
+              "url": "https://kotlinlang.org/docs/kotlin-tour-welcome.html"
+            }
+          ]
+        },
+        {
+          "id": "interfaces-inheritance-and-delegation",
+          "title": "Interfaces, Herencia y Delegation",
+          "order": 5,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Language Specification",
+              "url": "https://kotlinlang.org/spec/introduction.html"
+            }
+          ]
+        },
+        {
+          "id": "value-classes-and-enums",
+          "title": "Value Classes y Enums",
+          "order": 6,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Language Specification",
+              "url": "https://kotlinlang.org/spec/introduction.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "collections-and-functional-style",
+      "title": "Collections y Estilo Funcional",
+      "order": 5,
+      "topics": [
+        {
+          "id": "list-set-map-and-mutability",
+          "title": "Lists, Sets, Maps y Mutability",
+          "order": 1,
+          "references": [
+            {
+              "label": "Kotlin Collections Overview",
+              "url": "https://kotlinlang.org/docs/collections-overview.html"
+            },
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            }
+          ]
+        },
+        {
+          "id": "collection-transformations",
+          "title": "Transformaciones de Collections",
+          "order": 2,
+          "references": [
+            {
+              "label": "Kotlin Collections Overview",
+              "url": "https://kotlinlang.org/docs/collections-overview.html"
+            },
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            }
+          ]
+        },
+        {
+          "id": "sequences-and-lazy-pipelines",
+          "title": "Sequences y Pipelines Lazy",
+          "order": 3,
+          "references": [
+            {
+              "label": "Kotlin Collections Overview",
+              "url": "https://kotlinlang.org/docs/collections-overview.html"
+            },
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            }
+          ]
+        },
+        {
+          "id": "scope-functions",
+          "title": "Scope Functions",
+          "order": 4,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Tour",
+              "url": "https://kotlinlang.org/docs/kotlin-tour-welcome.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "higher-order-functions-and-dsls",
+      "title": "Higher-order Functions y DSLs",
+      "order": 6,
+      "topics": [
+        {
+          "id": "function-types-and-lambdas",
+          "title": "Function Types y Lambdas",
+          "order": 1,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Tour",
+              "url": "https://kotlinlang.org/docs/kotlin-tour-welcome.html"
+            }
+          ]
+        },
+        {
+          "id": "inline-noinline-and-crossinline",
+          "title": "`inline`, `noinline` y `crossinline`",
+          "order": 2,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Language Specification",
+              "url": "https://kotlinlang.org/spec/introduction.html"
+            }
+          ]
+        },
+        {
+          "id": "extension-functions-and-properties",
+          "title": "Extension Functions y Properties",
+          "order": 3,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Tour",
+              "url": "https://kotlinlang.org/docs/kotlin-tour-welcome.html"
+            }
+          ]
+        },
+        {
+          "id": "lambdas-with-receiver-and-type-safe-builders",
+          "title": "Lambdas con Receiver y Type-safe Builders",
+          "order": 4,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Language Specification",
+              "url": "https://kotlinlang.org/spec/introduction.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generics-and-type-system",
+      "title": "Generics y Type System",
+      "order": 7,
+      "topics": [
+        {
+          "id": "generic-functions-and-classes",
+          "title": "Functions y Classes Genéricas",
+          "order": 1,
+          "references": [
+            {
+              "label": "Kotlin Generics",
+              "url": "https://kotlinlang.org/docs/generics.html"
+            },
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            }
+          ]
+        },
+        {
+          "id": "variance-in-out-and-star-projections",
+          "title": "Varianza: `in`, `out` y Star Projections",
+          "order": 2,
+          "references": [
+            {
+              "label": "Kotlin Generics",
+              "url": "https://kotlinlang.org/docs/generics.html"
+            },
+            {
+              "label": "Kotlin Language Specification",
+              "url": "https://kotlinlang.org/spec/introduction.html"
+            }
+          ]
+        },
+        {
+          "id": "reified-type-parameters",
+          "title": "Type Parameters Reified",
+          "order": 3,
+          "references": [
+            {
+              "label": "Kotlin Generics",
+              "url": "https://kotlinlang.org/docs/generics.html"
+            },
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            }
+          ]
+        },
+        {
+          "id": "type-aliases-and-function-type-aliases",
+          "title": "Type Aliases",
+          "order": 4,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Language Specification",
+              "url": "https://kotlinlang.org/spec/introduction.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coroutines-and-asynchronous-programming",
+      "title": "Coroutines y Async",
+      "order": 8,
+      "topics": [
+        {
+          "id": "suspend-functions-and-coroutine-basics",
+          "title": "Suspend Functions y Fundamentos de Coroutines",
+          "order": 1,
+          "references": [
+            {
+              "label": "Kotlin Coroutines Guide",
+              "url": "https://kotlinlang.org/docs/coroutines-guide.html"
+            },
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            }
+          ]
+        },
+        {
+          "id": "coroutine-scope-launch-and-async",
+          "title": "Coroutine Scope, `launch` y `async`",
+          "order": 2,
+          "references": [
+            {
+              "label": "Kotlin Coroutines Guide",
+              "url": "https://kotlinlang.org/docs/coroutines-guide.html"
+            },
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            }
+          ]
+        },
+        {
+          "id": "dispatchers-and-context",
+          "title": "Dispatchers y Coroutine Context",
+          "order": 3,
+          "references": [
+            {
+              "label": "Kotlin Coroutines Guide",
+              "url": "https://kotlinlang.org/docs/coroutines-guide.html"
+            },
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            }
+          ]
+        },
+        {
+          "id": "cancellation-and-timeouts",
+          "title": "Cancellation y Timeouts",
+          "order": 4,
+          "references": [
+            {
+              "label": "Kotlin Coroutines Guide",
+              "url": "https://kotlinlang.org/docs/coroutines-guide.html"
+            },
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            }
+          ]
+        },
+        {
+          "id": "flow",
+          "title": "Flow y Streams Asíncronos",
+          "order": 5,
+          "references": [
+            {
+              "label": "Kotlin Coroutines Guide",
+              "url": "https://kotlinlang.org/docs/coroutines-guide.html"
+            },
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "delegation-annotations-and-reflection",
+      "title": "Delegation, Metadata y Reflection",
+      "order": 9,
+      "topics": [
+        {
+          "id": "delegated-properties",
+          "title": "Delegated Properties",
+          "order": 1,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Language Specification",
+              "url": "https://kotlinlang.org/spec/introduction.html"
+            }
+          ]
+        },
+        {
+          "id": "annotations",
+          "title": "Annotations",
+          "order": 2,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Language Specification",
+              "url": "https://kotlinlang.org/spec/introduction.html"
+            }
+          ]
+        },
+        {
+          "id": "reflection-and-kclass",
+          "title": "Reflection y `KClass`",
+          "order": 3,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Kotlin Language Specification",
+              "url": "https://kotlinlang.org/spec/introduction.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "java-interop-and-platform-boundaries",
+      "title": "Interop Java y Boundaries de Plataforma",
+      "order": 10,
+      "topics": [
+        {
+          "id": "calling-java-from-kotlin",
+          "title": "Llamando Java desde Kotlin",
+          "order": 1,
+          "references": [
+            {
+              "label": "Calling Java from Kotlin",
+              "url": "https://kotlinlang.org/docs/java-interop.html"
+            },
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            }
+          ]
+        },
+        {
+          "id": "platform-types-and-nullability-interop",
+          "title": "Platform Types y Nullability Java",
+          "order": 2,
+          "references": [
+            {
+              "label": "Calling Java from Kotlin",
+              "url": "https://kotlinlang.org/docs/java-interop.html"
+            },
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            }
+          ]
+        },
+        {
+          "id": "jvm-annotations-and-api-shaping",
+          "title": "JVM Annotations y Forma de API",
+          "order": 3,
+          "references": [
+            {
+              "label": "Calling Java from Kotlin",
+              "url": "https://kotlinlang.org/docs/java-interop.html"
+            },
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testing-tooling-and-production",
+      "title": "Testing, Tooling y Producción",
+      "order": 11,
+      "topics": [
+        {
+          "id": "testing-with-kotlin-test-and-junit",
+          "title": "Testing con `kotlin.test` y JUnit",
+          "order": 1,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Configure a Gradle project",
+              "url": "https://kotlinlang.org/docs/gradle-configure-project.html"
+            }
+          ]
+        },
+        {
+          "id": "formatting-static-analysis-and-compiler-warnings",
+          "title": "Formatting, Static Analysis y Compiler Warnings",
+          "order": 2,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Configure a Gradle project",
+              "url": "https://kotlinlang.org/docs/gradle-configure-project.html"
+            }
+          ]
+        },
+        {
+          "id": "performance-allocation-and-boxing",
+          "title": "Performance, Allocation y Boxing",
+          "order": 3,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Calling Java from Kotlin",
+              "url": "https://kotlinlang.org/docs/java-interop.html"
+            }
+          ]
+        },
+        {
+          "id": "binary-compatibility-and-library-evolution",
+          "title": "Compatibilidad Binaria y Evolución de Libraries",
+          "order": 4,
+          "references": [
+            {
+              "label": "Kotlin Documentation",
+              "url": "https://kotlinlang.org/docs/home.html"
+            },
+            {
+              "label": "Calling Java from Kotlin",
+              "url": "https://kotlinlang.org/docs/java-interop.html"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "locale": "pt",
+  "title": "CSS",
+  "slug": "css",
+  "description": "Linguagem de folhas de estilo que controla a apresentação, o layout e o comportamento responsivo na Web.",
+  "status": "published",
+  "tags": ["css", "web", "design"],
+  "branding": {"color": "#1572B6", "logo": "/logos/css.svg"},
+  "links": {"official": "https://www.w3.org/Style/CSS/", "repository": "https://github.com/w3c/csswg-drafts"},
+  "metadata": [
+    {"label": "Especificação", "value": "W3C CSS"},
+    {"label": "Tipo", "value": "Linguagem de folhas de estilo"},
+    {"label": "Runtime", "value": "Navegador"},
+    {"label": "Foco", "value": "Apresentação e layout"},
+    {"label": "Plataforma", "value": "Web"}
+  ]
+}

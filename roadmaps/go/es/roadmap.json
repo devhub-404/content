@@ -1,0 +1,911 @@
+{
+  "locale": "es",
+  "status": "published",
+  "title": "Go",
+  "slug": "go",
+  "description": "Un roadmap de Go ordenado por prerrequisitos usando la especificación actual Go 1.27, cubriendo packages, values, slices, interfaces, errors, generics, goroutines, channels, standard library, testing, modules y diseño de producción.",
+  "metadata": {
+    "tags": [
+      "go",
+      "golang",
+      "programming",
+      "concurrency"
+    ]
+  },
+  "sections": [
+    {
+      "id": "language-and-toolchain",
+      "title": "Lenguaje y Toolchain",
+      "order": 1,
+      "topics": [
+        {
+          "id": "what-go-is",
+          "title": "Qué es Go",
+          "order": 1,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "go-command-and-workflow",
+          "title": "Comando `go` y Workflow Diario",
+          "order": 2,
+          "references": [
+            {
+              "label": "Go Documentation",
+              "url": "https://go.dev/doc/"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "packages-and-imports",
+          "title": "Packages e Imports",
+          "order": 3,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "exported-identifiers-and-docs",
+          "title": "Identifiers Exportados y Documentación",
+          "order": 4,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "Go Documentation",
+              "url": "https://go.dev/doc/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "variables-types-and-values",
+      "title": "Variables, Tipos y Valores",
+      "order": 2,
+      "topics": [
+        {
+          "id": "variables-and-zero-values",
+          "title": "Variables y Zero Values",
+          "order": 1,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "var-short-declarations-and-constants",
+          "title": "`var`, Declaración Corta y Constants",
+          "order": 2,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "basic-types-and-conversions",
+          "title": "Tipos Básicos y Conversiones",
+          "order": 3,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "strings-bytes-and-runes",
+          "title": "Strings, Bytes y Runes",
+          "order": 4,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "defined-types-and-aliases",
+          "title": "Tipos Definidos y Aliases",
+          "order": 5,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "control-flow-and-functions",
+      "title": "Flujo de Control y Funciones",
+      "order": 3,
+      "topics": [
+        {
+          "id": "if-switch-and-for",
+          "title": "`if`, `switch` y `for`",
+          "order": 1,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "range",
+          "title": "`range` sobre Colecciones e Iterators",
+          "order": 2,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "functions-and-multiple-results",
+          "title": "Funciones y Múltiples Resultados",
+          "order": 3,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "variadic-functions",
+          "title": "Funciones Variádicas",
+          "order": 4,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "closures",
+          "title": "Function Values y Closures",
+          "order": 5,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "defer",
+          "title": "`defer` y Cleanup",
+          "order": 6,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrays-slices-and-maps",
+      "title": "Arrays, Slices y Maps",
+      "order": 4,
+      "topics": [
+        {
+          "id": "arrays",
+          "title": "Arrays",
+          "order": 1,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "slices",
+          "title": "Slices, Length, Capacity y `append`",
+          "order": 2,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "slice-copy-and-aliasing",
+          "title": "Copia y Aliasing de Slices",
+          "order": 3,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "maps",
+          "title": "Maps",
+          "order": 4,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "make-new-and-allocation",
+          "title": "`make`, `new` y Asignación",
+          "order": 5,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "structs-methods-and-interfaces",
+      "title": "Structs, Methods e Interfaces",
+      "order": 5,
+      "topics": [
+        {
+          "id": "structs-and-embedding",
+          "title": "Structs y Embedding",
+          "order": 1,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "methods-and-receivers",
+          "title": "Methods y Receivers",
+          "order": 2,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "interfaces-and-implicit-satisfaction",
+          "title": "Interfaces y Satisfacción Implícita",
+          "order": 3,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "empty-interface-any-and-type-assertions",
+          "title": "`any`, Type Assertions y Type Switches",
+          "order": 4,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "nil-interfaces",
+          "title": "Interfaces Nil y Valores Nil Tipados",
+          "order": 5,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "errors-and-control",
+      "title": "Errores y Control Excepcional",
+      "order": 6,
+      "topics": [
+        {
+          "id": "errors-as-values",
+          "title": "Errors como Valores",
+          "order": 1,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "errors-is-as-and-wrapping",
+          "title": "`errors.Is`, `errors.As` y Wrapping",
+          "order": 2,
+          "references": [
+            {
+              "label": "Go Standard Library",
+              "url": "https://pkg.go.dev/std"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "panic-and-recover",
+          "title": "`panic` y `recover`",
+          "order": 3,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generics",
+      "title": "Generics",
+      "order": 7,
+      "topics": [
+        {
+          "id": "type-parameters-and-constraints",
+          "title": "Type Parameters y Constraints",
+          "order": 1,
+          "references": [
+            {
+              "label": "Tutorial: Getting Started with Generics",
+              "url": "https://go.dev/doc/tutorial/generics"
+            },
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            }
+          ]
+        },
+        {
+          "id": "generic-types",
+          "title": "Tipos Genéricos",
+          "order": 2,
+          "references": [
+            {
+              "label": "Tutorial: Getting Started with Generics",
+              "url": "https://go.dev/doc/tutorial/generics"
+            },
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            }
+          ]
+        },
+        {
+          "id": "type-sets-and-underlying-types",
+          "title": "Type Sets y Constraints de Underlying Type",
+          "order": 3,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "Tutorial: Getting Started with Generics",
+              "url": "https://go.dev/doc/tutorial/generics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "concurrency",
+      "title": "Goroutines, Channels y Sincronización",
+      "order": 8,
+      "topics": [
+        {
+          "id": "goroutines",
+          "title": "Goroutines",
+          "order": 1,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "channels",
+          "title": "Channels",
+          "order": 2,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "select",
+          "title": "`select` y Multiplexación",
+          "order": 3,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "mutexes-waitgroups-and-once",
+          "title": "Mutexes, WaitGroups y Once",
+          "order": 4,
+          "references": [
+            {
+              "label": "Go Standard Library",
+              "url": "https://pkg.go.dev/std"
+            },
+            {
+              "label": "The Go Memory Model",
+              "url": "https://go.dev/ref/mem"
+            }
+          ]
+        },
+        {
+          "id": "context",
+          "title": "`context` para Cancellation y Deadlines",
+          "order": 5,
+          "references": [
+            {
+              "label": "Go Standard Library",
+              "url": "https://pkg.go.dev/std"
+            },
+            {
+              "label": "Go Documentation",
+              "url": "https://go.dev/doc/"
+            }
+          ]
+        },
+        {
+          "id": "memory-model-and-data-races",
+          "title": "Memory Model y Data Races",
+          "order": 6,
+          "references": [
+            {
+              "label": "The Go Memory Model",
+              "url": "https://go.dev/ref/mem"
+            },
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "io-networking-and-stdlib",
+      "title": "I/O, Networking y Standard Library",
+      "order": 9,
+      "topics": [
+        {
+          "id": "io-reader-writer",
+          "title": "`io.Reader` y `io.Writer`",
+          "order": 1,
+          "references": [
+            {
+              "label": "Go Standard Library",
+              "url": "https://pkg.go.dev/std"
+            },
+            {
+              "label": "Go Documentation",
+              "url": "https://go.dev/doc/"
+            }
+          ]
+        },
+        {
+          "id": "files-and-paths",
+          "title": "Archivos y Paths",
+          "order": 2,
+          "references": [
+            {
+              "label": "Go Standard Library",
+              "url": "https://pkg.go.dev/std"
+            },
+            {
+              "label": "Go Documentation",
+              "url": "https://go.dev/doc/"
+            }
+          ]
+        },
+        {
+          "id": "json-and-encoding",
+          "title": "JSON y Encoding",
+          "order": 3,
+          "references": [
+            {
+              "label": "Go Standard Library",
+              "url": "https://pkg.go.dev/std"
+            },
+            {
+              "label": "Go Documentation",
+              "url": "https://go.dev/doc/"
+            }
+          ]
+        },
+        {
+          "id": "http-client-and-server",
+          "title": "Clientes y Servidores HTTP",
+          "order": 4,
+          "references": [
+            {
+              "label": "Go Standard Library",
+              "url": "https://pkg.go.dev/std"
+            },
+            {
+              "label": "Go Documentation",
+              "url": "https://go.dev/doc/"
+            }
+          ]
+        },
+        {
+          "id": "time-and-timers",
+          "title": "Tiempo, Timers y Tickers",
+          "order": 5,
+          "references": [
+            {
+              "label": "Go Standard Library",
+              "url": "https://pkg.go.dev/std"
+            },
+            {
+              "label": "Go Documentation",
+              "url": "https://go.dev/doc/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testing-and-quality",
+      "title": "Testing y Calidad",
+      "order": 10,
+      "topics": [
+        {
+          "id": "unit-tests-and-table-tests",
+          "title": "Unit Tests y Table-driven Tests",
+          "order": 1,
+          "references": [
+            {
+              "label": "Tutorial: Add a Test",
+              "url": "https://go.dev/doc/tutorial/add-a-test"
+            },
+            {
+              "label": "Go Documentation",
+              "url": "https://go.dev/doc/"
+            }
+          ]
+        },
+        {
+          "id": "benchmarks-and-profiling",
+          "title": "Benchmarks y Profiling",
+          "order": 2,
+          "references": [
+            {
+              "label": "Go Standard Library",
+              "url": "https://pkg.go.dev/std"
+            },
+            {
+              "label": "Go Documentation",
+              "url": "https://go.dev/doc/"
+            }
+          ]
+        },
+        {
+          "id": "fuzzing",
+          "title": "Fuzz Testing",
+          "order": 3,
+          "references": [
+            {
+              "label": "Tutorial: Getting Started with Fuzzing",
+              "url": "https://go.dev/doc/tutorial/fuzz"
+            },
+            {
+              "label": "Tutorial: Add a Test",
+              "url": "https://go.dev/doc/tutorial/add-a-test"
+            }
+          ]
+        },
+        {
+          "id": "race-detector-and-vet",
+          "title": "Race Detector y `go vet`",
+          "order": 4,
+          "references": [
+            {
+              "label": "The Go Memory Model",
+              "url": "https://go.dev/ref/mem"
+            },
+            {
+              "label": "Go Documentation",
+              "url": "https://go.dev/doc/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modules-and-dependencies",
+      "title": "Modules y Dependencias",
+      "order": 11,
+      "topics": [
+        {
+          "id": "go-mod-and-module-paths",
+          "title": "`go.mod` y Module Paths",
+          "order": 1,
+          "references": [
+            {
+              "label": "Developing and Publishing Modules",
+              "url": "https://go.dev/doc/modules/developing"
+            },
+            {
+              "label": "Managing Dependencies",
+              "url": "https://go.dev/doc/modules/managing-dependencies"
+            }
+          ]
+        },
+        {
+          "id": "managing-dependencies",
+          "title": "Gestionando Dependencias",
+          "order": 2,
+          "references": [
+            {
+              "label": "Managing Dependencies",
+              "url": "https://go.dev/doc/modules/managing-dependencies"
+            },
+            {
+              "label": "Developing and Publishing Modules",
+              "url": "https://go.dev/doc/modules/developing"
+            }
+          ]
+        },
+        {
+          "id": "module-versioning-and-major-versions",
+          "title": "Versionado de Modules y Major Versions",
+          "order": 3,
+          "references": [
+            {
+              "label": "Developing and Publishing Modules",
+              "url": "https://go.dev/doc/modules/developing"
+            },
+            {
+              "label": "Managing Dependencies",
+              "url": "https://go.dev/doc/modules/managing-dependencies"
+            }
+          ]
+        },
+        {
+          "id": "workspaces",
+          "title": "Go Workspaces",
+          "order": 4,
+          "references": [
+            {
+              "label": "Go Documentation",
+              "url": "https://go.dev/doc/"
+            },
+            {
+              "label": "Developing and Publishing Modules",
+              "url": "https://go.dev/doc/modules/developing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "production-design",
+      "title": "Diseño de Producción y Performance",
+      "order": 12,
+      "topics": [
+        {
+          "id": "api-design-and-small-interfaces",
+          "title": "Diseño de API e Interfaces Pequeñas",
+          "order": 1,
+          "references": [
+            {
+              "label": "Go Documentation",
+              "url": "https://go.dev/doc/"
+            },
+            {
+              "label": "A Tour of Go",
+              "url": "https://go.dev/tour/"
+            }
+          ]
+        },
+        {
+          "id": "allocation-and-escape-analysis",
+          "title": "Asignación y Escape Analysis",
+          "order": 2,
+          "references": [
+            {
+              "label": "Go Documentation",
+              "url": "https://go.dev/doc/"
+            },
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            }
+          ]
+        },
+        {
+          "id": "garbage-collection-and-object-lifetimes",
+          "title": "Garbage Collection y Lifetimes",
+          "order": 3,
+          "references": [
+            {
+              "label": "Go Documentation",
+              "url": "https://go.dev/doc/"
+            },
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            }
+          ]
+        },
+        {
+          "id": "compatibility-and-language-versions",
+          "title": "Versiones del Lenguaje y Compatibilidad",
+          "order": 4,
+          "references": [
+            {
+              "label": "The Go Programming Language Specification",
+              "url": "https://go.dev/ref/spec"
+            },
+            {
+              "label": "Go Documentation",
+              "url": "https://go.dev/doc/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

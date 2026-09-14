@@ -1,0 +1,17 @@
+{
+  "locale": "es",
+  "title": "React",
+  "slug": "react",
+  "description": "Biblioteca para construir interfaces de usuario con componentes componibles y transiciones de estado declarativas.",
+  "status": "published",
+  "tags": ["react", "javascript", "ui"],
+  "branding": {"color": "#61DAFB", "logo": "/logos/react.svg"},
+  "links": {"official": "https://react.dev", "repository": "https://github.com/facebook/react"},
+  "metadata": [
+    {"label": "Mantenedor", "value": "Meta Open Source"},
+    {"label": "Lenguaje", "value": "JavaScript / TypeScript"},
+    {"label": "Licencia", "value": "MIT"},
+    {"label": "Modelo", "value": "Interfaz basada en componentes"},
+    {"label": "Ecosistema", "value": "Web y nativo"}
+  ]
+}

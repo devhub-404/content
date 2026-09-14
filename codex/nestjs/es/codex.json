@@ -1,0 +1,17 @@
+{
+  "locale": "es",
+  "title": "NestJS",
+  "slug": "nestjs",
+  "description": "Framework progresivo para Node.js orientado a construir aplicaciones server-side eficientes y escalables.",
+  "status": "published",
+  "tags": ["nestjs", "node.js", "typescript"],
+  "branding": {"color": "#E0234E", "logo": "/logos/nestjs.svg"},
+  "links": {"official": "https://nestjs.com", "repository": "https://github.com/nestjs/nest"},
+  "metadata": [
+    {"label": "Mantenedor", "value": "NestJS Team"},
+    {"label": "Lenguaje", "value": "TypeScript / JavaScript"},
+    {"label": "Licencia", "value": "MIT"},
+    {"label": "Runtime", "value": "Node.js"},
+    {"label": "Primer lanzamiento", "value": "2017"}
+  ]
+}

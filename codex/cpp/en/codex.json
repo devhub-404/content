@@ -1,0 +1,40 @@
+{
+  "locale": "en",
+  "title": "C++",
+  "slug": "cpp",
+  "description": "A systems programming language combining direct machine control with abstraction, generic programming, and a large standard library.",
+  "status": "published",
+  "tags": [
+    "cpp",
+    "c++",
+    "systems-programming",
+    "cpp23",
+    "programming"
+  ],
+  "branding": {
+    "color": "#00599C",
+    "logo": "/logos/cpp.svg"
+  },
+  "links": {
+    "official": "https://isocpp.org/",
+    "repository": "https://github.com/llvm/llvm-project"
+  },
+  "metadata": [
+    {
+      "label": "Type",
+      "value": "Programming language"
+    },
+    {
+      "label": "Runtime",
+      "value": "Native"
+    },
+    {
+      "label": "Focus",
+      "value": "Systems programming"
+    },
+    {
+      "label": "License",
+      "value": "ISO standard / implementations"
+    }
+  ]
+}

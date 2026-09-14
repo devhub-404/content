@@ -1,0 +1,42 @@
+{
+  "locale": "en",
+  "title": "JavaScript",
+  "slug": "javascript",
+  "description": "The programming language that adds behavior, logic, and dynamic interaction to web applications.",
+  "status": "published",
+  "tags": [
+    "javascript",
+    "web",
+    "programming"
+  ],
+  "branding": {
+    "color": "#F7DF1E",
+    "logo": "/logos/javascript.svg"
+  },
+  "links": {
+    "official": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "repository": "https://github.com/tc39/ecma262"
+  },
+  "metadata": [
+    {
+      "label": "Specification",
+      "value": "ECMAScript"
+    },
+    {
+      "label": "Type",
+      "value": "Programming language"
+    },
+    {
+      "label": "Runtime",
+      "value": "Browser and server"
+    },
+    {
+      "label": "Focus",
+      "value": "Behavior and logic"
+    },
+    {
+      "label": "Paradigm",
+      "value": "Multi-paradigm"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "locale": "es",
+  "title": "C",
+  "slug": "c",
+  "description": "Un lenguaje de programación de bajo nivel para controlar con precisión la memoria, la representación de datos y la ejecución nativa.",
+  "status": "published",
+  "tags": [
+    "c",
+    "systems-programming",
+    "c23",
+    "programming"
+  ],
+  "branding": {
+    "color": "#A8B9CC",
+    "logo": "/logos/c.svg"
+  },
+  "links": {
+    "official": "https://en.cppreference.com/w/c",
+    "repository": "https://github.com/llvm/llvm-project"
+  },
+  "metadata": [
+    {
+      "label": "Tipo",
+      "value": "Programming language"
+    },
+    {
+      "label": "Runtime",
+      "value": "Native and embedded"
+    },
+    {
+      "label": "Enfoque",
+      "value": "Systems programming"
+    },
+    {
+      "label": "Licencia",
+      "value": "ISO standard / implementations"
+    }
+  ]
+}

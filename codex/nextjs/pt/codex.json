@@ -1,0 +1,39 @@
+{
+  "locale": "pt",
+  "title": "Next.js",
+  "slug": "nextjs",
+  "description": "Um framework React para construir aplicações web full-stack com renderização no servidor, roteamento e entrega otimizada.",
+  "status": "published",
+  "tags": [
+    "nextjs",
+    "react",
+    "web-framework",
+    "full-stack"
+  ],
+  "branding": {
+    "color": "#000000",
+    "logo": "/logos/nextjs.svg"
+  },
+  "links": {
+    "official": "https://nextjs.org/",
+    "repository": "https://github.com/vercel/next.js"
+  },
+  "metadata": [
+    {
+      "label": "Tipo",
+      "value": "Web framework"
+    },
+    {
+      "label": "Runtime",
+      "value": "Node.js and Edge"
+    },
+    {
+      "label": "Foco",
+      "value": "Full-stack web"
+    },
+    {
+      "label": "Licença",
+      "value": "MIT"
+    }
+  ]
+}

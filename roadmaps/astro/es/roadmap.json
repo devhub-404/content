@@ -1,0 +1,587 @@
+{
+  "locale": "es",
+  "status": "published",
+  "title": "Astro",
+  "slug": "astro",
+  "description": "Un roadmap de Astro 7.3 ordenado por prerrequisitos que cubre el modelo server-first, Astro components, routing, assets, islands, content collections, on-demand rendering, actions, sessions, caching, security, deployment y upgrades.",
+  "metadata": {
+    "tags": [
+      "astro",
+      "javascript",
+      "web-framework",
+      "islands"
+    ]
+  },
+  "sections": [
+    {
+      "id": "astro-model-and-project",
+      "title": "Modelo y Proyecto Astro",
+      "order": 1,
+      "topics": [
+        {
+          "id": "what-astro-is",
+          "title": "Qué es Astro",
+          "order": 1,
+          "references": [
+            {
+              "label": "Astro 7.3",
+              "url": "https://astro.build/blog/astro-730/"
+            },
+            {
+              "label": "Astro: Why Astro?",
+              "url": "https://docs.astro.build/en/concepts/why-astro/"
+            }
+          ]
+        },
+        {
+          "id": "project-structure",
+          "title": "Estructura de Proyecto",
+          "order": 2,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/basics/project-structure/"
+            }
+          ]
+        },
+        {
+          "id": "astro-config-and-integrations",
+          "title": "Astro Config e Integrations",
+          "order": 3,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/reference/configuration-reference/"
+            },
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/integrations-guide/"
+            }
+          ]
+        },
+        {
+          "id": "dev-build-and-preview",
+          "title": "Development, Build y Preview",
+          "order": 4,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/reference/cli-reference/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astro-components",
+      "title": "Astro Components",
+      "order": 2,
+      "topics": [
+        {
+          "id": "component-structure-and-frontmatter",
+          "title": "Estructura de Component y Frontmatter",
+          "order": 1,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/basics/astro-components/"
+            }
+          ]
+        },
+        {
+          "id": "props-and-types",
+          "title": "Props y TypeScript",
+          "order": 2,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/basics/astro-components/"
+            },
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/typescript/"
+            }
+          ]
+        },
+        {
+          "id": "slots",
+          "title": "Slots y Component Composition",
+          "order": 3,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/basics/astro-components/"
+            }
+          ]
+        },
+        {
+          "id": "template-expressions-and-directives",
+          "title": "Template Expressions y Directives",
+          "order": 4,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/reference/directives-reference/"
+            },
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/reference/astro-syntax/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pages-layouts-and-routing",
+      "title": "Pages, Layouts y Routing",
+      "order": 3,
+      "topics": [
+        {
+          "id": "file-based-pages",
+          "title": "Pages por File-based Routing",
+          "order": 1,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/basics/astro-pages/"
+            }
+          ]
+        },
+        {
+          "id": "layouts",
+          "title": "Layouts",
+          "order": 2,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/basics/layouts/"
+            }
+          ]
+        },
+        {
+          "id": "dynamic-routes-and-get-static-paths",
+          "title": "Dynamic Routes y `getStaticPaths`",
+          "order": 3,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/routing/"
+            }
+          ]
+        },
+        {
+          "id": "routing-priority-and-advanced-routing",
+          "title": "Prioridad de Routing y Advanced Routing",
+          "order": 4,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/routing/"
+            },
+            {
+              "label": "Astro 7.0",
+              "url": "https://astro.build/blog/astro-7/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "styles-scripts-and-assets",
+      "title": "Styles, Scripts y Assets",
+      "order": 4,
+      "topics": [
+        {
+          "id": "scoped-and-global-styles",
+          "title": "Styles Scoped y Globales",
+          "order": 1,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/styling/"
+            }
+          ]
+        },
+        {
+          "id": "client-scripts",
+          "title": "Scripts Client-side",
+          "order": 2,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/client-side-scripts/"
+            }
+          ]
+        },
+        {
+          "id": "images",
+          "title": "Images y Optimización",
+          "order": 3,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/images/"
+            }
+          ]
+        },
+        {
+          "id": "fonts",
+          "title": "Fonts",
+          "order": 4,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/fonts/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "islands-and-ui-frameworks",
+      "title": "Islands y UI Frameworks",
+      "order": 5,
+      "topics": [
+        {
+          "id": "islands-architecture",
+          "title": "Islands Architecture",
+          "order": 1,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/concepts/islands/"
+            }
+          ]
+        },
+        {
+          "id": "client-directives",
+          "title": "Directives de Client Hydration",
+          "order": 2,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/reference/directives-reference/"
+            }
+          ]
+        },
+        {
+          "id": "framework-components",
+          "title": "Usando React, Vue, Solid y Otros Frameworks",
+          "order": 3,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/framework-components/"
+            }
+          ]
+        },
+        {
+          "id": "server-islands",
+          "title": "Server Islands",
+          "order": 4,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/server-islands/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "content-and-markdown",
+      "title": "Content y Markdown",
+      "order": 6,
+      "topics": [
+        {
+          "id": "markdown-and-mdx",
+          "title": "Markdown y MDX",
+          "order": 1,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/markdown-content/"
+            },
+            {
+              "label": "Astro MDX Integration",
+              "url": "https://docs.astro.build/en/guides/integrations-guide/mdx/"
+            }
+          ]
+        },
+        {
+          "id": "content-collections",
+          "title": "Content Collections",
+          "order": 2,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/content-collections/"
+            }
+          ]
+        },
+        {
+          "id": "content-loaders-and-live-content",
+          "title": "Content Loaders y Live Content",
+          "order": 3,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/content-collections/"
+            },
+            {
+              "label": "Astro 6.0",
+              "url": "https://astro.build/blog/astro-6/"
+            }
+          ]
+        },
+        {
+          "id": "rendering-collection-entries",
+          "title": "Renderizando Entries de Collections",
+          "order": 4,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/content-collections/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "server-rendering-and-data",
+      "title": "Server Rendering y Datos",
+      "order": 7,
+      "topics": [
+        {
+          "id": "static-vs-on-demand-rendering",
+          "title": "Rendering Static vs On-demand",
+          "order": 1,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/on-demand-rendering/"
+            }
+          ]
+        },
+        {
+          "id": "request-context-and-cookies",
+          "title": "Request Context, Cookies y Redirects",
+          "order": 2,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/reference/api-reference/"
+            },
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/on-demand-rendering/"
+            }
+          ]
+        },
+        {
+          "id": "endpoints-and-api-routes",
+          "title": "Endpoints y API Routes",
+          "order": 3,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/endpoints/"
+            }
+          ]
+        },
+        {
+          "id": "middleware",
+          "title": "Middleware",
+          "order": 4,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/middleware/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "actions-sessions-and-forms",
+      "title": "Actions, Sessions y Forms",
+      "order": 8,
+      "topics": [
+        {
+          "id": "actions",
+          "title": "Astro Actions",
+          "order": 1,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/actions/"
+            }
+          ]
+        },
+        {
+          "id": "forms-and-progressive-enhancement",
+          "title": "Forms y Progressive Enhancement",
+          "order": 2,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/actions/"
+            },
+            {
+              "label": "MDN: Forms",
+              "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms"
+            }
+          ]
+        },
+        {
+          "id": "sessions",
+          "title": "Sessions",
+          "order": 3,
+          "references": [
+            {
+              "label": "Astro Sessions",
+              "url": "https://docs.astro.build/en/reference/experimental-flags/sessions/"
+            },
+            {
+              "label": "Astro 6.0",
+              "url": "https://astro.build/blog/astro-6/"
+            }
+          ]
+        },
+        {
+          "id": "csrf-and-request-security",
+          "title": "CSRF y Seguridad de Requests",
+          "order": 4,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/security/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "navigation-performance-and-security",
+      "title": "Navigation, Performance y Seguridad",
+      "order": 9,
+      "topics": [
+        {
+          "id": "view-transitions-and-client-router",
+          "title": "View Transitions y Client Router",
+          "order": 1,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/view-transitions/"
+            }
+          ]
+        },
+        {
+          "id": "route-caching",
+          "title": "Route Caching",
+          "order": 2,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/caching/"
+            },
+            {
+              "label": "Astro 7.0",
+              "url": "https://astro.build/blog/astro-7/"
+            }
+          ]
+        },
+        {
+          "id": "content-security-policy",
+          "title": "Content Security Policy",
+          "order": 3,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/security/"
+            },
+            {
+              "label": "Astro 7.1",
+              "url": "https://astro.build/blog/astro-710/"
+            }
+          ]
+        },
+        {
+          "id": "performance-budget-and-zero-js",
+          "title": "Performance Budgets y Default Zero-JS",
+          "order": 4,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/concepts/why-astro/"
+            },
+            {
+              "label": "web.dev: Performance",
+              "url": "https://web.dev/learn/performance/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testing-deployment-and-upgrades",
+      "title": "Testing, Deployment y Upgrades",
+      "order": 10,
+      "topics": [
+        {
+          "id": "testing-strategy",
+          "title": "Estrategia de Testing",
+          "order": 1,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/testing/"
+            }
+          ]
+        },
+        {
+          "id": "adapters-and-deployment",
+          "title": "Adapters y Deployment",
+          "order": 2,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/deploy/"
+            },
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/integrations-guide/"
+            }
+          ]
+        },
+        {
+          "id": "environment-variables",
+          "title": "Environment Variables y Secrets",
+          "order": 3,
+          "references": [
+            {
+              "label": "Astro Docs",
+              "url": "https://docs.astro.build/en/guides/environment-variables/"
+            }
+          ]
+        },
+        {
+          "id": "astro-7-upgrades",
+          "title": "Astro 7.3 y Upgrades",
+          "order": 4,
+          "references": [
+            {
+              "label": "Astro 7.3",
+              "url": "https://astro.build/blog/astro-730/"
+            },
+            {
+              "label": "Astro Upgrade Guide",
+              "url": "https://docs.astro.build/en/guides/upgrade-to/v7/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

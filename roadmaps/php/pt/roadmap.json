@@ -1,0 +1,733 @@
+{
+  "locale": "pt",
+  "status": "published",
+  "title": "PHP",
+  "slug": "php",
+  "description": "Um roadmap de PHP 8.5 moderno ordenado por pré-requisitos, cobrindo runtime web/CLI, type declarations, arrays e iteration, functions/callables, object modeling, exceptions e resources, segurança web, PDO e dados externos, Composer/autoloading, testes, static analysis e performance.",
+  "metadata": {
+    "tags": [
+      "php",
+      "php-8-5",
+      "web-development",
+      "composer",
+      "programming"
+    ]
+  },
+  "sections": [
+    {
+      "id": "language-runtime-and-requests",
+      "title": "Linguagem, Runtime e Requests",
+      "order": 1,
+      "topics": [
+        {
+          "id": "what-php-is",
+          "title": "O que é PHP",
+          "order": 1,
+          "references": [
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            },
+            {
+              "label": "Programiz: PHP Tutorial",
+              "url": "https://www.programiz.com/php"
+            }
+          ]
+        },
+        {
+          "id": "php-tags-files-and-output",
+          "title": "Arquivos PHP, Tags e Output",
+          "order": 2,
+          "references": [
+            {
+              "label": "PHP Language Reference",
+              "url": "https://www.php.net/manual/en/langref.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        },
+        {
+          "id": "request-lifecycle-and-superglobals",
+          "title": "Lifecycle de Request e Superglobals",
+          "order": 3,
+          "references": [
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            },
+            {
+              "label": "PHP Security",
+              "url": "https://www.php.net/manual/en/security.php"
+            }
+          ]
+        },
+        {
+          "id": "cli-and-command-line-programs",
+          "title": "Programas CLI",
+          "order": 4,
+          "references": [
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            },
+            {
+              "label": "PHP Function Reference",
+              "url": "https://www.php.net/manual/en/funcref.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "values-types-and-strings",
+      "title": "Valores, Tipos e Strings",
+      "order": 2,
+      "topics": [
+        {
+          "id": "scalar-types-and-null",
+          "title": "Tipos Escalares e `null`",
+          "order": 1,
+          "references": [
+            {
+              "label": "PHP Language Reference",
+              "url": "https://www.php.net/manual/en/langref.php"
+            },
+            {
+              "label": "Programiz: PHP Tutorial",
+              "url": "https://www.programiz.com/php"
+            }
+          ]
+        },
+        {
+          "id": "strict-types-and-type-declarations",
+          "title": "Strict Types e Declarações de Tipo",
+          "order": 2,
+          "references": [
+            {
+              "label": "PHP Language Reference",
+              "url": "https://www.php.net/manual/en/langref.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        },
+        {
+          "id": "union-intersection-and-nullable-types",
+          "title": "Union, Intersection e Nullable Types",
+          "order": 3,
+          "references": [
+            {
+              "label": "PHP Language Reference",
+              "url": "https://www.php.net/manual/en/langref.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        },
+        {
+          "id": "strings-interpolation-and-heredoc",
+          "title": "Strings, Interpolation, Heredoc e Nowdoc",
+          "order": 4,
+          "references": [
+            {
+              "label": "PHP Language Reference",
+              "url": "https://www.php.net/manual/en/langref.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        },
+        {
+          "id": "type-juggling-comparisons-and-match",
+          "title": "Type Juggling, Comparações e `match`",
+          "order": 5,
+          "references": [
+            {
+              "label": "PHP Language Reference",
+              "url": "https://www.php.net/manual/en/langref.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arrays-collections-and-iteration",
+      "title": "Arrays, Collections e Iteration",
+      "order": 3,
+      "topics": [
+        {
+          "id": "php-arrays",
+          "title": "Arrays PHP",
+          "order": 1,
+          "references": [
+            {
+              "label": "PHP Language Reference",
+              "url": "https://www.php.net/manual/en/langref.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        },
+        {
+          "id": "array-functions-and-functional-transformations",
+          "title": "Funções de Array e Transformações",
+          "order": 2,
+          "references": [
+            {
+              "label": "PHP Function Reference",
+              "url": "https://www.php.net/manual/en/funcref.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        },
+        {
+          "id": "foreach-iterable-and-iterators",
+          "title": "`foreach`, `iterable` e Iterators",
+          "order": 3,
+          "references": [
+            {
+              "label": "PHP Language Reference",
+              "url": "https://www.php.net/manual/en/langref.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        },
+        {
+          "id": "generators-and-yield",
+          "title": "Generators e `yield`",
+          "order": 4,
+          "references": [
+            {
+              "label": "PHP Language Reference",
+              "url": "https://www.php.net/manual/en/langref.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "functions-closures-and-modern-expressions",
+      "title": "Functions, Closures e Expressions Modernas",
+      "order": 4,
+      "topics": [
+        {
+          "id": "functions-default-named-and-variadic-parameters",
+          "title": "Functions e Parâmetros",
+          "order": 1,
+          "references": [
+            {
+              "label": "PHP Language Reference",
+              "url": "https://www.php.net/manual/en/langref.php"
+            },
+            {
+              "label": "Programiz: PHP Tutorial",
+              "url": "https://www.programiz.com/php"
+            }
+          ]
+        },
+        {
+          "id": "closures-arrow-functions-and-capture",
+          "title": "Closures, Arrow Functions e Capture",
+          "order": 2,
+          "references": [
+            {
+              "label": "PHP Language Reference",
+              "url": "https://www.php.net/manual/en/langref.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        },
+        {
+          "id": "first-class-callables-and-pipe-operator",
+          "title": "First-class Callables e Pipe Operator",
+          "order": 3,
+          "references": [
+            {
+              "label": "PHP 8.5 Release",
+              "url": "https://www.php.net/releases/8.5/en.php"
+            },
+            {
+              "label": "PHP Language Reference",
+              "url": "https://www.php.net/manual/en/langref.php"
+            }
+          ]
+        },
+        {
+          "id": "references-and-copy-on-write",
+          "title": "References e Copy-on-write",
+          "order": 4,
+          "references": [
+            {
+              "label": "PHP Language Reference",
+              "url": "https://www.php.net/manual/en/langref.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "objects-interfaces-and-domain-models",
+      "title": "Objetos e Modelos de Domínio",
+      "order": 5,
+      "topics": [
+        {
+          "id": "classes-properties-and-constructors",
+          "title": "Classes, Properties e Constructors",
+          "order": 1,
+          "references": [
+            {
+              "label": "PHP Language Reference",
+              "url": "https://www.php.net/manual/en/langref.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        },
+        {
+          "id": "inheritance-abstract-final-and-interfaces",
+          "title": "Herança, Abstract, Final e Interfaces",
+          "order": 2,
+          "references": [
+            {
+              "label": "PHP Language Reference",
+              "url": "https://www.php.net/manual/en/langref.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        },
+        {
+          "id": "traits",
+          "title": "Traits",
+          "order": 3,
+          "references": [
+            {
+              "label": "PHP Language Reference",
+              "url": "https://www.php.net/manual/en/langref.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        },
+        {
+          "id": "enums",
+          "title": "Enums",
+          "order": 4,
+          "references": [
+            {
+              "label": "PHP Language Reference",
+              "url": "https://www.php.net/manual/en/langref.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        },
+        {
+          "id": "attributes-and-reflection",
+          "title": "Attributes e Reflection",
+          "order": 5,
+          "references": [
+            {
+              "label": "PHP Language Reference",
+              "url": "https://www.php.net/manual/en/langref.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        },
+        {
+          "id": "property-hooks-readonly-and-modern-object-features",
+          "title": "Properties Modernas e Design Readonly",
+          "order": 6,
+          "references": [
+            {
+              "label": "PHP 8.5 Release",
+              "url": "https://www.php.net/releases/8.5/en.php"
+            },
+            {
+              "label": "PHP Language Reference",
+              "url": "https://www.php.net/manual/en/langref.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "errors-resources-and-execution",
+      "title": "Erros, Recursos e Execução",
+      "order": 6,
+      "topics": [
+        {
+          "id": "exceptions-throwable-and-finally",
+          "title": "Exceptions, `Throwable` e `finally`",
+          "order": 1,
+          "references": [
+            {
+              "label": "PHP Language Reference",
+              "url": "https://www.php.net/manual/en/langref.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        },
+        {
+          "id": "error-reporting-and-handlers",
+          "title": "Error Reporting e Handlers",
+          "order": 2,
+          "references": [
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            },
+            {
+              "label": "PHP Function Reference",
+              "url": "https://www.php.net/manual/en/funcref.php"
+            }
+          ]
+        },
+        {
+          "id": "files-streams-and-resource-handles",
+          "title": "Files, Streams e Resource Handles",
+          "order": 3,
+          "references": [
+            {
+              "label": "PHP Function Reference",
+              "url": "https://www.php.net/manual/en/funcref.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        },
+        {
+          "id": "fibers-and-cooperative-concurrency",
+          "title": "Fibers e Concorrência Cooperativa",
+          "order": 4,
+          "references": [
+            {
+              "label": "PHP Language Reference",
+              "url": "https://www.php.net/manual/en/langref.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "web-input-output-and-security",
+      "title": "Input Web, Output e Segurança",
+      "order": 7,
+      "topics": [
+        {
+          "id": "forms-query-strings-and-validation",
+          "title": "Forms, Query Strings e Validação",
+          "order": 1,
+          "references": [
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            },
+            {
+              "label": "PHP Security",
+              "url": "https://www.php.net/manual/en/security.php"
+            }
+          ]
+        },
+        {
+          "id": "html-output-and-xss",
+          "title": "Output HTML e XSS",
+          "order": 2,
+          "references": [
+            {
+              "label": "PHP Security",
+              "url": "https://www.php.net/manual/en/security.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        },
+        {
+          "id": "cookies-sessions-and-csrf",
+          "title": "Cookies, Sessions e CSRF",
+          "order": 3,
+          "references": [
+            {
+              "label": "PHP Security",
+              "url": "https://www.php.net/manual/en/security.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        },
+        {
+          "id": "passwords-and-cryptographic-apis",
+          "title": "Senhas e APIs Criptográficas",
+          "order": 4,
+          "references": [
+            {
+              "label": "PHP Security",
+              "url": "https://www.php.net/manual/en/security.php"
+            },
+            {
+              "label": "PHP Function Reference",
+              "url": "https://www.php.net/manual/en/funcref.php"
+            }
+          ]
+        },
+        {
+          "id": "file-uploads",
+          "title": "File Uploads",
+          "order": 5,
+          "references": [
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            },
+            {
+              "label": "PHP Security",
+              "url": "https://www.php.net/manual/en/security.php"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "databases-and-external-data",
+      "title": "Databases e Dados Externos",
+      "order": 8,
+      "topics": [
+        {
+          "id": "pdo-connections-and-prepared-statements",
+          "title": "PDO e Prepared Statements",
+          "order": 1,
+          "references": [
+            {
+              "label": "PDO Manual",
+              "url": "https://www.php.net/manual/en/book.pdo.php"
+            },
+            {
+              "label": "PHP Security",
+              "url": "https://www.php.net/manual/en/security.php"
+            }
+          ]
+        },
+        {
+          "id": "transactions",
+          "title": "Transactions",
+          "order": 2,
+          "references": [
+            {
+              "label": "PDO Manual",
+              "url": "https://www.php.net/manual/en/book.pdo.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        },
+        {
+          "id": "json-and-api-payloads",
+          "title": "JSON e Payloads de API",
+          "order": 3,
+          "references": [
+            {
+              "label": "PHP Function Reference",
+              "url": "https://www.php.net/manual/en/funcref.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "composer-autoloading-and-architecture",
+      "title": "Composer, Autoloading e Arquitetura",
+      "order": 9,
+      "topics": [
+        {
+          "id": "namespaces-and-psr4-autoloading",
+          "title": "Namespaces e Autoloading PSR-4",
+          "order": 1,
+          "references": [
+            {
+              "label": "Composer Documentation",
+              "url": "https://getcomposer.org/doc/"
+            },
+            {
+              "label": "PHP-FIG PSR Standards",
+              "url": "https://www.php-fig.org/psr/"
+            }
+          ]
+        },
+        {
+          "id": "composer-dependencies-and-lock-files",
+          "title": "Dependencies Composer e Lock Files",
+          "order": 2,
+          "references": [
+            {
+              "label": "Composer Documentation",
+              "url": "https://getcomposer.org/doc/"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        },
+        {
+          "id": "dependency-injection-and-service-boundaries",
+          "title": "Dependency Injection e Service Boundaries",
+          "order": 3,
+          "references": [
+            {
+              "label": "PHP-FIG PSR Standards",
+              "url": "https://www.php-fig.org/psr/"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testing-analysis-and-production",
+      "title": "Testes, Análise e Produção",
+      "order": 10,
+      "topics": [
+        {
+          "id": "unit-testing-and-phpunit",
+          "title": "Unit Testing e PHPUnit",
+          "order": 1,
+          "references": [
+            {
+              "label": "Composer Documentation",
+              "url": "https://getcomposer.org/doc/"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        },
+        {
+          "id": "static-analysis-and-coding-standards",
+          "title": "Static Analysis e Coding Standards",
+          "order": 2,
+          "references": [
+            {
+              "label": "PHP-FIG PSR Standards",
+              "url": "https://www.php-fig.org/psr/"
+            },
+            {
+              "label": "Composer Documentation",
+              "url": "https://getcomposer.org/doc/"
+            }
+          ]
+        },
+        {
+          "id": "opcache-memory-and-performance",
+          "title": "OPcache, Memória e Performance",
+          "order": 3,
+          "references": [
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            },
+            {
+              "label": "PHP Function Reference",
+              "url": "https://www.php.net/manual/en/funcref.php"
+            }
+          ]
+        },
+        {
+          "id": "configuration-secrets-and-environments",
+          "title": "Configuração, Secrets e Environments",
+          "order": 4,
+          "references": [
+            {
+              "label": "PHP Security",
+              "url": "https://www.php.net/manual/en/security.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        },
+        {
+          "id": "version-migration-and-compatibility",
+          "title": "Versões PHP, Migração e Compatibilidade",
+          "order": 5,
+          "references": [
+            {
+              "label": "PHP 8.5 Release",
+              "url": "https://www.php.net/releases/8.5/en.php"
+            },
+            {
+              "label": "PHP Manual",
+              "url": "https://www.php.net/manual/en/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

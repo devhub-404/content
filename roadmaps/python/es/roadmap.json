@@ -1,0 +1,882 @@
+{
+  "locale": "es",
+  "status": "published",
+  "title": "Python",
+  "slug": "python",
+  "description": "Un roadmap de Python 3.14 ordenado por prerrequisitos, cubriendo object model, estructuras built-in, functions y closures, iteration y generators, classes y protocols, typing, modules y packaging, resource management, asyncio y concurrencia, standard library, testing, debugging y performance.",
+  "metadata": {
+    "tags": [
+      "python",
+      "python-3-14",
+      "programming",
+      "asyncio",
+      "typing"
+    ]
+  },
+  "sections": [
+    {
+      "id": "language-and-runtime",
+      "title": "Lenguaje y Runtime",
+      "order": 1,
+      "topics": [
+        {
+          "id": "what-python-is",
+          "title": "Qué es Python",
+          "order": 1,
+          "references": [
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            },
+            {
+              "label": "Programiz: Python Programming",
+              "url": "https://www.programiz.com/python-programming"
+            }
+          ]
+        },
+        {
+          "id": "interpreter-scripts-and-repl",
+          "title": "Interpreter, Scripts y REPL",
+          "order": 2,
+          "references": [
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            },
+            {
+              "label": "Python 3.14 Standard Library",
+              "url": "https://docs.python.org/3.14/library/"
+            }
+          ]
+        },
+        {
+          "id": "names-objects-and-assignment",
+          "title": "Nombres, Objetos y Assignment",
+          "order": 3,
+          "references": [
+            {
+              "label": "Python Data Model",
+              "url": "https://docs.python.org/3.14/reference/datamodel.html"
+            },
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            }
+          ]
+        },
+        {
+          "id": "indentation-statements-and-expressions",
+          "title": "Indentación, Statements y Expressions",
+          "order": 4,
+          "references": [
+            {
+              "label": "Python 3.14 Language Reference",
+              "url": "https://docs.python.org/3.14/reference/"
+            },
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "values-and-data-types",
+      "title": "Valores y Tipos de Datos",
+      "order": 2,
+      "topics": [
+        {
+          "id": "numbers-booleans-and-none",
+          "title": "Números, Booleanos y `None`",
+          "order": 1,
+          "references": [
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            },
+            {
+              "label": "Python 3.14 Standard Library",
+              "url": "https://docs.python.org/3.14/library/"
+            }
+          ]
+        },
+        {
+          "id": "strings-bytes-and-text",
+          "title": "Strings, Bytes y Texto",
+          "order": 2,
+          "references": [
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            },
+            {
+              "label": "Python 3.14 Standard Library",
+              "url": "https://docs.python.org/3.14/library/"
+            }
+          ]
+        },
+        {
+          "id": "lists-tuples-and-sequences",
+          "title": "Lists, Tuples y Sequences",
+          "order": 3,
+          "references": [
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            },
+            {
+              "label": "Python 3.14 Standard Library",
+              "url": "https://docs.python.org/3.14/library/"
+            }
+          ]
+        },
+        {
+          "id": "dicts-and-sets",
+          "title": "Diccionarios y Sets",
+          "order": 4,
+          "references": [
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            },
+            {
+              "label": "Python 3.14 Standard Library",
+              "url": "https://docs.python.org/3.14/library/"
+            }
+          ]
+        },
+        {
+          "id": "mutability-copying-and-hashability",
+          "title": "Mutability, Copias y Hashability",
+          "order": 5,
+          "references": [
+            {
+              "label": "Python Data Model",
+              "url": "https://docs.python.org/3.14/reference/datamodel.html"
+            },
+            {
+              "label": "Python 3.14 Standard Library",
+              "url": "https://docs.python.org/3.14/library/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "control-flow-and-patterns",
+      "title": "Flujo de Control y Patterns",
+      "order": 3,
+      "topics": [
+        {
+          "id": "truthiness-if-and-conditional-expressions",
+          "title": "Truthiness, `if` y Conditional Expressions",
+          "order": 1,
+          "references": [
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            },
+            {
+              "label": "Python 3.14 Language Reference",
+              "url": "https://docs.python.org/3.14/reference/"
+            }
+          ]
+        },
+        {
+          "id": "for-while-break-and-else",
+          "title": "`for`, `while`, `break` y `else` de Loop",
+          "order": 2,
+          "references": [
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            },
+            {
+              "label": "Python 3.14 Language Reference",
+              "url": "https://docs.python.org/3.14/reference/"
+            }
+          ]
+        },
+        {
+          "id": "structural-pattern-matching",
+          "title": "Structural Pattern Matching",
+          "order": 3,
+          "references": [
+            {
+              "label": "Python 3.14 Language Reference",
+              "url": "https://docs.python.org/3.14/reference/"
+            },
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "functions-scopes-and-closures",
+      "title": "Functions, Scopes y Closures",
+      "order": 4,
+      "topics": [
+        {
+          "id": "def-parameters-and-return-values",
+          "title": "Functions, Parámetros y Retornos",
+          "order": 1,
+          "references": [
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            },
+            {
+              "label": "Python 3.14 Language Reference",
+              "url": "https://docs.python.org/3.14/reference/"
+            }
+          ]
+        },
+        {
+          "id": "positional-keyword-and-variadic-arguments",
+          "title": "Argumentos Positional, Keyword y Variadic",
+          "order": 2,
+          "references": [
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            },
+            {
+              "label": "Python 3.14 Language Reference",
+              "url": "https://docs.python.org/3.14/reference/"
+            }
+          ]
+        },
+        {
+          "id": "scope-global-nonlocal-and-closures",
+          "title": "Scope, `global`, `nonlocal` y Closures",
+          "order": 3,
+          "references": [
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            },
+            {
+              "label": "Python 3.14 Language Reference",
+              "url": "https://docs.python.org/3.14/reference/"
+            }
+          ]
+        },
+        {
+          "id": "lambda-and-callable-values",
+          "title": "Lambdas y Valores Callable",
+          "order": 4,
+          "references": [
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            },
+            {
+              "label": "Python Data Model",
+              "url": "https://docs.python.org/3.14/reference/datamodel.html"
+            }
+          ]
+        },
+        {
+          "id": "decorators",
+          "title": "Decorators",
+          "order": 5,
+          "references": [
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            },
+            {
+              "label": "Python 3.14 Language Reference",
+              "url": "https://docs.python.org/3.14/reference/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comprehensions-iterators-and-generators",
+      "title": "Comprehensions, Iterators y Generators",
+      "order": 5,
+      "topics": [
+        {
+          "id": "comprehensions",
+          "title": "Comprehensions",
+          "order": 1,
+          "references": [
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            },
+            {
+              "label": "Python 3.14 Language Reference",
+              "url": "https://docs.python.org/3.14/reference/"
+            }
+          ]
+        },
+        {
+          "id": "iterable-iterator-protocol",
+          "title": "Protocolos Iterable e Iterator",
+          "order": 2,
+          "references": [
+            {
+              "label": "Python Data Model",
+              "url": "https://docs.python.org/3.14/reference/datamodel.html"
+            },
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            }
+          ]
+        },
+        {
+          "id": "generators-and-yield",
+          "title": "Generators y `yield`",
+          "order": 3,
+          "references": [
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            },
+            {
+              "label": "Python 3.14 Language Reference",
+              "url": "https://docs.python.org/3.14/reference/"
+            }
+          ]
+        },
+        {
+          "id": "generator-send-and-yield-from",
+          "title": "Delegación de Generator y `yield from`",
+          "order": 4,
+          "references": [
+            {
+              "label": "Python 3.14 Language Reference",
+              "url": "https://docs.python.org/3.14/reference/"
+            },
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classes-and-data-model",
+      "title": "Classes y Data Model",
+      "order": 6,
+      "topics": [
+        {
+          "id": "classes-instances-and-attributes",
+          "title": "Classes, Instances y Attributes",
+          "order": 1,
+          "references": [
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            },
+            {
+              "label": "Python Data Model",
+              "url": "https://docs.python.org/3.14/reference/datamodel.html"
+            }
+          ]
+        },
+        {
+          "id": "dataclasses",
+          "title": "Dataclasses",
+          "order": 2,
+          "references": [
+            {
+              "label": "Python 3.14 Standard Library",
+              "url": "https://docs.python.org/3.14/library/"
+            },
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            }
+          ]
+        },
+        {
+          "id": "properties-descriptors-and-managed-attributes",
+          "title": "Properties y Attributes Gestionados",
+          "order": 3,
+          "references": [
+            {
+              "label": "Python Data Model",
+              "url": "https://docs.python.org/3.14/reference/datamodel.html"
+            },
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            }
+          ]
+        },
+        {
+          "id": "inheritance-super-and-mro",
+          "title": "Herencia, `super` y MRO",
+          "order": 4,
+          "references": [
+            {
+              "label": "Python Data Model",
+              "url": "https://docs.python.org/3.14/reference/datamodel.html"
+            },
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            }
+          ]
+        },
+        {
+          "id": "dunder-methods-and-protocols",
+          "title": "Dunder Methods y Protocols",
+          "order": 5,
+          "references": [
+            {
+              "label": "Python Data Model",
+              "url": "https://docs.python.org/3.14/reference/datamodel.html"
+            },
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "typing-and-static-analysis",
+      "title": "Typing y Análisis Estático",
+      "order": 7,
+      "topics": [
+        {
+          "id": "type-annotations-and-static-checkers",
+          "title": "Type Annotations y Static Checkers",
+          "order": 1,
+          "references": [
+            {
+              "label": "Python Typing Documentation",
+              "url": "https://docs.python.org/3.14/library/typing.html"
+            },
+            {
+              "label": "What's New in Python 3.14",
+              "url": "https://docs.python.org/3.14/whatsnew/3.14.html"
+            }
+          ]
+        },
+        {
+          "id": "unions-optionals-and-narrowing",
+          "title": "Unions, Optionals y Narrowing",
+          "order": 2,
+          "references": [
+            {
+              "label": "Python Typing Documentation",
+              "url": "https://docs.python.org/3.14/library/typing.html"
+            },
+            {
+              "label": "Python 3.14 Language Reference",
+              "url": "https://docs.python.org/3.14/reference/"
+            }
+          ]
+        },
+        {
+          "id": "generics-typevars-and-protocols",
+          "title": "Generics, Type Variables y Protocols",
+          "order": 3,
+          "references": [
+            {
+              "label": "Python Typing Documentation",
+              "url": "https://docs.python.org/3.14/library/typing.html"
+            },
+            {
+              "label": "Python Data Model",
+              "url": "https://docs.python.org/3.14/reference/datamodel.html"
+            }
+          ]
+        },
+        {
+          "id": "any-cast-and-runtime-validation",
+          "title": "`Any`, Casts y Validación Runtime",
+          "order": 4,
+          "references": [
+            {
+              "label": "Python Typing Documentation",
+              "url": "https://docs.python.org/3.14/library/typing.html"
+            },
+            {
+              "label": "Python 3.14 Standard Library",
+              "url": "https://docs.python.org/3.14/library/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modules-packages-and-dependencies",
+      "title": "Modules, Packages y Dependencias",
+      "order": 8,
+      "topics": [
+        {
+          "id": "modules-imports-and-import-time",
+          "title": "Modules, Imports e Import Time",
+          "order": 1,
+          "references": [
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            },
+            {
+              "label": "Python 3.14 Language Reference",
+              "url": "https://docs.python.org/3.14/reference/"
+            }
+          ]
+        },
+        {
+          "id": "absolute-relative-and-dynamic-imports",
+          "title": "Imports Absolutos, Relativos y Dinámicos",
+          "order": 2,
+          "references": [
+            {
+              "label": "Python 3.14 Language Reference",
+              "url": "https://docs.python.org/3.14/reference/"
+            },
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            }
+          ]
+        },
+        {
+          "id": "virtual-environments-and-installation",
+          "title": "Virtual Environments e Instalación",
+          "order": 3,
+          "references": [
+            {
+              "label": "Python Packaging User Guide",
+              "url": "https://packaging.python.org/"
+            },
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            }
+          ]
+        },
+        {
+          "id": "pyproject-and-packaging",
+          "title": "`pyproject.toml` y Packaging",
+          "order": 4,
+          "references": [
+            {
+              "label": "Python Packaging User Guide",
+              "url": "https://packaging.python.org/"
+            },
+            {
+              "label": "Python 3.14 Standard Library",
+              "url": "https://docs.python.org/3.14/library/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exceptions-contexts-and-resources",
+      "title": "Exceptions, Contextos y Recursos",
+      "order": 9,
+      "topics": [
+        {
+          "id": "exceptions-try-except-else-finally",
+          "title": "Exceptions y Bloques `try`",
+          "order": 1,
+          "references": [
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            },
+            {
+              "label": "Python 3.14 Language Reference",
+              "url": "https://docs.python.org/3.14/reference/"
+            }
+          ]
+        },
+        {
+          "id": "custom-exceptions",
+          "title": "Exceptions Personalizadas",
+          "order": 2,
+          "references": [
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            },
+            {
+              "label": "Python 3.14 Standard Library",
+              "url": "https://docs.python.org/3.14/library/"
+            }
+          ]
+        },
+        {
+          "id": "context-managers-and-with",
+          "title": "Context Managers y `with`",
+          "order": 3,
+          "references": [
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            },
+            {
+              "label": "Python Data Model",
+              "url": "https://docs.python.org/3.14/reference/datamodel.html"
+            }
+          ]
+        },
+        {
+          "id": "async-context-managers",
+          "title": "Async Context Managers",
+          "order": 4,
+          "references": [
+            {
+              "label": "asyncio Documentation",
+              "url": "https://docs.python.org/3.14/library/asyncio.html"
+            },
+            {
+              "label": "Python Data Model",
+              "url": "https://docs.python.org/3.14/reference/datamodel.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "async-and-concurrency",
+      "title": "Async y Concurrencia",
+      "order": 10,
+      "topics": [
+        {
+          "id": "async-await-and-coroutines",
+          "title": "`async`, `await` y Coroutines",
+          "order": 1,
+          "references": [
+            {
+              "label": "asyncio Documentation",
+              "url": "https://docs.python.org/3.14/library/asyncio.html"
+            },
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            }
+          ]
+        },
+        {
+          "id": "tasks-taskgroups-and-structured-concurrency",
+          "title": "Tasks, Task Groups y Structured Concurrency",
+          "order": 2,
+          "references": [
+            {
+              "label": "asyncio Documentation",
+              "url": "https://docs.python.org/3.14/library/asyncio.html"
+            },
+            {
+              "label": "Python 3.14 Standard Library",
+              "url": "https://docs.python.org/3.14/library/"
+            }
+          ]
+        },
+        {
+          "id": "timeouts-cancellation-and-backpressure",
+          "title": "Timeouts, Cancellation y Backpressure",
+          "order": 3,
+          "references": [
+            {
+              "label": "asyncio Documentation",
+              "url": "https://docs.python.org/3.14/library/asyncio.html"
+            },
+            {
+              "label": "Python 3.14 Standard Library",
+              "url": "https://docs.python.org/3.14/library/"
+            }
+          ]
+        },
+        {
+          "id": "threads-processes-and-the-gil",
+          "title": "Threads, Processes y GIL",
+          "order": 4,
+          "references": [
+            {
+              "label": "Python 3.14 Standard Library",
+              "url": "https://docs.python.org/3.14/library/"
+            },
+            {
+              "label": "Python Free-threading HOWTO",
+              "url": "https://docs.python.org/3/howto/free-threading-python.html"
+            }
+          ]
+        },
+        {
+          "id": "free-threaded-python",
+          "title": "Python Free-threaded",
+          "order": 5,
+          "references": [
+            {
+              "label": "Python Free-threading HOWTO",
+              "url": "https://docs.python.org/3/howto/free-threading-python.html"
+            },
+            {
+              "label": "What's New in Python 3.14",
+              "url": "https://docs.python.org/3.14/whatsnew/3.14.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "standard-library-and-data",
+      "title": "Standard Library y Datos",
+      "order": 11,
+      "topics": [
+        {
+          "id": "pathlib-files-and-io",
+          "title": "`pathlib`, Files e I/O",
+          "order": 1,
+          "references": [
+            {
+              "label": "Python 3.14 Standard Library",
+              "url": "https://docs.python.org/3.14/library/"
+            },
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            }
+          ]
+        },
+        {
+          "id": "json-csv-and-structured-data",
+          "title": "JSON, CSV y Datos Estructurados",
+          "order": 2,
+          "references": [
+            {
+              "label": "Python 3.14 Standard Library",
+              "url": "https://docs.python.org/3.14/library/"
+            },
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            }
+          ]
+        },
+        {
+          "id": "datetime-timezones-and-durations",
+          "title": "Fechas, Horas, Time Zones y Durations",
+          "order": 3,
+          "references": [
+            {
+              "label": "Python 3.14 Standard Library",
+              "url": "https://docs.python.org/3.14/library/"
+            },
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            }
+          ]
+        },
+        {
+          "id": "regular-expressions",
+          "title": "Expresiones Regulares",
+          "order": 4,
+          "references": [
+            {
+              "label": "Python 3.14 Standard Library",
+              "url": "https://docs.python.org/3.14/library/"
+            },
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "testing-debugging-and-production",
+      "title": "Testing, Debugging y Producción",
+      "order": 12,
+      "topics": [
+        {
+          "id": "unit-testing-and-pytest-ecosystem",
+          "title": "Unit Testing y Ecosistema de Tests",
+          "order": 1,
+          "references": [
+            {
+              "label": "Python 3.14 Standard Library",
+              "url": "https://docs.python.org/3.14/library/"
+            },
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            }
+          ]
+        },
+        {
+          "id": "debugging-logging-and-tracebacks",
+          "title": "Debugging, Logging y Tracebacks",
+          "order": 2,
+          "references": [
+            {
+              "label": "Python 3.14 Standard Library",
+              "url": "https://docs.python.org/3.14/library/"
+            },
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            }
+          ]
+        },
+        {
+          "id": "profiling-and-performance",
+          "title": "Profiling y Performance",
+          "order": 3,
+          "references": [
+            {
+              "label": "Python 3.14 Standard Library",
+              "url": "https://docs.python.org/3.14/library/"
+            },
+            {
+              "label": "Python Data Model",
+              "url": "https://docs.python.org/3.14/reference/datamodel.html"
+            }
+          ]
+        },
+        {
+          "id": "style-formatting-and-linting",
+          "title": "Style, Formatting y Linting",
+          "order": 4,
+          "references": [
+            {
+              "label": "Python 3.14 Tutorial",
+              "url": "https://docs.python.org/3.14/tutorial/"
+            },
+            {
+              "label": "Python Packaging User Guide",
+              "url": "https://packaging.python.org/"
+            }
+          ]
+        },
+        {
+          "id": "version-compatibility-and-deprecations",
+          "title": "Versiones Python, Compatibilidad y Deprecations",
+          "order": 5,
+          "references": [
+            {
+              "label": "What's New in Python 3.14",
+              "url": "https://docs.python.org/3.14/whatsnew/3.14.html"
+            },
+            {
+              "label": "Python Packaging User Guide",
+              "url": "https://packaging.python.org/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
